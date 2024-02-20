@@ -1,0 +1,12 @@
+python retriever.py --output_dir outputs_retriever \
+  --per_device_train_batch_size 8 \
+  --gradient_accumulation_steps 8 \
+  --learning_rate 5e-5 \
+  --num_train_epochs 10 \
+  --logging_strategy steps \
+  --logging_steps 10 \
+  --save_strategy epoch \
+  --save_total_limit 10 \
+  --model_path /path/to/chinese_wwm_bert_ext/ \
+  --dataloader_pin_memory false \
+  --remove_unused_columns false
