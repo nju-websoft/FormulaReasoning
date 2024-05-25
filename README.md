@@ -1,6 +1,6 @@
-# FormulaQA: A Question Answering Dataset for Formula-Based Numerical Reasoning
+# FormulaReasoning: A Dataset for Formula-Based Numerical Reasoning
 
-## FormulaQA
+## FormulaReasoning
 - train.json, 4608 questions
 - id_test.json, 421 questions
 - ood_test.json, 390 questions
