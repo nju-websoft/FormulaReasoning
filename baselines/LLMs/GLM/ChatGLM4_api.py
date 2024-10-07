@@ -16,6 +16,7 @@ client = ZhipuAI(api_key=api_key)
 parser = argparse.ArgumentParser()
 parser.add_argument('--input_file', type=str, required=True)
 parser.add_argument('--output_file', type=str, default=None)
+parser.add_argument('--model_name', type=str, choices=['glm-4-flash', 'glm-4-plus'], required=True)
 args = parser.parse_args()
 
 if args.output_file is None:
@@ -27,7 +28,7 @@ def do_request(prompt, id):
     sleep(int(2 * (random.random() + 2)))
     try:
         response = client.chat.completions.create(
-            model="glm-4",
+            model=args.model_name,
             messages=[
                 {
                     "role": "user",
