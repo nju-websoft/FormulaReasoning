@@ -23,7 +23,7 @@ Install numbat tool from [https://github.com/sharkdp/numbat].
 
 ## Baselines
 #### LLMs
-- `GLM4`: baselines/LLMs/GLM/ChatGLM4_api.py
+- `GLM-4` series: baselines/LLMs/GLM/ChatGLM4_api.py
 - `GPT` series: baselines/LLMs/GLM/ChatGPT_api.py
 - `Qwen` series: baselines/LLMs/GLM/Qwen_api.py
 - `other LLMs`: download model files from huggingface and then `cd baselines/LLMs/ && python run.py --model_name_or_path /path/to/llm --data_file datas/id_test_zero_shot.json`. `data_file` could be one of `[id_test_zero_shot, ood_test_zero_shot, id_test_5_shot, ood_test_5_shot]`.
