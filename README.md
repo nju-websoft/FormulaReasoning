@@ -2,15 +2,12 @@
 
 ## FormulaReasoning
 
-### Released Chinese Version
-- train.json, 4608 questions
-- id_test.json, 421 questions
-- ood_test.json, 390 questions
+### Released Dataset
+- `data/dataset_zh/train.json`, 4608 questions
+- `data/dataset_zh/id_test.json`, 421 questions
+- `data/dataset_zh/ood_test.json`, 391 questions
 
-### Preview English Version
-- data/en_preview
-Note that the official English version is still being processed, and there may be errors in the current version.
-
+The corresponding English version is located in `/data/dataset_en`.
 
 ## Requirements
 - pytorch 2.0
