@@ -4,8 +4,8 @@
 
 ### Released Dataset
 - `data/dataset_zh/train.json`, 4608 questions
-- `data/dataset_zh/id_test.json`, 421 questions
-- `data/dataset_zh/ood_test.json`, 391 questions
+- `data/dataset_zh/HoF_test.json`, 395 questions
+- `data/dataset_zh/HeF_test.json`, 398 questions
 
 The corresponding English version is located in `/data/dataset_en`.
 
