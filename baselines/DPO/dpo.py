@@ -29,7 +29,7 @@ set_seed(1234)
 #     }
 # )
 
-dataset = load_dataset("json", data_files={"train": "../MCTS-PRM/output_MetaMathQA_31K.jsonl"})["train"]
+dataset = load_dataset("json", data_files={"train": "../MCTS-PRM/output_formulareasoning.jsonl"})["train"]
 
 
 # dataset2 = load_dataset("json", data_files={"train": "/home2/kwshi/skw/MCTS-GSM8K/output_MATH_2500_3000_with_Q.jsonl"})
@@ -68,7 +68,7 @@ def formula_filter(sample, best_has_formula=True, worst_has_formula=True):
     best_steps = sample["steps"]["best"]
     worst_steps = sample["steps"]["worst"]
 
-    formula_pattern = re.compile(r'\[.*?\]\s*=\s*.*?(?=\n|$)')
+    formula_pattern = re.compile(r'\[.*?\]')
 
     def all_steps_have_formulas(steps):
         for step in steps:
@@ -83,16 +83,16 @@ def formula_filter(sample, best_has_formula=True, worst_has_formula=True):
         return True
 
     if best_has_formula:
-        if not all_steps_have_formulas(best_steps):
-            return False
-    else:
-        if not all_steps_not_have_formulas(best_steps):
+    #    if not all_steps_have_formulas(best_steps):
+    #        return False
+    #else:
+        if all_steps_not_have_formulas(best_steps):
             return False
     if worst_has_formula:
-        if not all_steps_have_formulas(worst_steps):
-            return False
-    else:
-        if not all_steps_not_have_formulas(worst_steps):
+    #    if not all_steps_have_formulas(worst_steps):
+    #        return False
+    #else:
+        if all_steps_not_have_formulas(worst_steps):
             return False
     return True
 
@@ -129,12 +129,12 @@ def preprocess_filter(sample):
     ground_truth = clean_expr_str(sample["ground_truth"])
 
     # 验证答案逻辑
-    if not math_equal(chosen_ans, ground_truth):
-        return False
-    if math_equal(rejected_ans, ground_truth):
-        return False
-    if math_equal(chosen_ans, rejected_ans):
-        return False
+    #if not math_equal(chosen_ans, ground_truth):
+    #    return False
+    #if math_equal(rejected_ans, ground_truth):
+    #    return False
+    #if math_equal(chosen_ans, rejected_ans):
+    #    return False
 
     # 检查响应长度
     chosen_response = "\n".join(best_steps)
@@ -171,9 +171,9 @@ filtered_dataset = dataset.filter(preprocess_filter)
 filtered_dataset = filtered_dataset.filter(formula_filter)
 train_dataset = filtered_dataset.map(process_data)
 
-# name = 'DeepSeek-R1-Distill-Qwen-1.5B'
-name = 'Qwen2.5-Math-1.5B-Instruct'
-# name = 'Qwen2___5-1___5B-Instruct'
+name = 'DeepSeek-R1-Distill-Qwen-7B'
+#name = 'Qwen2.5-Math-1.5B-Instruct'
+#name = 'Qwen2___5-1___5B-Instruct'
 model_name = f"/home/blzhu/Qwen2.5-Math/models/{name}"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 
@@ -206,7 +206,7 @@ model.print_trainable_parameters()
 
 # Define training arguments
 training_args = DPOConfig(
-    output_dir=f'./output_31K_111/{name}/dpo',
+    output_dir=f'./output_fr/{name}/dpo',
     beta=0.1,
     learning_rate=5e-7,
     max_length=2048,
@@ -236,7 +236,7 @@ dpo_trainer = DPOTrainer(
 dpo_trainer.train()
 
 model = model.merge_and_unload()
-save_model_path = f"./model_31K_111/{name}/dpo"
+save_model_path = f"./model_fr/{name}/dpo"
 
 model.save_pretrained(
     save_model_path,
