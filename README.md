@@ -23,8 +23,10 @@ Install numbat tool from [https://github.com/sharkdp/numbat].
 - `GLM-4` series: baselines/LLMs/GLM/ChatGLM4_api.py
 - `GPT` series: baselines/LLMs/GLM/ChatGPT_api.py
 - `Qwen` series: baselines/LLMs/GLM/Qwen_api.py
-- `other LLMs`: download model files from huggingface and then `cd baselines/LLMs/ && python run.py --model_name_or_path /path/to/llm --data_file datas/id_test_zero_shot.json`. `data_file` could be one of `[id_test_zero_shot, ood_test_zero_shot, id_test_5_shot, ood_test_5_shot]`.
-- eval: `cd baselines/LLMs/ && python eval_results.py --id_results {id_result_file} --ood_results {ood_result_file}`
+- eval: `cd baselines/LLMs/ && python eval_results.py --hof_results {HoF_result_file} --hef_results {HeF_result_file}`
+
+#### DPO
+We use MCTS to construct preference data, with the code provided in `baselines/MCTS-PRM`. The code for DPO can be found in `baselines/DPO`.
 
 #### Fine-tuned Small Models
 - with calculator: `cd baselines/small_models && bash run_qwen.sh`
