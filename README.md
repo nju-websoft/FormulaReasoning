@@ -7,7 +7,7 @@
 - `data/dataset_zh/HoF_test.json`, 395 questions
 - `data/dataset_zh/HeF_test.json`, 398 questions
 
-The corresponding English version is located in `/data/dataset_en`.
+The corresponding English version is located in `data/dataset_en`.
 
 ## Requirements
 - pytorch 2.0
