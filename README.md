@@ -6,6 +6,7 @@
 - `data/train.json`, 3958 questions
 - `data/HoF_test.json`, 410 questions
 - `data/HeF_test.json`, 383 questions
+- `formulas.json`, formula database
 
 ## Requirements
 - pytorch 2.0
