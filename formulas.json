@@ -1,0 +1,5014 @@
+[
+    {
+        "key": "a0671248-ba59-11ee-9565-0c96e61a84b2",
+        "formula": "飞行距离=v*t",
+        "symbol_map": [
+            {
+                "name": "距离",
+                "symbol": "飞行距离"
+            },
+            {
+                "name": "速度",
+                "symbol": "v"
+            },
+            {
+                "name": "时间",
+                "symbol": "t"
+            }
+        ]
+    },
+    {
+        "key": "a0671235-ba59-11ee-bfc0-0c96e61a84b2",
+        "formula": "t_初=t_末-Δt",
+        "symbol_map": [
+            {
+                "name": "初温",
+                "symbol": "t_初"
+            },
+            {
+                "name": "末温",
+                "symbol": "t_末"
+            },
+            {
+                "name": "温度变化",
+                "symbol": "Δt"
+            }
+        ]
+    },
+    {
+        "key": "a0671249-ba59-11ee-9df1-0c96e61a84b2",
+        "formula": "Q_放=W_电",
+        "symbol_map": [
+            {
+                "name": "转化的内能",
+                "symbol": "Q_放"
+            },
+            {
+                "name": "能量",
+                "symbol": "W_电"
+            }
+        ]
+    },
+    {
+        "key": "a0671242-ba59-11ee-a46a-0c96e61a84b2",
+        "formula": "η'=Q_吸'/Q_放'*100%",
+        "symbol_map": [
+            {
+                "name": "效率",
+                "symbol": "η'"
+            },
+            {
+                "name": "转化能量",
+                "symbol": "Q_吸'"
+            },
+            {
+                "name": "输入能量",
+                "symbol": "Q_放'"
+            }
+        ]
+    },
+    {
+        "key": "a0671246-ba59-11ee-9c3b-0c96e61a84b2",
+        "formula": "Q_吸=Q_放",
+        "symbol_map": [
+            {
+                "name": "吸收能量",
+                "symbol": "Q_吸"
+            },
+            {
+                "name": "放出能量",
+                "symbol": "Q_放"
+            }
+        ]
+    },
+    {
+        "key": "a067123b-ba59-11ee-9a05-0c96e61a84b2",
+        "formula": "F牵=f",
+        "symbol_map": [
+            {
+                "name": "阻力",
+                "symbol": "f"
+            },
+            {
+                "name": "动力",
+                "symbol": "F牵"
+            }
+        ]
+    },
+    {
+        "key": "a067120e-ba59-11ee-8d6e-0c96e61a84b2",
+        "formula": "I_实=U_实/R_灯",
+        "symbol_map": [
+            {
+                "name": "电流",
+                "symbol": "I_实"
+            },
+            {
+                "name": "电压",
+                "symbol": "U_实"
+            },
+            {
+                "name": "电阻",
+                "symbol": "R_灯"
+            }
+        ]
+    },
+    {
+        "key": "a067124c-ba59-11ee-9937-0c96e61a84b2",
+        "formula": "R=U_额^2/P_额",
+        "symbol_map": [
+            {
+                "name": "电阻",
+                "symbol": "R"
+            },
+            {
+                "name": "电压",
+                "symbol": "U_额"
+            },
+            {
+                "name": "功率",
+                "symbol": "P_额"
+            }
+        ]
+    },
+    {
+        "key": "a06249b1-ba59-11ee-a4dc-0c96e61a84b2",
+        "formula": "Q_吸=P*t*η",
+        "symbol_map": [
+            {
+                "name": "物体吸收的热量",
+                "symbol": "Q_吸"
+            },
+            {
+                "name": "热源功率",
+                "symbol": "P"
+            },
+            {
+                "name": "时间",
+                "symbol": "t"
+            },
+            {
+                "name": "效率",
+                "symbol": "η"
+            }
+        ]
+    },
+    {
+        "key": "a067124d-ba59-11ee-921b-0c96e61a84b2",
+        "formula": "P_已用=2×P_灯+P_电视",
+        "symbol_map": [
+            {
+                "name": "已接入电路中的用电器总功率",
+                "symbol": "P_已用"
+            },
+            {
+                "name": "单盏电灯的功率",
+                "symbol": "P_灯"
+            },
+            {
+                "name": "电视机的功率",
+                "symbol": "P_电视"
+            }
+        ]
+    },
+    {
+        "key": "a067124e-ba59-11ee-a6ac-0c96e61a84b2",
+        "formula": "P_剩余=P_总-P_已用",
+        "symbol_map": [
+            {
+                "name": "节约功率",
+                "symbol": "P_剩余"
+            },
+            {
+                "name": "额定功率",
+                "symbol": "P_总"
+            },
+            {
+                "name": "压缩机发热功率",
+                "symbol": "P_已用"
+            }
+        ]
+    },
+    {
+        "key": "a0671250-ba59-11ee-abc7-0c96e61a84b2",
+        "formula": "节约电费=电价×W_月",
+        "symbol_map": [
+            {
+                "name": "节约的电费",
+                "symbol": "节约电费"
+            },
+            {
+                "name": "每度电的价格",
+                "symbol": "电价"
+            },
+            {
+                "name": "一个月节约的总电量",
+                "symbol": "W_月"
+            }
+        ]
+    },
+    {
+        "key": "a064b128-ba59-11ee-b5d9-0c96e61a84b2",
+        "formula": "m_燃油=m_燃气*空燃比的质量比例",
+        "symbol_map": [
+            {
+                "name": "燃油的质量",
+                "symbol": "m_燃油"
+            },
+            {
+                "name": "燃气的总质量",
+                "symbol": "m_燃气"
+            },
+            {
+                "name": "燃油在混合物中的比例",
+                "symbol": "空燃比的质量比例"
+            }
+        ]
+    },
+    {
+        "key": "a0671219-ba59-11ee-b5f6-0c96e61a84b2",
+        "formula": "V = m_水 / ρ_水",
+        "symbol_map": [
+            {
+                "name": "体积",
+                "symbol": "V"
+            },
+            {
+                "name": "水的质量",
+                "symbol": "m_水"
+            },
+            {
+                "name": "密度",
+                "symbol": "ρ_水"
+            }
+        ]
+    },
+    {
+        "key": "a06711f9-ba59-11ee-9ce9-0c96e61a84b2",
+        "formula": "F_浮=m_排*g",
+        "symbol_map": [
+            {
+                "name": "力",
+                "symbol": "F_浮"
+            },
+            {
+                "name": "质量",
+                "symbol": "m_排"
+            },
+            {
+                "name": "重力加速度",
+                "symbol": "g"
+            }
+        ]
+    },
+    {
+        "key": "a0671253-ba59-11ee-9ac7-0c96e61a84b2",
+        "formula": "f_阻=μ×G",
+        "symbol_map": [
+            {
+                "name": "阻力",
+                "symbol": "f_阻"
+            },
+            {
+                "name": "车重",
+                "symbol": "G"
+            },
+            {
+                "name": "阻力系数",
+                "symbol": "μ"
+            }
+        ]
+    },
+    {
+        "key": "a0671154-ba59-11ee-a0ca-0c96e61a84b2",
+        "formula": "f=阻力系数*G",
+        "symbol_map": [
+            {
+                "name": "阻力",
+                "symbol": "f"
+            },
+            {
+                "name": "阻力系数",
+                "symbol": "阻力系数"
+            },
+            {
+                "name": "汽车总重力",
+                "symbol": "G"
+            }
+        ]
+    },
+    {
+        "key": "a0671255-ba59-11ee-aee7-0c96e61a84b2",
+        "formula": "Q_散失=Q_放-Q_有用",
+        "symbol_map": [
+            {
+                "name": "散失的热量",
+                "symbol": "Q_散失"
+            },
+            {
+                "name": "总吸收热量",
+                "symbol": "Q_放"
+            },
+            {
+                "name": "散失热量",
+                "symbol": "Q_有用"
+            }
+        ]
+    },
+    {
+        "key": "a06711ba-ba59-11ee-bb50-0c96e61a84b2",
+        "formula": "W = U * I * t",
+        "symbol_map": [
+            {
+                "name": "电能",
+                "symbol": "W"
+            },
+            {
+                "name": "单位电压下的电能消耗量",
+                "symbol": "U"
+            },
+            {
+                "name": "单位电流下的电能消耗量",
+                "symbol": "I"
+            },
+            {
+                "name": "时间",
+                "symbol": "t"
+            }
+        ]
+    },
+    {
+        "key": "a0671256-ba59-11ee-9bd0-0c96e61a84b2",
+        "formula": "Q=(I)^2×R×t",
+        "symbol_map": [
+            {
+                "name": "产生的热量",
+                "symbol": "Q"
+            },
+            {
+                "name": "通过线圈的电流",
+                "symbol": "I"
+            },
+            {
+                "name": "线圈电阻",
+                "symbol": "R"
+            },
+            {
+                "name": "通电时间",
+                "symbol": "t"
+            }
+        ]
+    },
+    {
+        "key": "a064b2f0-ba59-11ee-9996-0c96e61a84b2",
+        "formula": "W_机=W-Q",
+        "symbol_map": [
+            {
+                "name": "机械功",
+                "symbol": "W_机"
+            },
+            {
+                "name": "总电能",
+                "symbol": "W"
+            },
+            {
+                "name": "非有效能量",
+                "symbol": "Q"
+            }
+        ]
+    },
+    {
+        "key": "a0671257-ba59-11ee-bc3d-0c96e61a84b2",
+        "formula": "Q=I^2×R×t",
+        "symbol_map": [
+            {
+                "name": "热量",
+                "symbol": "Q"
+            },
+            {
+                "name": "电流",
+                "symbol": "I"
+            },
+            {
+                "name": "电阻",
+                "symbol": "R"
+            },
+            {
+                "name": "时间",
+                "symbol": "t"
+            }
+        ]
+    },
+    {
+        "key": "a0671258-ba59-11ee-a22b-0c96e61a84b2",
+        "formula": "m=Q/(q/ρ)",
+        "symbol_map": [
+            {
+                "name": "燃气质量",
+                "symbol": "m"
+            },
+            {
+                "name": "放出的热量",
+                "symbol": "Q"
+            },
+            {
+                "name": "燃气热值",
+                "symbol": "q"
+            },
+            {
+                "name": "燃气密度",
+                "symbol": "ρ"
+            }
+        ]
+    },
+    {
+        "key": "a0671259-ba59-11ee-8e4d-0c96e61a84b2",
+        "formula": "m_瓶=m_总-m_水",
+        "symbol_map": [
+            {
+                "name": "人的质量",
+                "symbol": "m_瓶"
+            },
+            {
+                "name": "整体总质量",
+                "symbol": "m_总"
+            },
+            {
+                "name": "水的质量",
+                "symbol": "m_水"
+            }
+        ]
+    },
+    {
+        "key": "a0671241-ba59-11ee-a24e-0c96e61a84b2",
+        "formula": "Q_总=t_日照*每平方米面积每小时接收的太阳能*有效面积",
+        "symbol_map": [
+            {
+                "name": "太阳能总量",
+                "symbol": "Q_总"
+            },
+            {
+                "name": "日照时间",
+                "symbol": "t_日照"
+            },
+            {
+                "name": "每平方米面积每小时接收的太阳能",
+                "symbol": "每平方米面积每小时接收的太阳能"
+            },
+            {
+                "name": "有效面积",
+                "symbol": "有效面积"
+            }
+        ]
+    },
+    {
+        "key": "a0624a88-ba59-11ee-9383-0c96e61a84b2",
+        "formula": "W_总=G*h",
+        "symbol_map": [
+            {
+                "name": "有用功",
+                "symbol": "W_总"
+            },
+            {
+                "name": "重力",
+                "symbol": "G"
+            },
+            {
+                "name": "高度",
+                "symbol": "h"
+            }
+        ]
+    },
+    {
+        "key": "a067125a-ba59-11ee-bac1-0c96e61a84b2",
+        "formula": "每台发电机组平均年发电时间=W/P",
+        "symbol_map": [
+            {
+                "name": "每台发电机组平均年发电时间",
+                "symbol": "每台发电机组平均年发电时间"
+            },
+            {
+                "name": "设计年发电量",
+                "symbol": "W"
+            },
+            {
+                "name": "总装机容量",
+                "symbol": "P"
+            }
+        ]
+    },
+    {
+        "key": "a067125b-ba59-11ee-b348-0c96e61a84b2",
+        "formula": "U_实=U_额+ΔU",
+        "symbol_map": [
+            {
+                "name": "实际电压",
+                "symbol": "U_实"
+            },
+            {
+                "name": "额定电压",
+                "symbol": "U_额"
+            },
+            {
+                "name": "电压偏高值",
+                "symbol": "ΔU"
+            }
+        ]
+    },
+    {
+        "key": "a067125c-ba59-11ee-a669-0c96e61a84b2",
+        "formula": "t=E/(U×I)",
+        "symbol_map": [
+            {
+                "name": "充电时间",
+                "symbol": "t"
+            },
+            {
+                "name": "电池容量",
+                "symbol": "E"
+            },
+            {
+                "name": "输入电压",
+                "symbol": "U"
+            },
+            {
+                "name": "输入电流",
+                "symbol": "I"
+            }
+        ]
+    },
+    {
+        "key": "a064b0b1-ba59-11ee-b696-0c96e61a84b2",
+        "formula": "U=U_灯+U_滑",
+        "symbol_map": [
+            {
+                "name": "电源电压",
+                "symbol": "U"
+            },
+            {
+                "name": "灯泡两端电压",
+                "symbol": "U_灯"
+            },
+            {
+                "name": "外电路电阻两端电压",
+                "symbol": "U_滑"
+            }
+        ]
+    },
+    {
+        "key": "a0624abd-ba59-11ee-9fd5-0c96e61a84b2",
+        "formula": "W=W_2-W_1",
+        "symbol_map": [
+            {
+                "name": "消耗的电能",
+                "symbol": "W"
+            },
+            {
+                "name": "对应消耗的电能部分",
+                "symbol": "W_2"
+            },
+            {
+                "name": "非消耗电能部分",
+                "symbol": "W_1"
+            }
+        ]
+    },
+    {
+        "key": "a067125e-ba59-11ee-aecc-0c96e61a84b2",
+        "formula": "Q′=k×Q",
+        "symbol_map": [
+            {
+                "name": "熔化吸热量",
+                "symbol": "Q′"
+            },
+            {
+                "name": "固体升温吸热量",
+                "symbol": "Q"
+            },
+            {
+                "name": "比率",
+                "symbol": "k"
+            }
+        ]
+    },
+    {
+        "key": "a0671262-ba59-11ee-9760-0c96e61a84b2",
+        "formula": "W=P×t_s",
+        "symbol_map": [
+            {
+                "name": "电水壶消耗的电能",
+                "symbol": "W"
+            },
+            {
+                "name": "电功率",
+                "symbol": "P"
+            },
+            {
+                "name": "时间",
+                "symbol": "t_s"
+            }
+        ]
+    },
+    {
+        "key": "a0671263-ba59-11ee-b362-0c96e61a84b2",
+        "formula": "W=F×s×2",
+        "symbol_map": [
+            {
+                "name": "牵引力做的功",
+                "symbol": "W"
+            },
+            {
+                "name": "拉力",
+                "symbol": "F"
+            },
+            {
+                "name": "位移",
+                "symbol": "s"
+            }
+        ]
+    },
+    {
+        "key": "a0624b15-ba59-11ee-9001-0c96e61a84b2",
+        "formula": "S=N_wheel*S_单轮",
+        "symbol_map": [
+            {
+                "name": "总面积",
+                "symbol": "S"
+            },
+            {
+                "name": "数量",
+                "symbol": "N_wheel"
+            },
+            {
+                "name": "单个面积",
+                "symbol": "S_单轮"
+            }
+        ]
+    },
+    {
+        "key": "a06711ca-ba59-11ee-863a-0c96e61a84b2",
+        "formula": "I = I_L",
+        "symbol_map": [
+            {
+                "name": "额定电流",
+                "symbol": "I_L"
+            },
+            {
+                "name": "实际电流",
+                "symbol": "I"
+            }
+        ]
+    },
+    {
+        "key": "a0671269-ba59-11ee-a286-0c96e61a84b2",
+        "formula": "W_动=K_初-K_末",
+        "symbol_map": [
+            {
+                "name": "减少的动能",
+                "symbol": "W_动"
+            },
+            {
+                "name": "初始动能",
+                "symbol": "K_初"
+            },
+            {
+                "name": "最终动能",
+                "symbol": "K_末"
+            }
+        ]
+    },
+    {
+        "key": "a067123d-ba59-11ee-ba52-0c96e61a84b2",
+        "formula": "m_总=m_车+m_蒜薹",
+        "symbol_map": [
+            {
+                "name": "总质量",
+                "symbol": "m_总"
+            },
+            {
+                "name": "空车质量",
+                "symbol": "m_车"
+            },
+            {
+                "name": "货物质量",
+                "symbol": "m_蒜薹"
+            }
+        ]
+    },
+    {
+        "key": "a067126d-ba59-11ee-aede-0c96e61a84b2",
+        "formula": "W_有=P×t×η",
+        "symbol_map": [
+            {
+                "name": "有效能量",
+                "symbol": "W_有"
+            },
+            {
+                "name": "发动机功率",
+                "symbol": "P"
+            },
+            {
+                "name": "行驶时间",
+                "symbol": "t"
+            },
+            {
+                "name": "发动机效率",
+                "symbol": "η"
+            }
+        ]
+    },
+    {
+        "key": "a0624bfa-ba59-11ee-9a5c-0c96e61a84b2",
+        "formula": "p=ρ*g*h",
+        "symbol_map": [
+            {
+                "name": "水的压强",
+                "symbol": "p"
+            },
+            {
+                "name": "水的密度",
+                "symbol": "ρ"
+            },
+            {
+                "name": "重力加速度",
+                "symbol": "g"
+            },
+            {
+                "name": "水深",
+                "symbol": "h"
+            }
+        ]
+    },
+    {
+        "key": "a0624b88-ba59-11ee-a86c-0c96e61a84b2",
+        "formula": "W_有用=f*v*t",
+        "symbol_map": [
+            {
+                "name": "功",
+                "symbol": "W_有用"
+            },
+            {
+                "name": "力",
+                "symbol": "f"
+            },
+            {
+                "name": "速度",
+                "symbol": "v"
+            },
+            {
+                "name": "时间",
+                "symbol": "t"
+            }
+        ]
+    },
+    {
+        "key": "a0671224-ba59-11ee-8506-0c96e61a84b2",
+        "formula": "V_{气}=m_{后}-m_{前}",
+        "symbol_map": [
+            {
+                "name": "消耗天然气体积",
+                "symbol": "V_{气}"
+            },
+            {
+                "name": "后示数",
+                "symbol": "m_{后}"
+            },
+            {
+                "name": "前示数",
+                "symbol": "m_{前}"
+            }
+        ]
+    },
+    {
+        "key": "a0624b98-ba59-11ee-b75f-0c96e61a84b2",
+        "formula": "η=(W_有+W_电)/Q_放*100%",
+        "symbol_map": [
+            {
+                "name": "内燃机（货车发动机）的效率",
+                "symbol": "η"
+            },
+            {
+                "name": "有用功",
+                "symbol": "W_有"
+            },
+            {
+                "name": "蓄电池增加的电能",
+                "symbol": "W_电"
+            },
+            {
+                "name": "内燃机消耗的总能量",
+                "symbol": "Q_放"
+            }
+        ]
+    },
+    {
+        "key": "a0624ba6-ba59-11ee-82e3-0c96e61a84b2",
+        "formula": "s_2=s-s_1",
+        "symbol_map": [
+            {
+                "name": "行驶路程",
+                "symbol": "s_2"
+            },
+            {
+                "name": "起点到乙标志牌距离",
+                "symbol": "s"
+            },
+            {
+                "name": "起点到丙标志牌距离",
+                "symbol": "s_1"
+            }
+        ]
+    },
+    {
+        "key": "a067126f-ba59-11ee-ae87-0c96e61a84b2",
+        "formula": "V_排=F_浮/(ρ_水×g)",
+        "symbol_map": [
+            {
+                "name": "浮体体积",
+                "symbol": "V_排"
+            },
+            {
+                "name": "浮力",
+                "symbol": "F_浮"
+            },
+            {
+                "name": "水的密度",
+                "symbol": "ρ_水"
+            },
+            {
+                "name": "重力加速度",
+                "symbol": "g"
+            }
+        ]
+    },
+    {
+        "key": "a0671272-ba59-11ee-b6c8-0c96e61a84b2",
+        "formula": "m'=m_水×Δt_水/Δt_开水",
+        "symbol_map": [
+            {
+                "name": "开水的质量",
+                "symbol": "m'"
+            },
+            {
+                "name": "水的质量",
+                "symbol": "m_水"
+            },
+            {
+                "name": "水的温度变化",
+                "symbol": "Δt_水"
+            },
+            {
+                "name": "开水的温度变化",
+                "symbol": "Δt_开水"
+            }
+        ]
+    },
+    {
+        "key": "a0671274-ba59-11ee-8814-0c96e61a84b2",
+        "formula": "W_有用=W_电+W_2",
+        "symbol_map": [
+            {
+                "name": "有用能量",
+                "symbol": "W_有用"
+            },
+            {
+                "name": "蓄电池增加的电能",
+                "symbol": "W_电"
+            },
+            {
+                "name": "克服阻力做的功",
+                "symbol": "W_2"
+            }
+        ]
+    },
+    {
+        "key": "a0671277-ba59-11ee-a964-0c96e61a84b2",
+        "formula": "η=G/(n×F)",
+        "symbol_map": [
+            {
+                "name": "机械效率",
+                "symbol": "η"
+            },
+            {
+                "name": "重物重力",
+                "symbol": "G"
+            },
+            {
+                "name": "有效股数",
+                "symbol": "n"
+            },
+            {
+                "name": "汽车拉绳的力",
+                "symbol": "F"
+            }
+        ]
+    },
+    {
+        "key": "a06710dc-ba59-11ee-ac37-0c96e61a84b2",
+        "formula": "v_车=n*v_物",
+        "symbol_map": [
+            {
+                "name": "绳端移动速度",
+                "symbol": "v_车"
+            },
+            {
+                "name": "滑轮组速比",
+                "symbol": "n"
+            },
+            {
+                "name": "货物上升速度",
+                "symbol": "v_物"
+            }
+        ]
+    },
+    {
+        "key": "a0671278-ba59-11ee-8c8f-0c96e61a84b2",
+        "formula": "s=s_桥+s_车",
+        "symbol_map": [
+            {
+                "name": "列车行驶总路程",
+                "symbol": "s"
+            },
+            {
+                "name": "高架桥长",
+                "symbol": "s_桥"
+            },
+            {
+                "name": "列车长",
+                "symbol": "s_车"
+            }
+        ]
+    },
+    {
+        "key": "a0671279-ba59-11ee-bd27-0c96e61a84b2",
+        "formula": "F_牵=μ×G",
+        "symbol_map": [
+            {
+                "name": "牵引力",
+                "symbol": "F_牵"
+            },
+            {
+                "name": "车重",
+                "symbol": "G"
+            },
+            {
+                "name": "阻力系数",
+                "symbol": "μ"
+            }
+        ]
+    },
+    {
+        "key": "a067127d-ba59-11ee-b431-0c96e61a84b2",
+        "formula": "Q_{柴油}=Q_氢",
+        "symbol_map": [
+            {
+                "name": "柴油放出的热量",
+                "symbol": "Q_{柴油}"
+            },
+            {
+                "name": "消耗的氢能",
+                "symbol": "Q_氢"
+            }
+        ]
+    },
+    {
+        "key": "a067127e-ba59-11ee-93de-0c96e61a84b2",
+        "formula": "无人机输出功率=P_入或P_出",
+        "symbol_map": [
+            {
+                "name": "无人机输出功率",
+                "symbol": "无人机输出功率"
+            },
+            {
+                "name": "无人机上升过程中的功率",
+                "symbol": "P_入或P_出"
+            }
+        ]
+    },
+    {
+        "key": "a067127f-ba59-11ee-a6b4-0c96e61a84b2",
+        "formula": "I=无人机输出功率/U",
+        "symbol_map": [
+            {
+                "name": "电池的工作电流",
+                "symbol": "I"
+            },
+            {
+                "name": "无人机输出功率",
+                "symbol": "无人机输出功率"
+            },
+            {
+                "name": "正常工作电压",
+                "symbol": "U"
+            }
+        ]
+    },
+    {
+        "key": "a0671280-ba59-11ee-83fe-0c96e61a84b2",
+        "formula": "V_排=V_A",
+        "symbol_map": [
+            {
+                "name": "排开水的体积",
+                "symbol": "V_排"
+            },
+            {
+                "name": "浮体A的体积",
+                "symbol": "V_A"
+            }
+        ]
+    },
+    {
+        "key": "a0671281-ba59-11ee-abf5-0c96e61a84b2",
+        "formula": "F_C=F_浮",
+        "symbol_map": [
+            {
+                "name": "阀门C受到的压力",
+                "symbol": "F_C"
+            },
+            {
+                "name": "浮体受到的浮力",
+                "symbol": "F_浮"
+            }
+        ]
+    },
+    {
+        "key": "a0671282-ba59-11ee-9388-0c96e61a84b2",
+        "formula": "水的最大高度=F_浮/(ρ_水×g×S)",
+        "symbol_map": [
+            {
+                "name": "水的最大高度",
+                "symbol": "水的最大高度"
+            },
+            {
+                "name": "浮体受到的最大浮力",
+                "symbol": "F_浮"
+            },
+            {
+                "name": "水的密度",
+                "symbol": "ρ_水"
+            },
+            {
+                "name": "重力加速度",
+                "symbol": "g"
+            },
+            {
+                "name": "阀门的横截面积",
+                "symbol": "S"
+            }
+        ]
+    },
+    {
+        "key": "a0671284-ba59-11ee-8241-0c96e61a84b2",
+        "formula": "s′=s_甲-s_丙",
+        "symbol_map": [
+            {
+                "name": "总路程",
+                "symbol": "s′"
+            },
+            {
+                "name": "甲地址的路程",
+                "symbol": "s_甲"
+            },
+            {
+                "name": "丙地址的路程",
+                "symbol": "s_丙"
+            }
+        ]
+    },
+    {
+        "key": "a0671113-ba59-11ee-846b-0c96e61a84b2",
+        "formula": "t′=t_甲乙+t_乙丙",
+        "symbol_map": [
+            {
+                "name": "总时间",
+                "symbol": "t′"
+            },
+            {
+                "name": "第一阶段时间",
+                "symbol": "t_甲乙"
+            },
+            {
+                "name": "第二阶段时间",
+                "symbol": "t_乙丙"
+            }
+        ]
+    },
+    {
+        "key": "a0624c3f-ba59-11ee-a32b-0c96e61a84b2",
+        "formula": "W_有=m*g*h",
+        "symbol_map": [
+            {
+                "name": "有用功（重力做的功）",
+                "symbol": "W_有"
+            },
+            {
+                "name": "质量",
+                "symbol": "m"
+            },
+            {
+                "name": "重力加速度",
+                "symbol": "g"
+            },
+            {
+                "name": "高度",
+                "symbol": "h"
+            }
+        ]
+    },
+    {
+        "key": "a0671285-ba59-11ee-bca3-0c96e61a84b2",
+        "formula": "F=P×t/s",
+        "symbol_map": [
+            {
+                "name": "牵引力",
+                "symbol": "F"
+            },
+            {
+                "name": "功率",
+                "symbol": "P"
+            },
+            {
+                "name": "时间",
+                "symbol": "t"
+            },
+            {
+                "name": "路程",
+                "symbol": "s"
+            }
+        ]
+    },
+    {
+        "key": "a0671286-ba59-11ee-9fcc-0c96e61a84b2",
+        "formula": "Q_吸=η×E×S×t",
+        "symbol_map": [
+            {
+                "name": "水吸收的太阳能",
+                "symbol": "Q_吸"
+            },
+            {
+                "name": "水吸收太阳能的效率",
+                "symbol": "η"
+            },
+            {
+                "name": "每小时每平方米辐射的热量",
+                "symbol": "E"
+            },
+            {
+                "name": "太阳能板的面积",
+                "symbol": "S"
+            },
+            {
+                "name": "时间",
+                "symbol": "t"
+            }
+        ]
+    },
+    {
+        "key": "a0671287-ba59-11ee-9202-0c96e61a84b2",
+        "formula": "n=V_总/V",
+        "symbol_map": [
+            {
+                "name": "能满足淋浴人数",
+                "symbol": "n"
+            },
+            {
+                "name": "总容量",
+                "symbol": "V_总"
+            },
+            {
+                "name": "单人淋浴用水量",
+                "symbol": "V"
+            }
+        ]
+    },
+    {
+        "key": "a0671288-ba59-11ee-add4-0c96e61a84b2",
+        "formula": "s=(W_机/F)/(1000m/km)",
+        "symbol_map": [
+            {
+                "name": "行驶路程",
+                "symbol": "s"
+            },
+            {
+                "name": "有效电能",
+                "symbol": "W_机"
+            },
+            {
+                "name": "牵引力",
+                "symbol": "F"
+            }
+        ]
+    },
+    {
+        "key": "a0671289-ba59-11ee-8179-0c96e61a84b2",
+        "formula": "W_动=E×80%",
+        "symbol_map": [
+            {
+                "name": "动能(J)",
+                "symbol": "W_动"
+            },
+            {
+                "name": "电池能量",
+                "symbol": "E"
+            }
+        ]
+    },
+    {
+        "key": "a067128a-ba59-11ee-b1b9-0c96e61a84b2",
+        "formula": "速度=W_动/F",
+        "symbol_map": [
+            {
+                "name": "速度(m/行驶路程)",
+                "symbol": "速度"
+            },
+            {
+                "name": "动能(J)",
+                "symbol": "W_动"
+            },
+            {
+                "name": "牵引力(N)",
+                "symbol": "F"
+            }
+        ]
+    },
+    {
+        "key": "a0671199-ba59-11ee-8d11-0c96e61a84b2",
+        "formula": "f=μ*m_车*g",
+        "symbol_map": [
+            {
+                "name": "阻力",
+                "symbol": "f"
+            },
+            {
+                "name": "质量",
+                "symbol": "m_车"
+            },
+            {
+                "name": "重力加速度",
+                "symbol": "g"
+            },
+            {
+                "name": "阻力系数",
+                "symbol": "μ"
+            }
+        ]
+    },
+    {
+        "key": "a064b331-ba59-11ee-9e08-0c96e61a84b2",
+        "formula": "U_R = U - U_灯",
+        "symbol_map": [
+            {
+                "name": "U_{实际}",
+                "symbol": "U_R"
+            },
+            {
+                "name": "电源电压",
+                "symbol": "U"
+            },
+            {
+                "name": "U_{灯泡额定}",
+                "symbol": "U_灯"
+            }
+        ]
+    },
+    {
+        "key": "a067128c-ba59-11ee-9dc4-0c96e61a84b2",
+        "formula": "F_牵=f_阻+F_拉",
+        "symbol_map": [
+            {
+                "name": "牵引力",
+                "symbol": "F_牵"
+            },
+            {
+                "name": "阻力",
+                "symbol": "f_阻"
+            },
+            {
+                "name": "绳子上的拉力",
+                "symbol": "F_拉"
+            }
+        ]
+    },
+    {
+        "key": "a067128d-ba59-11ee-a0f4-0c96e61a84b2",
+        "formula": "s=n×h",
+        "symbol_map": [
+            {
+                "name": "汽车行驶距离",
+                "symbol": "s"
+            },
+            {
+                "name": "绳子股数",
+                "symbol": "n"
+            },
+            {
+                "name": "物体上升高度",
+                "symbol": "h"
+            }
+        ]
+    },
+    {
+        "key": "a0671291-ba59-11ee-aa99-0c96e61a84b2",
+        "formula": "Q_冰=水吸收的热量/k",
+        "symbol_map": [
+            {
+                "name": "冰吸收的热量",
+                "symbol": "Q_冰"
+            },
+            {
+                "name": "水吸收的热量",
+                "symbol": "水吸收的热量"
+            },
+            {
+                "name": "比率",
+                "symbol": "k"
+            }
+        ]
+    },
+    {
+        "key": "a0624c86-ba59-11ee-9ec1-0c96e61a84b2",
+        "formula": "U_{实际}=sqrt(P_{实际}*R_电热管)",
+        "symbol_map": [
+            {
+                "name": "实际电压",
+                "symbol": "U_{实际}"
+            },
+            {
+                "name": "实际功率",
+                "symbol": "P_{实际}"
+            },
+            {
+                "name": "灯泡电阻",
+                "symbol": "R_电热管"
+            }
+        ]
+    },
+    {
+        "key": "a0671296-ba59-11ee-bb21-0c96e61a84b2",
+        "formula": "Q_放=q_{酒精}×m_{酒精}",
+        "symbol_map": [
+            {
+                "name": "水吸收的热量",
+                "symbol": "Q_放"
+            },
+            {
+                "name": "秸秆热值",
+                "symbol": "q_{酒精}"
+            },
+            {
+                "name": "酒精的质量",
+                "symbol": "m_{酒精}"
+            }
+        ]
+    },
+    {
+        "key": "a0671297-ba59-11ee-a0d0-0c96e61a84b2",
+        "formula": "Q_放=2*W",
+        "symbol_map": [
+            {
+                "name": "水吸收的热量",
+                "symbol": "Q_放"
+            },
+            {
+                "name": "有用功",
+                "symbol": "W"
+            }
+        ]
+    },
+    {
+        "key": "a0671071-ba59-11ee-b931-0c96e61a84b2",
+        "formula": "t_末=t_初+Δt",
+        "symbol_map": [
+            {
+                "name": "水的末温",
+                "symbol": "t_末"
+            },
+            {
+                "name": "水的初始温度",
+                "symbol": "t_初"
+            },
+            {
+                "name": "水温升高量",
+                "symbol": "Δt"
+            }
+        ]
+    },
+    {
+        "key": "a0624c9d-ba59-11ee-9fe1-0c96e61a84b2",
+        "formula": "Q_放=E",
+        "symbol_map": [
+            {
+                "name": "燃料完全燃烧释放的热量",
+                "symbol": "Q_放"
+            },
+            {
+                "name": "人运动消耗的能量",
+                "symbol": "E"
+            }
+        ]
+    },
+    {
+        "key": "a067115c-ba59-11ee-a32e-0c96e61a84b2",
+        "formula": "费用=单价*使用量",
+        "symbol_map": [
+            {
+                "name": "费用",
+                "symbol": "费用"
+            },
+            {
+                "name": "天然气价格",
+                "symbol": "单价"
+            },
+            {
+                "name": "使用天然气的体积",
+                "symbol": "使用量"
+            }
+        ]
+    },
+    {
+        "key": "a067129a-ba59-11ee-b707-0c96e61a84b2",
+        "formula": "W_牵=W",
+        "symbol_map": [
+            {
+                "name": "牵引力做的功",
+                "symbol": "W_牵"
+            },
+            {
+                "name": "转化为机械能的能量",
+                "symbol": "W"
+            }
+        ]
+    },
+    {
+        "key": "a067129b-ba59-11ee-b617-0c96e61a84b2",
+        "formula": "ΔE=Q_{吸1}",
+        "symbol_map": [
+            {
+                "name": "水内能增加量",
+                "symbol": "ΔE"
+            },
+            {
+                "name": "冰吸收的热量",
+                "symbol": "Q_{吸1}"
+            }
+        ]
+    },
+    {
+        "key": "a067129e-ba59-11ee-8842-0c96e61a84b2",
+        "formula": "m_水=每分钟出水量×t",
+        "symbol_map": [
+            {
+                "name": "洗澡10分钟所用水的质量",
+                "symbol": "m_水"
+            },
+            {
+                "name": "每分钟出水量",
+                "symbol": "每分钟出水量"
+            },
+            {
+                "name": "时间",
+                "symbol": "t"
+            }
+        ]
+    },
+    {
+        "key": "a06712a1-ba59-11ee-84fa-0c96e61a84b2",
+        "formula": "q_{可燃冰}=q×k",
+        "symbol_map": [
+            {
+                "name": "可燃冰热值",
+                "symbol": "q_{可燃冰}"
+            },
+            {
+                "name": "其他热值",
+                "symbol": "q"
+            },
+            {
+                "name": "比率",
+                "symbol": "k"
+            }
+        ]
+    },
+    {
+        "key": "a06712a2-ba59-11ee-901b-0c96e61a84b2",
+        "formula": "c_2=c_1×Δt_1/Δt_2",
+        "symbol_map": [
+            {
+                "name": "固态下的比热容",
+                "symbol": "c_1"
+            },
+            {
+                "name": "固态加热时的温度变化量",
+                "symbol": "Δt_1"
+            },
+            {
+                "name": "液态加热时的温度变化量",
+                "symbol": "Δt_2"
+            }
+        ]
+    },
+    {
+        "key": "a064b057-ba59-11ee-894c-0c96e61a84b2",
+        "formula": "λ=Q′/m",
+        "symbol_map": [
+            {
+                "name": "熔化热",
+                "symbol": "λ"
+            },
+            {
+                "name": "吸收的热量",
+                "symbol": "Q′"
+            },
+            {
+                "name": "物质质量",
+                "symbol": "m"
+            }
+        ]
+    },
+    {
+        "key": "a06712a3-ba59-11ee-b87c-0c96e61a84b2",
+        "formula": "油费=油价×消耗汽油的体积",
+        "symbol_map": [
+            {
+                "name": "油费",
+                "symbol": "油费"
+            },
+            {
+                "name": "油价",
+                "symbol": "油价"
+            },
+            {
+                "name": "消耗汽油的体积",
+                "symbol": "消耗汽油的体积"
+            }
+        ]
+    },
+    {
+        "key": "a064b106-ba59-11ee-b662-0c96e61a84b2",
+        "formula": "W_{总}=W_机+W′",
+        "symbol_map": [
+            {
+                "name": "总功",
+                "symbol": "W_{总}"
+            },
+            {
+                "name": "汽车行驶过程中做的机械功",
+                "symbol": "W_机"
+            },
+            {
+                "name": "蓄电池增加的电能",
+                "symbol": "W′"
+            }
+        ]
+    },
+    {
+        "key": "a06712a8-ba59-11ee-aa49-0c96e61a84b2",
+        "formula": "t_末=min(t_理论,100℃)",
+        "symbol_map": [
+            {
+                "name": "实际水的末温",
+                "symbol": "t_末"
+            },
+            {
+                "name": "理论上的水的末温",
+                "symbol": "t_理论"
+            }
+        ]
+    },
+    {
+        "key": "a06712a9-ba59-11ee-a0a2-0c96e61a84b2",
+        "formula": "m'=m/2",
+        "symbol_map": [
+            {
+                "name": "飞机装载的燃油质量",
+                "symbol": "m'"
+            },
+            {
+                "name": "最大载油量",
+                "symbol": "m"
+            }
+        ]
+    },
+    {
+        "key": "a06712aa-ba59-11ee-860c-0c96e61a84b2",
+        "formula": "Q=Q_吸/(t×s)",
+        "symbol_map": [
+            {
+                "name": "平均每分钟0.1m²水面吸收的热量",
+                "symbol": "Q"
+            },
+            {
+                "name": "水在20分钟内吸收的总热量",
+                "symbol": "Q_吸"
+            },
+            {
+                "name": "时间",
+                "symbol": "t"
+            },
+            {
+                "name": "表面积",
+                "symbol": "s"
+            }
+        ]
+    },
+    {
+        "key": "a06712ab-ba59-11ee-829c-0c96e61a84b2",
+        "formula": "C_汽油=m_汽油×单价汽油",
+        "symbol_map": [
+            {
+                "name": "汽油成本",
+                "symbol": "C_汽油"
+            },
+            {
+                "name": "汽油质量",
+                "symbol": "m_汽油"
+            },
+            {
+                "name": "汽油单价",
+                "symbol": "单价汽油"
+            }
+        ]
+    },
+    {
+        "key": "a06712ac-ba59-11ee-be60-0c96e61a84b2",
+        "formula": "ΔC=C_汽油-C_天然气",
+        "symbol_map": [
+            {
+                "name": "节约的燃料成本",
+                "symbol": "ΔC"
+            },
+            {
+                "name": "汽油成本",
+                "symbol": "C_汽油"
+            },
+            {
+                "name": "天然气成本",
+                "symbol": "C_天然气"
+            }
+        ]
+    },
+    {
+        "key": "a06712ae-ba59-11ee-aa83-0c96e61a84b2",
+        "formula": "f=1/2×G",
+        "symbol_map": [
+            {
+                "name": "阻力",
+                "symbol": "f"
+            },
+            {
+                "name": "总重力",
+                "symbol": "G"
+            }
+        ]
+    },
+    {
+        "key": "a06712af-ba59-11ee-a90c-0c96e61a84b2",
+        "formula": "P_电=P_{机械}",
+        "symbol_map": [
+            {
+                "name": "电动机的电功率",
+                "symbol": "P_电"
+            },
+            {
+                "name": "机械功率(刚好能匀速完成续航里程)",
+                "symbol": "P_{机械}"
+            }
+        ]
+    },
+    {
+        "key": "a06712b0-ba59-11ee-80ff-0c96e61a84b2",
+        "formula": "W_总=P_1×t+P_2×t",
+        "symbol_map": [
+            {
+                "name": "总电能",
+                "symbol": "W_总"
+            },
+            {
+                "name": "热水器功率",
+                "symbol": "P_1"
+            },
+            {
+                "name": "时间",
+                "symbol": "t"
+            },
+            {
+                "name": "电饭锅功率",
+                "symbol": "P_2"
+            }
+        ]
+    },
+    {
+        "key": "a06712b1-ba59-11ee-8e40-0c96e61a84b2",
+        "formula": "R_串=R+R",
+        "symbol_map": [
+            {
+                "name": "单个电阻值",
+                "symbol": "R_串"
+            },
+            {
+                "name": "总电阻",
+                "symbol": "R"
+            }
+        ]
+    },
+    {
+        "key": "a06712b2-ba59-11ee-9efa-0c96e61a84b2",
+        "formula": "P_{保温}=U×I_保温",
+        "symbol_map": [
+            {
+                "name": "保温挡功率",
+                "symbol": "P_{保温}"
+            },
+            {
+                "name": "电压",
+                "symbol": "U"
+            },
+            {
+                "name": "保温挡电流",
+                "symbol": "I_保温"
+            }
+        ]
+    },
+    {
+        "key": "a06712b6-ba59-11ee-8e8f-0c96e61a84b2",
+        "formula": "m_{二氧化硫}=m_煤×每千克无烟煤燃烧产生SO_2的质量",
+        "symbol_map": [
+            {
+                "name": "二氧化硫排放总量",
+                "symbol": "m_{二氧化硫}"
+            },
+            {
+                "name": "所需无烟煤的质量",
+                "symbol": "m_煤"
+            },
+            {
+                "name": "每千克无烟煤燃烧产生SO_2的质量",
+                "symbol": "每千克无烟煤燃烧产生SO_2的质量"
+            }
+        ]
+    },
+    {
+        "key": "a06712b7-ba59-11ee-bec4-0c96e61a84b2",
+        "formula": "mΔt=m×Δt",
+        "symbol_map": [
+            {
+                "name": "质量与温度变化量的乘积",
+                "symbol": "mΔt"
+            },
+            {
+                "name": "水的质量",
+                "symbol": "m"
+            },
+            {
+                "name": "温度升高量",
+                "symbol": "Δt"
+            }
+        ]
+    },
+    {
+        "key": "a06712b8-ba59-11ee-b086-0c96e61a84b2",
+        "formula": "Q_吸=c_水×mΔt",
+        "symbol_map": [
+            {
+                "name": "水吸收的热量",
+                "symbol": "Q_吸"
+            },
+            {
+                "name": "水的比热容",
+                "symbol": "c_水"
+            },
+            {
+                "name": "质量与温度变化量的乘积",
+                "symbol": "mΔt"
+            }
+        ]
+    },
+    {
+        "key": "a06712b9-ba59-11ee-b832-0c96e61a84b2",
+        "formula": "R'_R=R/2",
+        "symbol_map": [
+            {
+                "name": "变阻器此时的阻值",
+                "symbol": "R'_R"
+            },
+            {
+                "name": "变阻器的最大阻值",
+                "symbol": "R"
+            }
+        ]
+    },
+    {
+        "key": "a06712ba-ba59-11ee-a7d4-0c96e61a84b2",
+        "formula": "h=h_A+h_B",
+        "symbol_map": [
+            {
+                "name": "提升高度总和",
+                "symbol": "h"
+            },
+            {
+                "name": "最大挖掘深度",
+                "symbol": "h_A"
+            },
+            {
+                "name": "最大卸料高度",
+                "symbol": "h_B"
+            }
+        ]
+    },
+    {
+        "key": "a0624da5-ba59-11ee-944e-0c96e61a84b2",
+        "formula": "V'=V（其中“容量”指代热水器容量）",
+        "symbol_map": [
+            {
+                "name": "水的体积",
+                "symbol": "V'"
+            },
+            {
+                "name": "容量",
+                "symbol": "V"
+            }
+        ]
+    },
+    {
+        "key": "a06712bd-ba59-11ee-8193-0c96e61a84b2",
+        "formula": "m_总=m_菜籽油+m_蔬菜+m_车",
+        "symbol_map": [
+            {
+                "name": "货车总质量",
+                "symbol": "m_总"
+            },
+            {
+                "name": "菜籽油质量",
+                "symbol": "m_菜籽油"
+            },
+            {
+                "name": "蔬菜质量",
+                "symbol": "m_蔬菜"
+            },
+            {
+                "name": "货车车身自重",
+                "symbol": "m_车"
+            }
+        ]
+    },
+    {
+        "key": "a06712be-ba59-11ee-a4c2-0c96e61a84b2",
+        "formula": "m_总=m_车+m_油+m_蔬",
+        "symbol_map": [
+            {
+                "name": "货车与货物的总质量",
+                "symbol": "m_总"
+            },
+            {
+                "name": "货车自身质量",
+                "symbol": "m_车"
+            },
+            {
+                "name": "菜籽油质量",
+                "symbol": "m_油"
+            },
+            {
+                "name": "蔬菜质量",
+                "symbol": "m_蔬"
+            }
+        ]
+    },
+    {
+        "key": "a064b17a-ba59-11ee-84a3-0c96e61a84b2",
+        "formula": "S=n*每条轮胎与地面接触面积",
+        "symbol_map": [
+            {
+                "name": "受力面积（轮胎与地面接触总面积）",
+                "symbol": "S"
+            },
+            {
+                "name": "每个轮胎与地面接触面积",
+                "symbol": "每条轮胎与地面接触面积"
+            },
+            {
+                "name": "轮胎数",
+                "symbol": "n"
+            }
+        ]
+    },
+    {
+        "key": "a06712bf-ba59-11ee-89a2-0c96e61a84b2",
+        "formula": "G_A=F_浮-F_B",
+        "symbol_map": [
+            {
+                "name": "浮筒A的重力",
+                "symbol": "G_A"
+            },
+            {
+                "name": "浮力",
+                "symbol": "F_浮"
+            },
+            {
+                "name": "盖片B受到的拉力",
+                "symbol": "F_B"
+            }
+        ]
+    },
+    {
+        "key": "a06712c0-ba59-11ee-a31d-0c96e61a84b2",
+        "formula": "E=η×m×q",
+        "symbol_map": [
+            {
+                "name": "转化的机械能",
+                "symbol": "E"
+            },
+            {
+                "name": "转化效率",
+                "symbol": "η"
+            },
+            {
+                "name": "汽油质量",
+                "symbol": "m"
+            },
+            {
+                "name": "汽油热值",
+                "symbol": "q"
+            }
+        ]
+    },
+    {
+        "key": "a06712c1-ba59-11ee-be2c-0c96e61a84b2",
+        "formula": "G_总=m_车×g+m_货×g",
+        "symbol_map": [
+            {
+                "name": "起重车与货物的总重力",
+                "symbol": "G_总"
+            },
+            {
+                "name": "起重车的质量",
+                "symbol": "m_车"
+            },
+            {
+                "name": "重力加速度",
+                "symbol": "g"
+            },
+            {
+                "name": "货物的质量",
+                "symbol": "m_货"
+            }
+        ]
+    },
+    {
+        "key": "a06712c2-ba59-11ee-aa4e-0c96e61a84b2",
+        "formula": "s_隧道=s+s_车",
+        "symbol_map": [
+            {
+                "name": "隧道实际长度",
+                "symbol": "s_隧道"
+            },
+            {
+                "name": "车身通过的路程",
+                "symbol": "s"
+            },
+            {
+                "name": "汽车的长度",
+                "symbol": "s_车"
+            }
+        ]
+    },
+    {
+        "key": "a06712c3-ba59-11ee-a7ef-0c96e61a84b2",
+        "formula": "S=长度×宽度",
+        "symbol_map": [
+            {
+                "name": "接触面积",
+                "symbol": "S"
+            },
+            {
+                "name": "外形尺寸-长度",
+                "symbol": "长度"
+            },
+            {
+                "name": "外形尺寸-宽度",
+                "symbol": "宽度"
+            }
+        ]
+    },
+    {
+        "key": "a06712c5-ba59-11ee-8010-0c96e61a84b2",
+        "formula": "Q_放=Q_电",
+        "symbol_map": [
+            {
+                "name": "煤炭燃烧放出的热量",
+                "symbol": "Q_放"
+            },
+            {
+                "name": "风光互补路灯发电量",
+                "symbol": "Q_电"
+            }
+        ]
+    },
+    {
+        "key": "a0671066-ba59-11ee-b816-0c96e61a84b2",
+        "formula": "Q_吸=Q-W",
+        "symbol_map": [
+            {
+                "name": "吸收的热量",
+                "symbol": "Q_吸"
+            },
+            {
+                "name": "内能变化量",
+                "symbol": "Q"
+            },
+            {
+                "name": "外界对系统做的功",
+                "symbol": "W"
+            }
+        ]
+    },
+    {
+        "key": "a06712ca-ba59-11ee-9810-0c96e61a84b2",
+        "formula": "汽油体积=V",
+        "symbol_map": [
+            {
+                "name": "汽油体积",
+                "symbol": "汽油体积"
+            },
+            {
+                "name": "油箱容积",
+                "symbol": "V"
+            }
+        ]
+    },
+    {
+        "key": "a06712cb-ba59-11ee-a4d3-0c96e61a84b2",
+        "formula": "Q=s×F/η",
+        "symbol_map": [
+            {
+                "name": "燃料完全燃烧放出的热量",
+                "symbol": "Q"
+            },
+            {
+                "name": "汽车行驶路程",
+                "symbol": "s"
+            },
+            {
+                "name": "牵引力",
+                "symbol": "F"
+            },
+            {
+                "name": "热机效率",
+                "symbol": "η"
+            }
+        ]
+    },
+    {
+        "key": "a06712cc-ba59-11ee-89f1-0c96e61a84b2",
+        "formula": "η_2=η_1×k",
+        "symbol_map": [
+            {
+                "name": "装置效率",
+                "symbol": "η_2"
+            },
+            {
+                "name": "斜面效率",
+                "symbol": "η_1"
+            },
+            {
+                "name": "比率",
+                "symbol": "k"
+            }
+        ]
+    },
+    {
+        "key": "a06712ce-ba59-11ee-acba-0c96e61a84b2",
+        "formula": "I=U/(R_滑+R_L)",
+        "symbol_map": [
+            {
+                "name": "电路电流",
+                "symbol": "I"
+            },
+            {
+                "name": "电源电压",
+                "symbol": "U"
+            },
+            {
+                "name": "滑动变阻器电阻",
+                "symbol": "R_滑"
+            },
+            {
+                "name": "灯泡电阻",
+                "symbol": "R_L"
+            }
+        ]
+    },
+    {
+        "key": "a06712d1-ba59-11ee-b2ac-0c96e61a84b2",
+        "formula": "m=W/(q×η)",
+        "symbol_map": [
+            {
+                "name": "汽油质量",
+                "symbol": "m"
+            },
+            {
+                "name": "功",
+                "symbol": "W"
+            },
+            {
+                "name": "热值",
+                "symbol": "q"
+            },
+            {
+                "name": "效率",
+                "symbol": "η"
+            }
+        ]
+    },
+    {
+        "key": "a06712d2-ba59-11ee-86bd-0c96e61a84b2",
+        "formula": "m=Q_吸/(q_{秸秆}×η)",
+        "symbol_map": [
+            {
+                "name": "木柴质量",
+                "symbol": "m"
+            },
+            {
+                "name": "水吸收的热量",
+                "symbol": "Q_吸"
+            },
+            {
+                "name": "秸秆热值",
+                "symbol": "q_{秸秆}"
+            },
+            {
+                "name": "热效率",
+                "symbol": "η"
+            }
+        ]
+    },
+    {
+        "key": "a0697562-ba59-11ee-9306-0c96e61a84b2",
+        "formula": "V=水流速率×t",
+        "symbol_map": [
+            {
+                "name": "1小时内进入暖气片的水的体积",
+                "symbol": "V"
+            },
+            {
+                "name": "每小时流量",
+                "symbol": "水流速率"
+            },
+            {
+                "name": "时间",
+                "symbol": "t"
+            }
+        ]
+    },
+    {
+        "key": "a0697563-ba59-11ee-a0a2-0c96e61a84b2",
+        "formula": "阻力=f",
+        "symbol_map": [
+            {
+                "name": "阻力",
+                "symbol": "阻力"
+            },
+            {
+                "name": "车重的0.05倍",
+                "symbol": "f"
+            }
+        ]
+    },
+    {
+        "key": "a0697565-ba59-11ee-bca1-0c96e61a84b2",
+        "formula": "c_乙=k×c_水",
+        "symbol_map": [
+            {
+                "name": "液体的比热容",
+                "symbol": "c_乙"
+            },
+            {
+                "name": "水的比热容",
+                "symbol": "c_水"
+            },
+            {
+                "name": "比率",
+                "symbol": "k"
+            }
+        ]
+    },
+    {
+        "key": "a0697566-ba59-11ee-8d68-0c96e61a84b2",
+        "formula": "S=(Q_吸/η)/(P_0×t)",
+        "symbol_map": [
+            {
+                "name": "集热器面积",
+                "symbol": "S"
+            },
+            {
+                "name": "水升温所需的热量",
+                "symbol": "Q_吸"
+            },
+            {
+                "name": "效率",
+                "symbol": "η"
+            },
+            {
+                "name": "每平方米得到的太阳辐射功率",
+                "symbol": "P_0"
+            },
+            {
+                "name": "时间",
+                "symbol": "t"
+            }
+        ]
+    },
+    {
+        "key": "a0697567-ba59-11ee-8443-0c96e61a84b2",
+        "formula": "h=楼层数减一×每层楼高",
+        "symbol_map": [
+            {
+                "name": "人上升的高度",
+                "symbol": "h"
+            },
+            {
+                "name": "楼层数-1",
+                "symbol": "楼层数减一"
+            },
+            {
+                "name": "每层楼高",
+                "symbol": "每层楼高"
+            }
+        ]
+    },
+    {
+        "key": "a0697568-ba59-11ee-94b0-0c96e61a84b2",
+        "formula": "Q_吸=m×c×(100℃-t_0)",
+        "symbol_map": [
+            {
+                "name": "水吸收的热量",
+                "symbol": "Q_吸"
+            },
+            {
+                "name": "水的质量",
+                "symbol": "m"
+            },
+            {
+                "name": "比热容",
+                "symbol": "c"
+            },
+            {
+                "name": "初温",
+                "symbol": "t_0"
+            }
+        ]
+    },
+    {
+        "key": "a06710b0-ba59-11ee-a212-0c96e61a84b2",
+        "formula": "m=水箱容量",
+        "symbol_map": [
+            {
+                "name": "水的质量",
+                "symbol": "m"
+            },
+            {
+                "name": "容积",
+                "symbol": "水箱容量"
+            }
+        ]
+    },
+    {
+        "key": "a06710e8-ba59-11ee-a328-0c96e61a84b2",
+        "formula": "I=I_1+I_2",
+        "symbol_map": [
+            {
+                "name": "总电流",
+                "symbol": "I"
+            },
+            {
+                "name": "通过R_1的电流",
+                "symbol": "I_1"
+            },
+            {
+                "name": "通过R_2的电流",
+                "symbol": "I_2"
+            }
+        ]
+    },
+    {
+        "key": "a069756a-ba59-11ee-bd52-0c96e61a84b2",
+        "formula": "m=m_单瓶×瓶数",
+        "symbol_map": [
+            {
+                "name": "每月消耗液化气的质量",
+                "symbol": "m"
+            },
+            {
+                "name": "单瓶液化气质量",
+                "symbol": "m_单瓶"
+            },
+            {
+                "name": "瓶数",
+                "symbol": "瓶数"
+            }
+        ]
+    },
+    {
+        "key": "a069756b-ba59-11ee-ad2d-0c96e61a84b2",
+        "formula": "Q_放=q",
+        "symbol_map": [
+            {
+                "name": "1kg液化气完全燃烧放出的热量",
+                "symbol": "Q_放"
+            },
+            {
+                "name": "液化气的热值",
+                "symbol": "q"
+            }
+        ]
+    },
+    {
+        "key": "a069756e-ba59-11ee-aabf-0c96e61a84b2",
+        "formula": "t=Q_吸/(c×m)+t_0",
+        "symbol_map": [
+            {
+                "name": "水的末温",
+                "symbol": "t"
+            },
+            {
+                "name": "水吸收的热量",
+                "symbol": "Q_吸"
+            },
+            {
+                "name": "水的比热容",
+                "symbol": "c"
+            },
+            {
+                "name": "水的质量",
+                "symbol": "m"
+            },
+            {
+                "name": "初始温度",
+                "symbol": "t_0"
+            }
+        ]
+    },
+    {
+        "key": "a069756f-ba59-11ee-ba55-0c96e61a84b2",
+        "formula": "q'=燃气实际放出的热量/m_{燃气}",
+        "symbol_map": [
+            {
+                "name": "混合燃气的平均热值",
+                "symbol": "q'"
+            },
+            {
+                "name": "燃气实际放出的热量",
+                "symbol": "燃气实际放出的热量"
+            },
+            {
+                "name": "消耗燃气的质量",
+                "symbol": "m_{燃气}"
+            }
+        ]
+    },
+    {
+        "key": "a0697570-ba59-11ee-96fe-0c96e61a84b2",
+        "formula": "t_实际=max(t_2,100℃)",
+        "symbol_map": [
+            {
+                "name": "实际温度",
+                "symbol": "t_实际"
+            },
+            {
+                "name": "最终温度",
+                "symbol": "t_2"
+            }
+        ]
+    },
+    {
+        "key": "a064b279-ba59-11ee-93fc-0c96e61a84b2",
+        "formula": "m_油总=m_垃圾总量*每吨垃圾榨出的燃料油量",
+        "symbol_map": [
+            {
+                "name": "燃料油的质量",
+                "symbol": "m_油总"
+            },
+            {
+                "name": "垃圾总量",
+                "symbol": "m_垃圾总量"
+            },
+            {
+                "name": "每吨垃圾榨出的燃料油量（或垃圾榨出燃料油的比例）",
+                "symbol": "每吨垃圾榨出的燃料油量"
+            }
+        ]
+    },
+    {
+        "key": "a0697574-ba59-11ee-aaf7-0c96e61a84b2",
+        "formula": "m_总=m_垃圾/每吨垃圾榨出燃料油的质量×每吨垃圾能榨出的燃料油质量",
+        "symbol_map": [
+            {
+                "name": "总燃料油质量",
+                "symbol": "m_总"
+            },
+            {
+                "name": "每天产生垃圾的质量",
+                "symbol": "m_垃圾"
+            },
+            {
+                "name": "每吨垃圾榨出燃料油的质量",
+                "symbol": "每吨垃圾榨出燃料油的质量"
+            },
+            {
+                "name": "每吨垃圾能榨出的燃料油质量",
+                "symbol": "每吨垃圾能榨出的燃料油质量"
+            }
+        ]
+    },
+    {
+        "key": "a0697575-ba59-11ee-9d6d-0c96e61a84b2",
+        "formula": "Q_1=m_气×q×燃烧效率",
+        "symbol_map": [
+            {
+                "name": "燃气燃烧放出的热量",
+                "symbol": "Q_1"
+            },
+            {
+                "name": "燃气质量",
+                "symbol": "m_气"
+            },
+            {
+                "name": "丁烷气体的热值",
+                "symbol": "q"
+            },
+            {
+                "name": "丁烷气体的燃烧效率",
+                "symbol": "燃烧效率"
+            }
+        ]
+    },
+    {
+        "key": "a067121c-ba59-11ee-ae8d-0c96e61a84b2",
+        "formula": "R_{总}=R+R_L",
+        "symbol_map": [
+            {
+                "name": "总电阻",
+                "symbol": "R_{总}"
+            },
+            {
+                "name": "定值电阻（或电阻R_1）",
+                "symbol": "R"
+            },
+            {
+                "name": "可变电阻（或电阻R_2）",
+                "symbol": "R_L"
+            }
+        ]
+    },
+    {
+        "key": "a069757a-ba59-11ee-ae08-0c96e61a84b2",
+        "formula": "W=ρ_{电池}×m",
+        "symbol_map": [
+            {
+                "name": "锂电池储存的电能",
+                "symbol": "W"
+            },
+            {
+                "name": "固态锂电池能量密度",
+                "symbol": "ρ_{电池}"
+            },
+            {
+                "name": "质量",
+                "symbol": "m"
+            }
+        ]
+    },
+    {
+        "key": "a069757b-ba59-11ee-9674-0c96e61a84b2",
+        "formula": "P_1=太阳每秒辐射到每平方米的能量×有效面积",
+        "symbol_map": [
+            {
+                "name": "太阳能电池板接收到的太阳辐射功率",
+                "symbol": "P_1"
+            },
+            {
+                "name": "太阳每秒辐射到每平方米的能量",
+                "symbol": "太阳每秒辐射到每平方米的能量"
+            },
+            {
+                "name": "有效面积",
+                "symbol": "有效面积"
+            }
+        ]
+    },
+    {
+        "key": "a069757e-ba59-11ee-ac3f-0c96e61a84b2",
+        "formula": "所有教室每天消耗的总电能=W_白炽灯×教室数量×灯泡数量",
+        "symbol_map": [
+            {
+                "name": "所有教室每天消耗的总电能(节能灯)(白炽灯)",
+                "symbol": "所有教室每天消耗的总电能"
+            },
+            {
+                "name": "单个白炽灯每天消耗的电能",
+                "symbol": "W_白炽灯"
+            },
+            {
+                "name": "教室数量",
+                "symbol": "教室数量"
+            },
+            {
+                "name": "每间教室灯泡数量",
+                "symbol": "灯泡数量"
+            }
+        ]
+    },
+    {
+        "key": "a069757f-ba59-11ee-82c0-0c96e61a84b2",
+        "formula": "W_月白炽灯=所有教室每天消耗的总电能×天数",
+        "symbol_map": [
+            {
+                "name": "每月使用白炽灯消耗的总电能",
+                "symbol": "W_月白炽灯"
+            },
+            {
+                "name": "所有教室每天消耗的总电能(节能灯)(白炽灯)",
+                "symbol": "所有教室每天消耗的总电能"
+            },
+            {
+                "name": "天数",
+                "symbol": "天数"
+            }
+        ]
+    },
+    {
+        "key": "a0697581-ba59-11ee-aa7c-0c96e61a84b2",
+        "formula": "P_热=I^2×R",
+        "symbol_map": [
+            {
+                "name": "功率",
+                "symbol": "P_热"
+            },
+            {
+                "name": "电流",
+                "symbol": "I"
+            },
+            {
+                "name": "电阻",
+                "symbol": "R"
+            }
+        ]
+    },
+    {
+        "key": "a0697585-ba59-11ee-bf39-0c96e61a84b2",
+        "formula": "飞机最大航程=Q_1/f",
+        "symbol_map": [
+            {
+                "name": "飞机最大航程",
+                "symbol": "飞机最大航程"
+            },
+            {
+                "name": "转化成的机械能",
+                "symbol": "Q_1"
+            },
+            {
+                "name": "飞机在500m/s下的阻力",
+                "symbol": "f"
+            }
+        ]
+    },
+    {
+        "key": "a0697586-ba59-11ee-a699-0c96e61a84b2",
+        "formula": "h=n_楼层×每层楼高",
+        "symbol_map": [
+            {
+                "name": "上升的高度",
+                "symbol": "h"
+            },
+            {
+                "name": "楼层数",
+                "symbol": "n_楼层"
+            },
+            {
+                "name": "每层楼高",
+                "symbol": "每层楼高"
+            }
+        ]
+    },
+    {
+        "key": "a0697587-ba59-11ee-b665-0c96e61a84b2",
+        "formula": "W_电=W",
+        "symbol_map": [
+            {
+                "name": "消耗的电能",
+                "symbol": "W_电"
+            },
+            {
+                "name": "消耗的机械能",
+                "symbol": "W"
+            }
+        ]
+    },
+    {
+        "key": "a0697588-ba59-11ee-9493-0c96e61a84b2",
+        "formula": "W_总=W_{加热}+W_{研磨}",
+        "symbol_map": [
+            {
+                "name": "一次制浆过程总消耗的电能",
+                "symbol": "W_总"
+            },
+            {
+                "name": "加热过程消耗的电能",
+                "symbol": "W_{加热}"
+            },
+            {
+                "name": "研磨过程消耗的电能",
+                "symbol": "W_{研磨}"
+            }
+        ]
+    },
+    {
+        "key": "a0697589-ba59-11ee-ac48-0c96e61a84b2",
+        "formula": "农药体积=V",
+        "symbol_map": [
+            {
+                "name": "农药体积",
+                "symbol": "农药体积"
+            },
+            {
+                "name": "药箱容量",
+                "symbol": "V"
+            }
+        ]
+    },
+    {
+        "key": "a069758a-ba59-11ee-80f2-0c96e61a84b2",
+        "formula": "W=η×U×C",
+        "symbol_map": [
+            {
+                "name": "输出的机械能",
+                "symbol": "W"
+            },
+            {
+                "name": "额定工作电压",
+                "symbol": "U"
+            },
+            {
+                "name": "电池容量",
+                "symbol": "C"
+            },
+            {
+                "name": "效率",
+                "symbol": "η"
+            }
+        ]
+    },
+    {
+        "key": "a069758e-ba59-11ee-943a-0c96e61a84b2",
+        "formula": "Δt_金=t_水初+Δt_水-t_金属初",
+        "symbol_map": [
+            {
+                "name": "金属块降低的温度",
+                "symbol": "Δt_金"
+            },
+            {
+                "name": "水的初温",
+                "symbol": "t_水初"
+            },
+            {
+                "name": "水温升高的温度",
+                "symbol": "Δt_水"
+            },
+            {
+                "name": "金属块原来的水温",
+                "symbol": "t_金属初"
+            }
+        ]
+    },
+    {
+        "key": "a069758f-ba59-11ee-b13d-0c96e61a84b2",
+        "formula": "N=W_总/W_单次",
+        "symbol_map": [
+            {
+                "name": "冰箱启动次数",
+                "symbol": "N"
+            },
+            {
+                "name": "一天总耗电量",
+                "symbol": "W_总"
+            },
+            {
+                "name": "每次启动耗电量",
+                "symbol": "W_单次"
+            }
+        ]
+    },
+    {
+        "key": "a0697590-ba59-11ee-ae9d-0c96e61a84b2",
+        "formula": "U_串=I_串×(R_1+R_2)",
+        "symbol_map": [
+            {
+                "name": "总电压",
+                "symbol": "U_串"
+            },
+            {
+                "name": "表头电流",
+                "symbol": "I_串"
+            },
+            {
+                "name": "表头电阻",
+                "symbol": "R_1"
+            },
+            {
+                "name": "灯泡L_2的电阻",
+                "symbol": "R_2"
+            }
+        ]
+    },
+    {
+        "key": "a0697591-ba59-11ee-b567-0c96e61a84b2",
+        "formula": "I=I′_1+I′_2",
+        "symbol_map": [
+            {
+                "name": "干路最大电流",
+                "symbol": "I"
+            },
+            {
+                "name": "灯泡L_1的实际电流",
+                "symbol": "I′_1"
+            },
+            {
+                "name": "灯泡L_2的实际电流",
+                "symbol": "I′_2"
+            }
+        ]
+    },
+    {
+        "key": "a0697592-ba59-11ee-bf2d-0c96e61a84b2",
+        "formula": "生活垃圾完全燃烧放出的热量=m×q",
+        "symbol_map": [
+            {
+                "name": "生活垃圾完全燃烧放出的热量",
+                "symbol": "生活垃圾完全燃烧放出的热量"
+            },
+            {
+                "name": "生活垃圾的热值",
+                "symbol": "q"
+            }
+        ]
+    },
+    {
+        "key": "a0697594-ba59-11ee-a66d-0c96e61a84b2",
+        "formula": "q=E_电/(m×η_1)",
+        "symbol_map": [
+            {
+                "name": "生活垃圾的热值",
+                "symbol": "q"
+            },
+            {
+                "name": "转化得到的电能",
+                "symbol": "E_电"
+            },
+            {
+                "name": "能量转化效率",
+                "symbol": "η_1"
+            }
+        ]
+    },
+    {
+        "key": "a0697598-ba59-11ee-bc1a-0c96e61a84b2",
+        "formula": "实际水温升高量=min(Δt',100°C-T_初)",
+        "symbol_map": [
+            {
+                "name": "实际水温升高量",
+                "symbol": "实际水温升高量"
+            },
+            {
+                "name": "水升高的理论温度",
+                "symbol": "Δt'"
+            },
+            {
+                "name": "初始水温",
+                "symbol": "T_初"
+            }
+        ]
+    },
+    {
+        "key": "a0697599-ba59-11ee-9c16-0c96e61a84b2",
+        "formula": "V_水=热水产率×时间",
+        "symbol_map": [
+            {
+                "name": "产生的热水体积",
+                "symbol": "V_水"
+            },
+            {
+                "name": "热水产率",
+                "symbol": "热水产率"
+            },
+            {
+                "name": "时间",
+                "symbol": "时间"
+            }
+        ]
+    },
+    {
+        "key": "a069759e-ba59-11ee-9729-0c96e61a84b2",
+        "formula": "节省的费用=一年液化气费用-一年天然气费用",
+        "symbol_map": [
+            {
+                "name": "节省的费用",
+                "symbol": "节省的费用"
+            },
+            {
+                "name": "一年液化气费用",
+                "symbol": "一年液化气费用"
+            },
+            {
+                "name": "一年天然气费用",
+                "symbol": "一年天然气费用"
+            }
+        ]
+    },
+    {
+        "key": "a069759f-ba59-11ee-86a3-0c96e61a84b2",
+        "formula": "Q_吸=V×q×η",
+        "symbol_map": [
+            {
+                "name": "水吸收的热量",
+                "symbol": "Q_吸"
+            },
+            {
+                "name": "天然气体积",
+                "symbol": "V"
+            },
+            {
+                "name": "天然气的热值",
+                "symbol": "q"
+            },
+            {
+                "name": "水暖的热效率",
+                "symbol": "η"
+            }
+        ]
+    },
+    {
+        "key": "a067118e-ba59-11ee-a977-0c96e61a84b2",
+        "formula": "N=n/2",
+        "symbol_map": [
+            {
+                "name": "每分钟内做功次数",
+                "symbol": "N"
+            },
+            {
+                "name": "飞轮转速",
+                "symbol": "n"
+            }
+        ]
+    },
+    {
+        "key": "a06975a0-ba59-11ee-aaf0-0c96e61a84b2",
+        "formula": "汽油机的功率=W'",
+        "symbol_map": [
+            {
+                "name": "汽油机的功率",
+                "symbol": "汽油机的功率"
+            },
+            {
+                "name": "一分钟内燃气做的总功",
+                "symbol": "W'"
+            }
+        ]
+    },
+    {
+        "key": "a06975a2-ba59-11ee-8a65-0c96e61a84b2",
+        "formula": "Q′=P_额×t",
+        "symbol_map": [
+            {
+                "name": "每天水吸收的热量",
+                "symbol": "Q′"
+            },
+            {
+                "name": "额定热负荷",
+                "symbol": "P_额"
+            },
+            {
+                "name": "工作时间",
+                "symbol": "t"
+            }
+        ]
+    },
+    {
+        "key": "a064b125-ba59-11ee-9058-0c96e61a84b2",
+        "formula": "Q_{废气}=能量损失比例*Q_放",
+        "symbol_map": [
+            {
+                "name": "废气带走的热量",
+                "symbol": "Q_{废气}"
+            },
+            {
+                "name": "废气带走热量的比例",
+                "symbol": "能量损失比例"
+            },
+            {
+                "name": "汽油完全燃烧放出的热量",
+                "symbol": "Q_放"
+            }
+        ]
+    },
+    {
+        "key": "a06975a5-ba59-11ee-8ab7-0c96e61a84b2",
+        "formula": "t=洗澡用水体积/V_额定",
+        "symbol_map": [
+            {
+                "name": "洗澡时间",
+                "symbol": "t"
+            },
+            {
+                "name": "洗澡用水体积",
+                "symbol": "洗澡用水体积"
+            },
+            {
+                "name": "热水器额定流量",
+                "symbol": "V_额定"
+            }
+        ]
+    },
+    {
+        "key": "a06975a6-ba59-11ee-8cc7-0c96e61a84b2",
+        "formula": "W_电=W_max×ε",
+        "symbol_map": [
+            {
+                "name": "转化的电能",
+                "symbol": "W_电"
+            },
+            {
+                "name": "最大电能",
+                "symbol": "W_max"
+            },
+            {
+                "name": "电能增加百分比",
+                "symbol": "ε"
+            }
+        ]
+    },
+    {
+        "key": "a06975ad-ba59-11ee-ae9b-0c96e61a84b2",
+        "formula": "V=排气量×换算系数",
+        "symbol_map": [
+            {
+                "name": "燃气体积",
+                "symbol": "V"
+            },
+            {
+                "name": "排气量",
+                "symbol": "排气量"
+            },
+            {
+                "name": "换算系数",
+                "symbol": "换算系数"
+            }
+        ]
+    },
+    {
+        "key": "a06975ae-ba59-11ee-a9d0-0c96e61a84b2",
+        "formula": "p=G_总/(4×S)",
+        "symbol_map": [
+            {
+                "name": "货车满载时对地面的压强",
+                "symbol": "p"
+            },
+            {
+                "name": "总重力",
+                "symbol": "G_总"
+            },
+            {
+                "name": "接触面积",
+                "symbol": "S"
+            }
+        ]
+    },
+    {
+        "key": "a06975b0-ba59-11ee-af51-0c96e61a84b2",
+        "formula": "L=V/S",
+        "symbol_map": [
+            {
+                "name": "活塞位移",
+                "symbol": "L"
+            },
+            {
+                "name": "气缸容积",
+                "symbol": "V"
+            },
+            {
+                "name": "活塞面积",
+                "symbol": "S"
+            }
+        ]
+    },
+    {
+        "key": "a06975b1-ba59-11ee-ac19-0c96e61a84b2",
+        "formula": "Q=F×v×t/η",
+        "symbol_map": [
+            {
+                "name": "汽油完全燃烧释放的能量",
+                "symbol": "Q"
+            },
+            {
+                "name": "牵引力",
+                "symbol": "F"
+            },
+            {
+                "name": "速度",
+                "symbol": "v"
+            },
+            {
+                "name": "时间",
+                "symbol": "t"
+            },
+            {
+                "name": "效率",
+                "symbol": "η"
+            }
+        ]
+    },
+    {
+        "key": "a06975b3-ba59-11ee-90f9-0c96e61a84b2",
+        "formula": "Δt=t_2-t_1",
+        "symbol_map": [
+            {
+                "name": "水温的变化",
+                "symbol": "Δt"
+            },
+            {
+                "name": "末温",
+                "symbol": "t_2"
+            },
+            {
+                "name": "初温",
+                "symbol": "t_1"
+            }
+        ]
+    },
+    {
+        "key": "a06975b7-ba59-11ee-ae60-0c96e61a84b2",
+        "formula": "Q=Q_1+Q_2",
+        "symbol_map": [
+            {
+                "name": "总热量",
+                "symbol": "Q"
+            },
+            {
+                "name": "冰升温吸热",
+                "symbol": "Q_1"
+            },
+            {
+                "name": "冰熔化吸热",
+                "symbol": "Q_2"
+            }
+        ]
+    },
+    {
+        "key": "a06975b9-ba59-11ee-906e-0c96e61a84b2",
+        "formula": "m_油=m_水",
+        "symbol_map": [
+            {
+                "name": "食用油的质量",
+                "symbol": "m_油"
+            },
+            {
+                "name": "水的质量",
+                "symbol": "m_水"
+            }
+        ]
+    },
+    {
+        "key": "a06975ba-ba59-11ee-beb4-0c96e61a84b2",
+        "formula": "μ=f/N",
+        "symbol_map": [
+            {
+                "name": "动摩擦因数",
+                "symbol": "μ"
+            },
+            {
+                "name": "摩擦力",
+                "symbol": "f"
+            },
+            {
+                "name": "法向正压力",
+                "symbol": "N"
+            }
+        ]
+    },
+    {
+        "key": "a06975bb-ba59-11ee-8465-0c96e61a84b2",
+        "formula": "总电阻R=R_1×R_2/(R_1+R_2)",
+        "symbol_map": [
+            {
+                "name": "总电阻R",
+                "symbol": "总电阻R"
+            },
+            {
+                "name": "加热电阻R_1",
+                "symbol": "R_1"
+            },
+            {
+                "name": "加热电阻R_2",
+                "symbol": "R_2"
+            }
+        ]
+    },
+    {
+        "key": "a06975bd-ba59-11ee-ae64-0c96e61a84b2",
+        "formula": "E_2=E_1×能量转化率",
+        "symbol_map": [
+            {
+                "name": "公交车在A处的动能",
+                "symbol": "E_2"
+            },
+            {
+                "name": "阶段一电容释放的电能",
+                "symbol": "E_1"
+            },
+            {
+                "name": "能量转化率",
+                "symbol": "能量转化率"
+            }
+        ]
+    },
+    {
+        "key": "a064ae1f-ba59-11ee-86b1-0c96e61a84b2",
+        "formula": "ΔW=W_2-W_1",
+        "symbol_map": [
+            {
+                "name": "节约的电能",
+                "symbol": "ΔW"
+            },
+            {
+                "name": "替代前的电能消耗",
+                "symbol": "W_2"
+            },
+            {
+                "name": "替代后的电能消耗",
+                "symbol": "W_1"
+            }
+        ]
+    },
+    {
+        "key": "a06975c0-ba59-11ee-b619-0c96e61a84b2",
+        "formula": "q=W_电/(m×η_1)",
+        "symbol_map": [
+            {
+                "name": "发电量",
+                "symbol": "W_电"
+            },
+            {
+                "name": "生活垃圾的质量",
+                "symbol": "m"
+            },
+            {
+                "name": "发电效率",
+                "symbol": "η_1"
+            }
+        ]
+    },
+    {
+        "key": "a06975c1-ba59-11ee-b303-0c96e61a84b2",
+        "formula": "P_总=P_锅总+P_烙总+P_灯总",
+        "symbol_map": [
+            {
+                "name": "总功率",
+                "symbol": "P_总"
+            },
+            {
+                "name": "电饭锅总功率",
+                "symbol": "P_锅总"
+            },
+            {
+                "name": "电烙铁总功率",
+                "symbol": "P_烙总"
+            },
+            {
+                "name": "节能灯总功率",
+                "symbol": "P_灯总"
+            }
+        ]
+    },
+    {
+        "key": "a06975c2-ba59-11ee-84c1-0c96e61a84b2",
+        "formula": "R′=1/4×R",
+        "symbol_map": [
+            {
+                "name": "新电阻",
+                "symbol": "R′"
+            },
+            {
+                "name": "原电阻",
+                "symbol": "R"
+            }
+        ]
+    },
+    {
+        "key": "a06975c3-ba59-11ee-9719-0c96e61a84b2",
+        "formula": "t_总=t_加速+t_匀速",
+        "symbol_map": [
+            {
+                "name": "总时间",
+                "symbol": "t_总"
+            },
+            {
+                "name": "加速时间",
+                "symbol": "t_加速"
+            },
+            {
+                "name": "匀速时间",
+                "symbol": "t_匀速"
+            }
+        ]
+    },
+    {
+        "key": "a06975c4-ba59-11ee-a8b5-0c96e61a84b2",
+        "formula": "R_0=R_{总}-R_L",
+        "symbol_map": [
+            {
+                "name": "串联电阻",
+                "symbol": "R_0"
+            },
+            {
+                "name": "电路总电阻",
+                "symbol": "R_{总}"
+            },
+            {
+                "name": "灯泡电阻",
+                "symbol": "R_L"
+            }
+        ]
+    },
+    {
+        "key": "a06975c7-ba59-11ee-9c41-0c96e61a84b2",
+        "formula": "Q=I_额^2×R×t",
+        "symbol_map": [
+            {
+                "name": "产生的热量",
+                "symbol": "Q"
+            },
+            {
+                "name": "额定电流",
+                "symbol": "I_额"
+            },
+            {
+                "name": "电阻",
+                "symbol": "R"
+            },
+            {
+                "name": "时间",
+                "symbol": "t"
+            }
+        ]
+    },
+    {
+        "key": "a06a6087-ba59-11ee-80c2-0c96e61a84b2",
+        "formula": "t=C/I",
+        "symbol_map": [
+            {
+                "name": "时间",
+                "symbol": "t"
+            },
+            {
+                "name": "最大容量",
+                "symbol": "C"
+            },
+            {
+                "name": "电流",
+                "symbol": "I"
+            }
+        ]
+    },
+    {
+        "key": "a06a6089-ba59-11ee-a062-0c96e61a84b2",
+        "formula": "P_实=η×P_{最大}",
+        "symbol_map": [
+            {
+                "name": "实际功率",
+                "symbol": "P_实"
+            },
+            {
+                "name": "发动机最大功率",
+                "symbol": "P_{最大}"
+            },
+            {
+                "name": "效率",
+                "symbol": "η"
+            }
+        ]
+    },
+    {
+        "key": "a06a608a-ba59-11ee-bf7d-0c96e61a84b2",
+        "formula": "v_2=v_1-速度变化量",
+        "symbol_map": [
+            {
+                "name": "列车减速后的速度",
+                "symbol": "v_2"
+            },
+            {
+                "name": "初始速度",
+                "symbol": "v_1"
+            },
+            {
+                "name": "速度变化量",
+                "symbol": "速度变化量"
+            }
+        ]
+    },
+    {
+        "key": "a06a608c-ba59-11ee-9cb6-0c96e61a84b2",
+        "formula": "η=(W_发电+Q_供热)/Q×100%",
+        "symbol_map": [
+            {
+                "name": "能量利用率",
+                "symbol": "η"
+            },
+            {
+                "name": "电能",
+                "symbol": "W_发电"
+            },
+            {
+                "name": "热能",
+                "symbol": "Q_供热"
+            },
+            {
+                "name": "燃料完全燃烧放出的总能量",
+                "symbol": "Q"
+            }
+        ]
+    },
+    {
+        "key": "a06a608d-ba59-11ee-9ffd-0c96e61a84b2",
+        "formula": "R_总=R_L+R_{滑最大}",
+        "symbol_map": [
+            {
+                "name": "总电阻",
+                "symbol": "R_总"
+            },
+            {
+                "name": "灯泡电阻",
+                "symbol": "R_L"
+            },
+            {
+                "name": "滑动变阻器最大阻值",
+                "symbol": "R_{滑最大}"
+            }
+        ]
+    },
+    {
+        "key": "a06a608e-ba59-11ee-8545-0c96e61a84b2",
+        "formula": "S_总=S_车轮+S_支架",
+        "symbol_map": [
+            {
+                "name": "有效接触面积",
+                "symbol": "S_总"
+            },
+            {
+                "name": "车轮与地面的总接触面积",
+                "symbol": "S_车轮"
+            },
+            {
+                "name": "支架总面积",
+                "symbol": "S_支架"
+            }
+        ]
+    },
+    {
+        "key": "a067102a-ba59-11ee-8683-0c96e61a84b2",
+        "formula": "U_2=U",
+        "symbol_map": [
+            {
+                "name": "元件两端电压",
+                "symbol": "U_2"
+            },
+            {
+                "name": "电源电压",
+                "symbol": "U"
+            }
+        ]
+    },
+    {
+        "key": "a06a6090-ba59-11ee-a59b-0c96e61a84b2",
+        "formula": "P_总=P_1+P_2",
+        "symbol_map": [
+            {
+                "name": "总功率",
+                "symbol": "P_总"
+            },
+            {
+                "name": "绞吸功率",
+                "symbol": "P_1"
+            },
+            {
+                "name": "电阻R_2的功率",
+                "symbol": "P_2"
+            }
+        ]
+    },
+    {
+        "key": "a06a6091-ba59-11ee-8f4b-0c96e61a84b2",
+        "formula": "t_每天=T_天-t_开机",
+        "symbol_map": [
+            {
+                "name": "每天待机时间",
+                "symbol": "t_每天"
+            },
+            {
+                "name": "一天总小时数",
+                "symbol": "T_天"
+            },
+            {
+                "name": "每天开机小时数",
+                "symbol": "t_开机"
+            }
+        ]
+    },
+    {
+        "key": "a06a6092-ba59-11ee-b3cc-0c96e61a84b2",
+        "formula": "t_全年=t_每天×天数",
+        "symbol_map": [
+            {
+                "name": "一年待机总时间",
+                "symbol": "t_全年"
+            },
+            {
+                "name": "每天待机时间",
+                "symbol": "t_每天"
+            },
+            {
+                "name": "一年天数",
+                "symbol": "天数"
+            }
+        ]
+    },
+    {
+        "key": "a06a6093-ba59-11ee-a0a8-0c96e61a84b2",
+        "formula": "Q=I′^2×R×t",
+        "symbol_map": [
+            {
+                "name": "线圈产生的热量",
+                "symbol": "Q"
+            },
+            {
+                "name": "转动时的电流",
+                "symbol": "I′"
+            },
+            {
+                "name": "线圈电阻",
+                "symbol": "R"
+            },
+            {
+                "name": "时间",
+                "symbol": "t"
+            }
+        ]
+    },
+    {
+        "key": "a064b2bc-ba59-11ee-8389-0c96e61a84b2",
+        "formula": "V=s*每公里油耗",
+        "symbol_map": [
+            {
+                "name": "消耗的汽油总量",
+                "symbol": "V"
+            },
+            {
+                "name": "行驶距离",
+                "symbol": "s"
+            },
+            {
+                "name": "单位路程油耗",
+                "symbol": "每公里油耗"
+            }
+        ]
+    },
+    {
+        "key": "a06cc3d7-ba59-11ee-9431-0c96e61a84b2",
+        "formula": "I_2=I_2_max",
+        "symbol_map": [
+            {
+                "name": "电阻R_2的电流",
+                "symbol": "I_2"
+            },
+            {
+                "name": "电阻R_2允许的最大电流",
+                "symbol": "I_2_max"
+            }
+        ]
+    },
+    {
+        "key": "a06cc3d8-ba59-11ee-a5ee-0c96e61a84b2",
+        "formula": "W_1=I^2×R_1×t",
+        "symbol_map": [
+            {
+                "name": "电流通过R_1所做的功",
+                "symbol": "W_1"
+            },
+            {
+                "name": "电流",
+                "symbol": "I"
+            },
+            {
+                "name": "电阻R_1",
+                "symbol": "R_1"
+            },
+            {
+                "name": "时间",
+                "symbol": "t"
+            }
+        ]
+    },
+    {
+        "key": "a06cc3d9-ba59-11ee-afa3-0c96e61a84b2",
+        "formula": "c_液=c_水×Δt_水/Δt_液",
+        "symbol_map": [
+            {
+                "name": "液体的比热容",
+                "symbol": "c_液"
+            },
+            {
+                "name": "水的比热容",
+                "symbol": "c_水"
+            },
+            {
+                "name": "水升高的温度",
+                "symbol": "Δt_水"
+            },
+            {
+                "name": "某种液体升高的温度",
+                "symbol": "Δt_液"
+            }
+        ]
+    },
+    {
+        "key": "a06cc3da-ba59-11ee-9800-0c96e61a84b2",
+        "formula": "Q_{总}=Q_单×S",
+        "symbol_map": [
+            {
+                "name": "总面积上每天接收的太阳能",
+                "symbol": "Q_{总}"
+            },
+            {
+                "name": "单平方米面积上每天接收的太阳能",
+                "symbol": "Q_单"
+            },
+            {
+                "name": "接收太阳能的面积",
+                "symbol": "S"
+            }
+        ]
+    },
+    {
+        "key": "a06cc3db-ba59-11ee-8971-0c96e61a84b2",
+        "formula": "V=出水流量×时间",
+        "symbol_map": [
+            {
+                "name": "每小时流出水的体积",
+                "symbol": "V"
+            },
+            {
+                "name": "出水流量",
+                "symbol": "出水流量"
+            },
+            {
+                "name": "时间",
+                "symbol": "时间"
+            }
+        ]
+    },
+    {
+        "key": "a06cc3dc-ba59-11ee-a450-0c96e61a84b2",
+        "formula": "η=(W+W')/Q",
+        "symbol_map": [
+            {
+                "name": "内燃机的效率",
+                "symbol": "η"
+            },
+            {
+                "name": "牵引力做的功",
+                "symbol": "W"
+            },
+            {
+                "name": "蓄电池增加的电能",
+                "symbol": "W'"
+            },
+            {
+                "name": "燃油完全燃烧放出的热量",
+                "symbol": "Q"
+            }
+        ]
+    },
+    {
+        "key": "a06cc3dd-ba59-11ee-83fe-0c96e61a84b2",
+        "formula": "m_水=m",
+        "symbol_map": [
+            {
+                "name": "水的质量",
+                "symbol": "m_水"
+            },
+            {
+                "name": "冰的质量",
+                "symbol": "m"
+            }
+        ]
+    },
+    {
+        "key": "a06cc3de-ba59-11ee-85a6-0c96e61a84b2",
+        "formula": "W=P×s/v",
+        "symbol_map": [
+            {
+                "name": "发动机做的功",
+                "symbol": "W"
+            },
+            {
+                "name": "功率",
+                "symbol": "P"
+            },
+            {
+                "name": "路程",
+                "symbol": "s"
+            },
+            {
+                "name": "速度",
+                "symbol": "v"
+            }
+        ]
+    },
+    {
+        "key": "a06cc3e1-ba59-11ee-ba8a-0c96e61a84b2",
+        "formula": "η=P_输出×t/(q×m)",
+        "symbol_map": [
+            {
+                "name": "热机效率",
+                "symbol": "η"
+            },
+            {
+                "name": "输出功率",
+                "symbol": "P_输出"
+            },
+            {
+                "name": "时间",
+                "symbol": "t"
+            },
+            {
+                "name": "燃料热值",
+                "symbol": "q"
+            },
+            {
+                "name": "消耗燃料质量",
+                "symbol": "m"
+            }
+        ]
+    },
+    {
+        "key": "a064b2c2-ba59-11ee-93a5-0c96e61a84b2",
+        "formula": "I_2 = I总-I_1",
+        "symbol_map": [
+            {
+                "name": "通过R_x的电流",
+                "symbol": "I_2"
+            },
+            {
+                "name": "总电流",
+                "symbol": "I总"
+            },
+            {
+                "name": "开关S断开时电流",
+                "symbol": "I_1"
+            }
+        ]
+    },
+    {
+        "key": "a0671179-ba59-11ee-b9af-0c96e61a84b2",
+        "formula": "m'_煤气=m_{煤气原}-Δm_{煤气}",
+        "symbol_map": [
+            {
+                "name": "改进后煤气的质量",
+                "symbol": "m'_煤气"
+            },
+            {
+                "name": "原来煤气的质量",
+                "symbol": "m_{煤气原}"
+            },
+            {
+                "name": "节省的煤气质量",
+                "symbol": "Δm_{煤气}"
+            }
+        ]
+    },
+    {
+        "key": "a06cc3e4-ba59-11ee-966c-0c96e61a84b2",
+        "formula": "m′=η_1×m/η_2",
+        "symbol_map": [
+            {
+                "name": "新的汽油消耗量",
+                "symbol": "m′"
+            },
+            {
+                "name": "原消耗汽油质量",
+                "symbol": "m"
+            },
+            {
+                "name": "原效率",
+                "symbol": "η_1"
+            },
+            {
+                "name": "新效率",
+                "symbol": "η_2"
+            }
+        ]
+    },
+    {
+        "key": "a06cc3e5-ba59-11ee-bff4-0c96e61a84b2",
+        "formula": "Q_放=k×V×q_{天然气}",
+        "symbol_map": [
+            {
+                "name": "比率",
+                "symbol": "k"
+            },
+            {
+                "name": "可燃冰完全燃烧放出的热量",
+                "symbol": "Q_放"
+            },
+            {
+                "name": "可燃冰体积",
+                "symbol": "V"
+            },
+            {
+                "name": "天然气的热值",
+                "symbol": "q_{天然气}"
+            }
+        ]
+    },
+    {
+        "key": "a06cc3e6-ba59-11ee-b98c-0c96e61a84b2",
+        "formula": "m_水=m_水原始/C",
+        "symbol_map": [
+            {
+                "name": "水的质量",
+                "symbol": "m_水"
+            },
+            {
+                "name": "原始水的质量",
+                "symbol": "m_水原始"
+            },
+            {
+                "name": "g转kg的换算系数",
+                "symbol": "C"
+            }
+        ]
+    },
+    {
+        "key": "a06cc3e8-ba59-11ee-8a38-0c96e61a84b2",
+        "formula": "F_{总浮}=G_总-F",
+        "symbol_map": [
+            {
+                "name": "总的浮力",
+                "symbol": "F_{总浮}"
+            },
+            {
+                "name": "A、B总重力",
+                "symbol": "G_总"
+            },
+            {
+                "name": "拉力",
+                "symbol": "F"
+            }
+        ]
+    },
+    {
+        "key": "a06cc3e9-ba59-11ee-ad51-0c96e61a84b2",
+        "formula": "F_A_浮=F_{总浮}-F_B_浮",
+        "symbol_map": [
+            {
+                "name": "A受到的浮力",
+                "symbol": "F_A_浮"
+            },
+            {
+                "name": "总的浮力",
+                "symbol": "F_{总浮}"
+            },
+            {
+                "name": "物体B受到的浮力",
+                "symbol": "F_B_浮"
+            }
+        ]
+    },
+    {
+        "key": "a06711e4-ba59-11ee-89d4-0c96e61a84b2",
+        "formula": "λ=c/f",
+        "symbol_map": [
+            {
+                "name": "波长",
+                "symbol": "λ"
+            },
+            {
+                "name": "频率",
+                "symbol": "f"
+            }
+        ]
+    },
+    {
+        "key": "a06cc3ea-ba59-11ee-85f6-0c96e61a84b2",
+        "formula": "W=k×s",
+        "symbol_map": [
+            {
+                "name": "消耗电能",
+                "symbol": "W"
+            },
+            {
+                "name": "行驶距离",
+                "symbol": "s"
+            },
+            {
+                "name": "消耗电能和路程的比",
+                "symbol": "k"
+            }
+        ]
+    },
+    {
+        "key": "a06cc3eb-ba59-11ee-b866-0c96e61a84b2",
+        "formula": "W=W_加热+W_清喷+W_排",
+        "symbol_map": [
+            {
+                "name": "总消耗的电能",
+                "symbol": "W"
+            },
+            {
+                "name": "洗碗机加热消耗的电能",
+                "symbol": "W_加热"
+            },
+            {
+                "name": "洗碗机清洗喷淋消耗的电能",
+                "symbol": "W_清喷"
+            },
+            {
+                "name": "洗碗机排水消耗的电能",
+                "symbol": "W_排"
+            }
+        ]
+    },
+    {
+        "key": "a06cc3ed-ba59-11ee-9594-0c96e61a84b2",
+        "formula": "E_k=m×(1/2)×v^2",
+        "symbol_map": [
+            {
+                "name": "物体动能",
+                "symbol": "E_k"
+            },
+            {
+                "name": "质量",
+                "symbol": "m"
+            },
+            {
+                "name": "速度",
+                "symbol": "v"
+            }
+        ]
+    },
+    {
+        "key": "a06cc3ee-ba59-11ee-829b-0c96e61a84b2",
+        "formula": "△E_k=E_k",
+        "symbol_map": [
+            {
+                "name": "动能减少量",
+                "symbol": "△E_k"
+            },
+            {
+                "name": "物体动能",
+                "symbol": "E_k"
+            }
+        ]
+    },
+    {
+        "key": "a06cc3f0-ba59-11ee-b888-0c96e61a84b2",
+        "formula": "P=P_1×P_2/(P_1+P_2)",
+        "symbol_map": [
+            {
+                "name": "整个电路消耗的功率",
+                "symbol": "P"
+            },
+            {
+                "name": "电加热器1消耗的功率",
+                "symbol": "P_1"
+            },
+            {
+                "name": "电加热器2消耗的功率",
+                "symbol": "P_2"
+            }
+        ]
+    },
+    {
+        "key": "a064ae92-ba59-11ee-9ca0-0c96e61a84b2",
+        "formula": "U_D=U_单节*干电池数量",
+        "symbol_map": [
+            {
+                "name": "工作电压",
+                "symbol": "U_D"
+            },
+            {
+                "name": "单节电池电压",
+                "symbol": "U_单节"
+            },
+            {
+                "name": "电池数量",
+                "symbol": "干电池数量"
+            }
+        ]
+    },
+    {
+        "key": "a06cc3f1-ba59-11ee-8607-0c96e61a84b2",
+        "formula": "s_总=s_1+s_2+s_3",
+        "symbol_map": [
+            {
+                "name": "全程总路程",
+                "symbol": "s_总"
+            },
+            {
+                "name": "加速阶段路程",
+                "symbol": "s_1"
+            },
+            {
+                "name": "匀速阶段路程",
+                "symbol": "s_2"
+            },
+            {
+                "name": "减速阶段路程",
+                "symbol": "s_3"
+            }
+        ]
+    },
+    {
+        "key": "a06cc3f2-ba59-11ee-9573-0c96e61a84b2",
+        "formula": "t_总=t_1+t_2+t_3",
+        "symbol_map": [
+            {
+                "name": "全程总时间",
+                "symbol": "t_总"
+            },
+            {
+                "name": "加速阶段时间",
+                "symbol": "t_1"
+            },
+            {
+                "name": "匀速阶段时间",
+                "symbol": "t_2"
+            },
+            {
+                "name": "减速阶段时间",
+                "symbol": "t_3"
+            }
+        ]
+    },
+    {
+        "key": "a06cc3f3-ba59-11ee-a7b1-0c96e61a84b2",
+        "formula": "Q_1=(U^2)/R_1×t",
+        "symbol_map": [
+            {
+                "name": "电阻丝产生的热量",
+                "symbol": "Q_1"
+            },
+            {
+                "name": "电源电压",
+                "symbol": "U"
+            },
+            {
+                "name": "电阻",
+                "symbol": "R_1"
+            },
+            {
+                "name": "时间",
+                "symbol": "t"
+            }
+        ]
+    },
+    {
+        "key": "a06cc3f5-ba59-11ee-8f40-0c96e61a84b2",
+        "formula": "η=(W+W_电)/Q",
+        "symbol_map": [
+            {
+                "name": "内燃机的效率",
+                "symbol": "η"
+            },
+            {
+                "name": "总能量输出",
+                "symbol": "W"
+            },
+            {
+                "name": "蓄电池增加的电能",
+                "symbol": "W_电"
+            },
+            {
+                "name": "消耗的燃料总能量",
+                "symbol": "Q"
+            }
+        ]
+    },
+    {
+        "key": "a06cc3f6-ba59-11ee-b468-0c96e61a84b2",
+        "formula": "天然气释放的热量=W",
+        "symbol_map": [
+            {
+                "name": "天然气释放的热量",
+                "symbol": "天然气释放的热量"
+            },
+            {
+                "name": "消耗的电能",
+                "symbol": "W"
+            }
+        ]
+    },
+    {
+        "key": "a06cc3f9-ba59-11ee-96ba-0c96e61a84b2",
+        "formula": "V=S×s",
+        "symbol_map": [
+            {
+                "name": "风的体积",
+                "symbol": "V"
+            },
+            {
+                "name": "轮叶转动形成的面积",
+                "symbol": "S"
+            },
+            {
+                "name": "风通过距离",
+                "symbol": "s"
+            }
+        ]
+    },
+    {
+        "key": "a06cc3fd-ba59-11ee-8bc7-0c96e61a84b2",
+        "formula": "F_升=G+f",
+        "symbol_map": [
+            {
+                "name": "升力",
+                "symbol": "F_升"
+            },
+            {
+                "name": "无人机重力",
+                "symbol": "G"
+            },
+            {
+                "name": "阻力",
+                "symbol": "f"
+            }
+        ]
+    },
+    {
+        "key": "a06cc3fe-ba59-11ee-8b23-0c96e61a84b2",
+        "formula": "W_有用=F_升×h",
+        "symbol_map": [
+            {
+                "name": "有用功",
+                "symbol": "W_有用"
+            },
+            {
+                "name": "升力",
+                "symbol": "F_升"
+            },
+            {
+                "name": "上升高度",
+                "symbol": "h"
+            }
+        ]
+    },
+    {
+        "key": "a06cc401-ba59-11ee-a3ba-0c96e61a84b2",
+        "formula": "V=h×l×s",
+        "symbol_map": [
+            {
+                "name": "水的体积",
+                "symbol": "V"
+            },
+            {
+                "name": "水深",
+                "symbol": "h"
+            },
+            {
+                "name": "水面宽",
+                "symbol": "l"
+            },
+            {
+                "name": "水在1h内通过的距离",
+                "symbol": "s"
+            }
+        ]
+    },
+    {
+        "key": "a06cc402-ba59-11ee-87f0-0c96e61a84b2",
+        "formula": "P_2=P_2单×2",
+        "symbol_map": [
+            {
+                "name": "总功率",
+                "symbol": "P_2"
+            },
+            {
+                "name": "额定功率",
+                "symbol": "P_2单"
+            }
+        ]
+    },
+    {
+        "key": "a06cc403-ba59-11ee-b2e3-0c96e61a84b2",
+        "formula": "P_{总}=P_1+P_2+P_3+P_4+P_5",
+        "symbol_map": [
+            {
+                "name": "总功率",
+                "symbol": "P_{总}"
+            },
+            {
+                "name": "日光灯1功率",
+                "symbol": "P_1"
+            },
+            {
+                "name": "两盏日光灯功率",
+                "symbol": "P_2"
+            },
+            {
+                "name": "电视机功率",
+                "symbol": "P_3"
+            },
+            {
+                "name": "电冰箱功率",
+                "symbol": "P_4"
+            },
+            {
+                "name": "洗衣机功率",
+                "symbol": "P_5"
+            }
+        ]
+    },
+    {
+        "key": "a06cc404-ba59-11ee-9033-0c96e61a84b2",
+        "formula": "W_总=E_满-E_剩",
+        "symbol_map": [
+            {
+                "name": "消耗的电能",
+                "symbol": "W_总"
+            },
+            {
+                "name": "电池充满时的容量",
+                "symbol": "E_满"
+            },
+            {
+                "name": "行驶20km后电池剩余容量",
+                "symbol": "E_剩"
+            }
+        ]
+    },
+    {
+        "key": "a06cc405-ba59-11ee-a969-0c96e61a84b2",
+        "formula": "l=R_单/R_每米",
+        "symbol_map": [
+            {
+                "name": "单根输电线的长度",
+                "symbol": "l"
+            },
+            {
+                "name": "单根输电线的电阻",
+                "symbol": "R_单"
+            },
+            {
+                "name": "每米电阻",
+                "symbol": "R_每米"
+            }
+        ]
+    },
+    {
+        "key": "a06cc406-ba59-11ee-a505-0c96e61a84b2",
+        "formula": "l_短路=l/2",
+        "symbol_map": [
+            {
+                "name": "短路处离甲地的距离",
+                "symbol": "l_短路"
+            },
+            {
+                "name": "单根输电线的长度",
+                "symbol": "l"
+            }
+        ]
+    },
+    {
+        "key": "a06cc40f-ba59-11ee-b26d-0c96e61a84b2",
+        "formula": "q=E/m_木柴",
+        "symbol_map": [
+            {
+                "name": "干木柴的热值",
+                "symbol": "q"
+            },
+            {
+                "name": "身体消耗的能量",
+                "symbol": "E"
+            },
+            {
+                "name": "干木柴的质量",
+                "symbol": "m_木柴"
+            }
+        ]
+    },
+    {
+        "key": "a064aeba-ba59-11ee-9977-0c96e61a84b2",
+        "formula": "W=p*S*s",
+        "symbol_map": [
+            {
+                "name": "做功量",
+                "symbol": "W"
+            },
+            {
+                "name": "平均压强",
+                "symbol": "p"
+            },
+            {
+                "name": "活塞面积",
+                "symbol": "S"
+            },
+            {
+                "name": "活塞行程",
+                "symbol": "s"
+            }
+        ]
+    },
+    {
+        "key": "a06cc410-ba59-11ee-814c-0c96e61a84b2",
+        "formula": "做功次数=转速×时间×每两圈做功一次",
+        "symbol_map": [
+            {
+                "name": "做功次数",
+                "symbol": "做功次数"
+            },
+            {
+                "name": "飞轮转速",
+                "symbol": "转速"
+            },
+            {
+                "name": "时间",
+                "symbol": "时间"
+            },
+            {
+                "name": "每两圈做功一次",
+                "symbol": "每两圈做功一次"
+            }
+        ]
+    },
+    {
+        "key": "a06cc412-ba59-11ee-9f9c-0c96e61a84b2",
+        "formula": "总成本费=水费+燃气费",
+        "symbol_map": [
+            {
+                "name": "总成本费",
+                "symbol": "总成本费"
+            },
+            {
+                "name": "水费",
+                "symbol": "水费"
+            },
+            {
+                "name": "燃气费",
+                "symbol": "燃气费"
+            }
+        ]
+    },
+    {
+        "key": "a06cc414-ba59-11ee-9b9e-0c96e61a84b2",
+        "formula": "S=长×宽",
+        "symbol_map": [
+            {
+                "name": "受力面积",
+                "symbol": "S"
+            },
+            {
+                "name": "长(cm)",
+                "symbol": "长"
+            },
+            {
+                "name": "宽(cm)",
+                "symbol": "宽"
+            }
+        ]
+    },
+    {
+        "key": "a06cc418-ba59-11ee-b7f7-0c96e61a84b2",
+        "formula": "q_{可燃冰}=k×q_{天然气}",
+        "symbol_map": [
+            {
+                "name": "可燃冰的热值",
+                "symbol": "q_{可燃冰}"
+            },
+            {
+                "name": "可燃冰与天然气热值比",
+                "symbol": "k"
+            },
+            {
+                "name": "天然气的热值",
+                "symbol": "q_{天然气}"
+            }
+        ]
+    },
+    {
+        "key": "a06cc419-ba59-11ee-8a5c-0c96e61a84b2",
+        "formula": "U_总=U_额+I×R",
+        "symbol_map": [
+            {
+                "name": "电源两端电压",
+                "symbol": "U_总"
+            },
+            {
+                "name": "小灯泡额定电压",
+                "symbol": "U_额"
+            },
+            {
+                "name": "电流",
+                "symbol": "I"
+            },
+            {
+                "name": "电阻",
+                "symbol": "R"
+            }
+        ]
+    },
+    {
+        "key": "a06cc41a-ba59-11ee-b857-0c96e61a84b2",
+        "formula": "c_乙=c_甲×m_甲×△t_甲/(m_乙×△t_乙)",
+        "symbol_map": [
+            {
+                "name": "乙的比热容",
+                "symbol": "c_乙"
+            },
+            {
+                "name": "甲的比热容",
+                "symbol": "c_甲"
+            },
+            {
+                "name": "甲的质量",
+                "symbol": "m_甲"
+            },
+            {
+                "name": "乙的质量",
+                "symbol": "m_乙"
+            },
+            {
+                "name": "甲的温升",
+                "symbol": "△t_甲"
+            },
+            {
+                "name": "乙的温升",
+                "symbol": "△t_乙"
+            }
+        ]
+    },
+    {
+        "key": "a06cc421-ba59-11ee-8aab-0c96e61a84b2",
+        "formula": "m_排=W×-",
+        "symbol_map": [
+            {
+                "name": "污染物质量",
+                "symbol": "m_排"
+            },
+            {
+                "name": "牵引力做的功",
+                "symbol": "W"
+            },
+            {
+                "name": "每焦耳功对应的污染物排放量",
+                "symbol": "-"
+            }
+        ]
+    },
+    {
+        "key": "a06cc422-ba59-11ee-ade4-0c96e61a84b2",
+        "formula": "W_月=W_节×天数",
+        "symbol_map": [
+            {
+                "name": "一月可节约的电能",
+                "symbol": "W_月"
+            },
+            {
+                "name": "每天节约的电能",
+                "symbol": "W_节"
+            },
+            {
+                "name": "天数",
+                "symbol": "天数"
+            }
+        ]
+    },
+    {
+        "key": "a06cc423-ba59-11ee-b80a-0c96e61a84b2",
+        "formula": "W=W_制冷+W_送风",
+        "symbol_map": [
+            {
+                "name": "总消耗电能",
+                "symbol": "W"
+            },
+            {
+                "name": "压缩机消耗的电能",
+                "symbol": "W_制冷"
+            },
+            {
+                "name": "送风机消耗的电能",
+                "symbol": "W_送风"
+            }
+        ]
+    },
+    {
+        "key": "a0671245-ba59-11ee-a57b-0c96e61a84b2",
+        "formula": "γ=c/λ",
+        "symbol_map": [
+            {
+                "name": "频率",
+                "symbol": "γ"
+            },
+            {
+                "name": "波速",
+                "symbol": "c"
+            },
+            {
+                "name": "波长",
+                "symbol": "λ"
+            }
+        ]
+    },
+    {
+        "key": "a06cc424-ba59-11ee-8417-0c96e61a84b2",
+        "formula": "γ=c/λ",
+        "symbol_map": [
+            {
+                "name": "频率",
+                "symbol": "γ"
+            },
+            {
+                "name": "波长",
+                "symbol": "λ"
+            }
+        ]
+    },
+    {
+        "key": "a06cc425-ba59-11ee-a680-0c96e61a84b2",
+        "formula": "n=Q/e",
+        "symbol_map": [
+            {
+                "name": "电子数",
+                "symbol": "n"
+            },
+            {
+                "name": "总电荷量",
+                "symbol": "Q"
+            },
+            {
+                "name": "单个电子的电量",
+                "symbol": "e"
+            }
+        ]
+    },
+    {
+        "key": "a06cc427-ba59-11ee-b67d-0c96e61a84b2",
+        "formula": "S=P_1/(P_2×转换效率)",
+        "symbol_map": [
+            {
+                "name": "太阳能电池板面积",
+                "symbol": "S"
+            },
+            {
+                "name": "电动机功率",
+                "symbol": "P_1"
+            },
+            {
+                "name": "太阳光辐射到电池板上的功率",
+                "symbol": "P_2"
+            },
+            {
+                "name": "转换效率",
+                "symbol": "转换效率"
+            }
+        ]
+    },
+    {
+        "key": "a06cc428-ba59-11ee-bc6d-0c96e61a84b2",
+        "formula": "LED灯与LED灯与白炽灯功率比值比值=P_额LED/P_额白炽",
+        "symbol_map": [
+            {
+                "name": "LED灯与LED灯与白炽灯功率比值比值",
+                "symbol": "LED灯与LED灯与白炽灯功率比值比值"
+            },
+            {
+                "name": "LED灯功率",
+                "symbol": "P_额LED"
+            },
+            {
+                "name": "LED灯与白炽灯功率比值",
+                "symbol": "P_额白炽"
+            }
+        ]
+    },
+    {
+        "key": "a06cc42a-ba59-11ee-a14e-0c96e61a84b2",
+        "formula": "s_总=s_单程×2",
+        "symbol_map": [
+            {
+                "name": "总路程",
+                "symbol": "s_总"
+            },
+            {
+                "name": "单程路程",
+                "symbol": "s_单程"
+            }
+        ]
+    },
+    {
+        "key": "a06cc42d-ba59-11ee-baa2-0c96e61a84b2",
+        "formula": "总共吸收的热量=Q_吸1+Q_吸2",
+        "symbol_map": [
+            {
+                "name": "总共吸收的热量",
+                "symbol": "总共吸收的热量"
+            },
+            {
+                "name": "冰从-1℃升温到0℃吸收的热量",
+                "symbol": "Q_吸1"
+            },
+            {
+                "name": "冰熔化成0℃的水吸收的热量",
+                "symbol": "Q_吸2"
+            }
+        ]
+    },
+    {
+        "key": "a06cc42e-ba59-11ee-9834-0c96e61a84b2",
+        "formula": "G_配=总重力-F_拉",
+        "symbol_map": [
+            {
+                "name": "配重的重力",
+                "symbol": "G_配"
+            },
+            {
+                "name": "总重力",
+                "symbol": "总重力"
+            },
+            {
+                "name": "拉力",
+                "symbol": "F_拉"
+            }
+        ]
+    },
+    {
+        "key": "a06cc42f-ba59-11ee-be62-0c96e61a84b2",
+        "formula": "P'=U'^2/R",
+        "symbol_map": [
+            {
+                "name": "功率",
+                "symbol": "P'"
+            },
+            {
+                "name": "电压",
+                "symbol": "U'"
+            },
+            {
+                "name": "电阻",
+                "symbol": "R"
+            }
+        ]
+    },
+    {
+        "key": "a06cc430-ba59-11ee-b026-0c96e61a84b2",
+        "formula": "P_R=I_L^2×R",
+        "symbol_map": [
+            {
+                "name": "串联电阻消耗的电功率",
+                "symbol": "P_R"
+            },
+            {
+                "name": "灯泡正常发光时的电流",
+                "symbol": "I_L"
+            },
+            {
+                "name": "串联电阻",
+                "symbol": "R"
+            }
+        ]
+    },
+    {
+        "key": "a06cc435-ba59-11ee-b160-0c96e61a84b2",
+        "formula": "V_滴=V_总/滴数",
+        "symbol_map": [
+            {
+                "name": "一滴汽油的体积",
+                "symbol": "V_滴"
+            },
+            {
+                "name": "总体积",
+                "symbol": "V_总"
+            },
+            {
+                "name": "滴数",
+                "symbol": "滴数"
+            }
+        ]
+    },
+    {
+        "key": "a06cc436-ba59-11ee-9c4e-0c96e61a84b2",
+        "formula": "d=V_滴/S",
+        "symbol_map": [
+            {
+                "name": "汽油分子直径",
+                "symbol": "d"
+            },
+            {
+                "name": "石油体积",
+                "symbol": "V_滴"
+            },
+            {
+                "name": "油膜面积",
+                "symbol": "S"
+            }
+        ]
+    },
+    {
+        "key": "a06cc437-ba59-11ee-b92b-0c96e61a84b2",
+        "formula": "λ=3×10^8m/s/f",
+        "symbol_map": [
+            {
+                "name": "波长(λ)",
+                "symbol": "λ"
+            },
+            {
+                "name": "频率",
+                "symbol": "f"
+            }
+        ]
+    },
+    {
+        "key": "a06cc43b-ba59-11ee-8a67-0c96e61a84b2",
+        "formula": "Δt′=min(t_理论,100°C)-t_初",
+        "symbol_map": [
+            {
+                "name": "水实际升高温度Δt^{′}",
+                "symbol": "Δt′"
+            },
+            {
+                "name": "理论上的末温度",
+                "symbol": "t_理论"
+            },
+            {
+                "name": "初始温度",
+                "symbol": "t_初"
+            }
+        ]
+    },
+    {
+        "key": "a06cc43c-ba59-11ee-b260-0c96e61a84b2",
+        "formula": "n=m/m_0",
+        "symbol_map": [
+            {
+                "name": "运送次数",
+                "symbol": "n"
+            },
+            {
+                "name": "混凝土总质量",
+                "symbol": "m"
+            },
+            {
+                "name": "每次运送的混凝土量",
+                "symbol": "m_0"
+            }
+        ]
+    },
+    {
+        "key": "a06cc43d-ba59-11ee-b576-0c96e61a84b2",
+        "formula": "W_总=Q+W_电",
+        "symbol_map": [
+            {
+                "name": "总能量",
+                "symbol": "W_总"
+            },
+            {
+                "name": "氢气完全燃烧放出的热量",
+                "symbol": "Q"
+            },
+            {
+                "name": "电池电能",
+                "symbol": "W_电"
+            }
+        ]
+    },
+    {
+        "key": "a06cc43e-ba59-11ee-a5ba-0c96e61a84b2",
+        "formula": "Q_{总}=n×Q_{单支}",
+        "symbol_map": [
+            {
+                "name": "总太阳能量",
+                "symbol": "Q_{总}"
+            },
+            {
+                "name": "集热管数量",
+                "symbol": "n"
+            },
+            {
+                "name": "单支集热管每小时接收的太阳能",
+                "symbol": "Q_{单支}"
+            }
+        ]
+    },
+    {
+        "key": "a06cc43f-ba59-11ee-80a3-0c96e61a84b2",
+        "formula": "Δt_铜=Q_吸/(c_铜×m_铜)",
+        "symbol_map": [
+            {
+                "name": "温度变化",
+                "symbol": "Δt_铜"
+            },
+            {
+                "name": "热量变化",
+                "symbol": "Q_吸"
+            },
+            {
+                "name": "比热容",
+                "symbol": "c_铜"
+            },
+            {
+                "name": "质量",
+                "symbol": "m_铜"
+            }
+        ]
+    },
+    {
+        "key": "a06cc440-ba59-11ee-a4e6-0c96e61a84b2",
+        "formula": "G=F×N",
+        "symbol_map": [
+            {
+                "name": "轿车的总重力",
+                "symbol": "G"
+            },
+            {
+                "name": "单个车轮对地面的压力",
+                "symbol": "F"
+            },
+            {
+                "name": "车轮个数",
+                "symbol": "N"
+            }
+        ]
+    },
+    {
+        "key": "a06cc442-ba59-11ee-b5c4-0c96e61a84b2",
+        "formula": "ΔF=G_{总}",
+        "symbol_map": [
+            {
+                "name": "增加的压力",
+                "symbol": "ΔF"
+            },
+            {
+                "name": "乘客总重力",
+                "symbol": "G_{总}"
+            }
+        ]
+    },
+    {
+        "key": "a06cc443-ba59-11ee-a3eb-0c96e61a84b2",
+        "formula": "m_油=(W/η)/q",
+        "symbol_map": [
+            {
+                "name": "消耗汽油的质量",
+                "symbol": "m_油"
+            },
+            {
+                "name": "阻力做功",
+                "symbol": "W"
+            },
+            {
+                "name": "汽油的热值",
+                "symbol": "q"
+            },
+            {
+                "name": "效率",
+                "symbol": "η"
+            }
+        ]
+    },
+    {
+        "key": "a06cc444-ba59-11ee-a6d4-0c96e61a84b2",
+        "formula": "L=n×d",
+        "symbol_map": [
+            {
+                "name": "总长度",
+                "symbol": "L"
+            },
+            {
+                "name": "水分子数量",
+                "symbol": "n"
+            },
+            {
+                "name": "水分子直径",
+                "symbol": "d"
+            }
+        ]
+    },
+    {
+        "key": "a06cc445-ba59-11ee-bd3a-0c96e61a84b2",
+        "formula": "C=2×π×r",
+        "symbol_map": [
+            {
+                "name": "地球周长",
+                "symbol": "C"
+            },
+            {
+                "name": "地球半径",
+                "symbol": "r"
+            }
+        ]
+    },
+    {
+        "key": "a06cc446-ba59-11ee-b095-0c96e61a84b2",
+        "formula": "h=L/C",
+        "symbol_map": [
+            {
+                "name": "排列可绕地球的圈数",
+                "symbol": "h"
+            },
+            {
+                "name": "总长度",
+                "symbol": "L"
+            },
+            {
+                "name": "地球周长",
+                "symbol": "C"
+            }
+        ]
+    },
+    {
+        "key": "df1eb2a1-bb17-11ee-9ad2-0c96e61a84b2",
+        "formula": "Q=m*q",
+        "symbol_map": [
+            {
+                "name": "热量",
+                "symbol": "Q"
+            },
+            {
+                "name": "质量",
+                "symbol": "m"
+            },
+            {
+                "name": "热值",
+                "symbol": "q"
+            }
+        ]
+    },
+    {
+        "key": "3eeb26e6-bb18-11ee-9532-0c96e61a84b2",
+        "formula": "P=F*v",
+        "symbol_map": [
+            {
+                "name": "功率",
+                "symbol": "P"
+            },
+            {
+                "name": "力",
+                "symbol": "F"
+            },
+            {
+                "name": "速度",
+                "symbol": "v"
+            }
+        ]
+    },
+    {
+        "key": "a8195e16-bb19-11ee-b6e3-0c96e61a84b2",
+        "formula": "W=F*s",
+        "symbol_map": [
+            {
+                "name": "功",
+                "symbol": "W"
+            },
+            {
+                "name": "力",
+                "symbol": "F"
+            },
+            {
+                "name": "路程",
+                "symbol": "s"
+            }
+        ]
+    },
+    {
+        "key": "306465e6-bb1a-11ee-93a5-0c96e61a84b2",
+        "formula": "W=P*t",
+        "symbol_map": [
+            {
+                "name": "功",
+                "symbol": "W"
+            },
+            {
+                "name": "功率",
+                "symbol": "P"
+            },
+            {
+                "name": "时间",
+                "symbol": "t"
+            }
+        ]
+    },
+    {
+        "key": "7d3d7b10-bb1b-11ee-bd45-0c96e61a84b2",
+        "formula": "F=p*S",
+        "symbol_map": [
+            {
+                "name": "力",
+                "symbol": "F"
+            },
+            {
+                "name": "压强",
+                "symbol": "p"
+            },
+            {
+                "name": "面积",
+                "symbol": "S"
+            }
+        ]
+    },
+    {
+        "key": "38518545-bb2c-11ee-ae6c-0c96e61a84b2",
+        "formula": "W_总=n*W",
+        "symbol_map": [
+            {
+                "name": "数量",
+                "symbol": "n"
+            },
+            {
+                "name": "总量",
+                "symbol": "W_总"
+            },
+            {
+                "name": "单量",
+                "symbol": "W"
+            }
+        ]
+    },
+    {
+        "key": "587bee42-bb2e-11ee-8dde-0c96e61a84b2",
+        "formula": "W_0=p×V",
+        "symbol_map": [
+            {
+                "name": "燃气对活塞做的功",
+                "symbol": "W_0"
+            },
+            {
+                "name": "压强",
+                "symbol": "p"
+            },
+            {
+                "name": "气缸容积",
+                "symbol": "V"
+            }
+        ]
+    },
+    {
+        "key": "b7cdbeb9-bb2e-11ee-a74b-0c96e61a84b2",
+        "formula": "Q=I*t",
+        "symbol_map": [
+            {
+                "name": "电荷量",
+                "symbol": "Q"
+            },
+            {
+                "name": "电流",
+                "symbol": "I"
+            },
+            {
+                "name": "时间",
+                "symbol": "t"
+            }
+        ]
+    },
+    {
+        "key": "124d102f-bb2f-11ee-980f-0c96e61a84b2",
+        "formula": "W=U×Q",
+        "symbol_map": [
+            {
+                "name": "电能",
+                "symbol": "W"
+            },
+            {
+                "name": "电压",
+                "symbol": "U"
+            },
+            {
+                "name": "电量",
+                "symbol": "Q"
+            }
+        ]
+    },
+    {
+        "key": "74fe14b3-bcbb-11ee-a1ad-0c96e61a84b2",
+        "formula": "Δm=m_初-m_末",
+        "symbol_map": [
+            {
+                "name": "质量变化",
+                "symbol": "Δm"
+            },
+            {
+                "name": "初始质量",
+                "symbol": "m_初"
+            },
+            {
+                "name": "最后质量",
+                "symbol": "m_末"
+            }
+        ]
+    }
+]
