@@ -4,15 +4,18 @@
         "formula": "飞行距离=v*t",
         "symbol_map": [
             {
-                "name": "距离",
+                "zh_name": "距离",
+                "en_name": "distance",
                 "symbol": "飞行距离"
             },
             {
-                "name": "速度",
+                "zh_name": "速度",
+                "en_name": "speed",
                 "symbol": "v"
             },
             {
-                "name": "时间",
+                "zh_name": "时间",
+                "en_name": "time",
                 "symbol": "t"
             }
         ]
@@ -22,15 +25,18 @@
         "formula": "t_初=t_末-Δt",
         "symbol_map": [
             {
-                "name": "初温",
+                "zh_name": "初温",
+                "en_name": "Initial temperature",
                 "symbol": "t_初"
             },
             {
-                "name": "末温",
+                "zh_name": "末温",
+                "en_name": "Final temperature",
                 "symbol": "t_末"
             },
             {
-                "name": "温度变化",
+                "zh_name": "温度变化",
+                "en_name": "Temperature change",
                 "symbol": "Δt"
             }
         ]
@@ -40,11 +46,13 @@
         "formula": "Q_放=W_电",
         "symbol_map": [
             {
-                "name": "转化的内能",
+                "zh_name": "转化的内能",
+                "en_name": "converted internal energy",
                 "symbol": "Q_放"
             },
             {
-                "name": "能量",
+                "zh_name": "能量",
+                "en_name": "energy",
                 "symbol": "W_电"
             }
         ]
@@ -54,15 +62,18 @@
         "formula": "η'=Q_吸'/Q_放'*100%",
         "symbol_map": [
             {
-                "name": "效率",
+                "zh_name": "效率",
+                "en_name": "Efficiency",
                 "symbol": "η'"
             },
             {
-                "name": "转化能量",
+                "zh_name": "转化能量",
+                "en_name": "Converted Energy",
                 "symbol": "Q_吸'"
             },
             {
-                "name": "输入能量",
+                "zh_name": "输入能量",
+                "en_name": "Input Energy",
                 "symbol": "Q_放'"
             }
         ]
@@ -72,11 +83,13 @@
         "formula": "Q_吸=Q_放",
         "symbol_map": [
             {
-                "name": "吸收能量",
+                "zh_name": "吸收能量",
+                "en_name": "Absorbed Energy",
                 "symbol": "Q_吸"
             },
             {
-                "name": "放出能量",
+                "zh_name": "放出能量",
+                "en_name": "Released Energy",
                 "symbol": "Q_放"
             }
         ]
@@ -86,11 +99,13 @@
         "formula": "F牵=f",
         "symbol_map": [
             {
-                "name": "阻力",
+                "zh_name": "阻力",
+                "en_name": "Resistance",
                 "symbol": "f"
             },
             {
-                "name": "动力",
+                "zh_name": "动力",
+                "en_name": "Power",
                 "symbol": "F牵"
             }
         ]
@@ -100,15 +115,18 @@
         "formula": "I_实=U_实/R_灯",
         "symbol_map": [
             {
-                "name": "电流",
+                "zh_name": "电流",
+                "en_name": "Current",
                 "symbol": "I_实"
             },
             {
-                "name": "电压",
+                "zh_name": "电压",
+                "en_name": "Voltage",
                 "symbol": "U_实"
             },
             {
-                "name": "电阻",
+                "zh_name": "电阻",
+                "en_name": "Resistance",
                 "symbol": "R_灯"
             }
         ]
@@ -118,15 +136,18 @@
         "formula": "R=U_额^2/P_额",
         "symbol_map": [
             {
-                "name": "电阻",
+                "zh_name": "电阻",
+                "en_name": "Resistance",
                 "symbol": "R"
             },
             {
-                "name": "电压",
+                "zh_name": "电压",
+                "en_name": "Voltage",
                 "symbol": "U_额"
             },
             {
-                "name": "功率",
+                "zh_name": "功率",
+                "en_name": "Power",
                 "symbol": "P_额"
             }
         ]
@@ -136,19 +157,23 @@
         "formula": "Q_吸=P*t*η",
         "symbol_map": [
             {
-                "name": "物体吸收的热量",
+                "zh_name": "物体吸收的热量",
+                "en_name": "Heat absorbed by the object",
                 "symbol": "Q_吸"
             },
             {
-                "name": "热源功率",
+                "zh_name": "热源功率",
+                "en_name": "Power of the heat source",
                 "symbol": "P"
             },
             {
-                "name": "时间",
+                "zh_name": "时间",
+                "en_name": "Time",
                 "symbol": "t"
             },
             {
-                "name": "效率",
+                "zh_name": "效率",
+                "en_name": "Efficiency",
                 "symbol": "η"
             }
         ]
@@ -158,15 +183,18 @@
         "formula": "P_已用=2×P_灯+P_电视",
         "symbol_map": [
             {
-                "name": "已接入电路中的用电器总功率",
+                "zh_name": "已接入电路中的用电器总功率",
+                "en_name": "Total power of appliances connected to the circuit",
                 "symbol": "P_已用"
             },
             {
-                "name": "单盏电灯的功率",
+                "zh_name": "单盏电灯的功率",
+                "en_name": "Power of a single light bulb",
                 "symbol": "P_灯"
             },
             {
-                "name": "电视机的功率",
+                "zh_name": "电视机的功率",
+                "en_name": "Power of the television",
                 "symbol": "P_电视"
             }
         ]
@@ -176,15 +204,18 @@
         "formula": "P_剩余=P_总-P_已用",
         "symbol_map": [
             {
-                "name": "节约功率",
+                "zh_name": "节约功率",
+                "en_name": "Saved Power",
                 "symbol": "P_剩余"
             },
             {
-                "name": "额定功率",
+                "zh_name": "额定功率",
+                "en_name": "Rated Power",
                 "symbol": "P_总"
             },
             {
-                "name": "压缩机发热功率",
+                "zh_name": "压缩机发热功率",
+                "en_name": "Compressor Heating Power",
                 "symbol": "P_已用"
             }
         ]
@@ -194,15 +225,18 @@
         "formula": "节约电费=电价×W_月",
         "symbol_map": [
             {
-                "name": "节约的电费",
+                "zh_name": "节约的电费",
+                "en_name": "Saved electricity cost",
                 "symbol": "节约电费"
             },
             {
-                "name": "每度电的价格",
+                "zh_name": "每度电的价格",
+                "en_name": "Price per unit of electricity",
                 "symbol": "电价"
             },
             {
-                "name": "一个月节约的总电量",
+                "zh_name": "一个月节约的总电量",
+                "en_name": "Total amount of electricity saved in a month",
                 "symbol": "W_月"
             }
         ]
@@ -212,15 +246,18 @@
         "formula": "m_燃油=m_燃气*空燃比的质量比例",
         "symbol_map": [
             {
-                "name": "燃油的质量",
+                "zh_name": "燃油的质量",
+                "en_name": "Mass of fuel",
                 "symbol": "m_燃油"
             },
             {
-                "name": "燃气的总质量",
+                "zh_name": "燃气的总质量",
+                "en_name": "Total mass of gas",
                 "symbol": "m_燃气"
             },
             {
-                "name": "燃油在混合物中的比例",
+                "zh_name": "燃油在混合物中的比例",
+                "en_name": "Proportion of fuel in the mixture",
                 "symbol": "空燃比的质量比例"
             }
         ]
@@ -230,15 +267,18 @@
         "formula": "V = m_水 / ρ_水",
         "symbol_map": [
             {
-                "name": "体积",
+                "zh_name": "体积",
+                "en_name": "Volume",
                 "symbol": "V"
             },
             {
-                "name": "水的质量",
+                "zh_name": "水的质量",
+                "en_name": "Mass of water",
                 "symbol": "m_水"
             },
             {
-                "name": "密度",
+                "zh_name": "密度",
+                "en_name": "Density",
                 "symbol": "ρ_水"
             }
         ]
@@ -248,15 +288,18 @@
         "formula": "F_浮=m_排*g",
         "symbol_map": [
             {
-                "name": "力",
+                "zh_name": "力",
+                "en_name": "Force",
                 "symbol": "F_浮"
             },
             {
-                "name": "质量",
+                "zh_name": "质量",
+                "en_name": "Mass",
                 "symbol": "m_排"
             },
             {
-                "name": "重力加速度",
+                "zh_name": "重力加速度",
+                "en_name": "Gravity Acceleration",
                 "symbol": "g"
             }
         ]
@@ -266,15 +309,18 @@
         "formula": "f_阻=μ×G",
         "symbol_map": [
             {
-                "name": "阻力",
+                "zh_name": "阻力",
+                "en_name": "Resistance",
                 "symbol": "f_阻"
             },
             {
-                "name": "车重",
+                "zh_name": "车重",
+                "en_name": "Car Weight",
                 "symbol": "G"
             },
             {
-                "name": "阻力系数",
+                "zh_name": "阻力系数",
+                "en_name": "Drag Coefficient",
                 "symbol": "μ"
             }
         ]
@@ -284,15 +330,18 @@
         "formula": "f=阻力系数*G",
         "symbol_map": [
             {
-                "name": "阻力",
+                "zh_name": "阻力",
+                "en_name": "Resistance",
                 "symbol": "f"
             },
             {
-                "name": "阻力系数",
+                "zh_name": "阻力系数",
+                "en_name": "Drag Coefficient",
                 "symbol": "阻力系数"
             },
             {
-                "name": "汽车总重力",
+                "zh_name": "汽车总重力",
+                "en_name": "Gross Vehicle Weight",
                 "symbol": "G"
             }
         ]
@@ -302,15 +351,18 @@
         "formula": "Q_散失=Q_放-Q_有用",
         "symbol_map": [
             {
-                "name": "散失的热量",
+                "zh_name": "散失的热量",
+                "en_name": "Lost heat",
                 "symbol": "Q_散失"
             },
             {
-                "name": "总吸收热量",
+                "zh_name": "总吸收热量",
+                "en_name": "Total absorbed heat",
                 "symbol": "Q_放"
             },
             {
-                "name": "散失热量",
+                "zh_name": "散失热量",
+                "en_name": "Dissipated heat",
                 "symbol": "Q_有用"
             }
         ]
@@ -320,19 +372,23 @@
         "formula": "W = U * I * t",
         "symbol_map": [
             {
-                "name": "电能",
+                "zh_name": "电能",
+                "en_name": "Electrical Energy",
                 "symbol": "W"
             },
             {
-                "name": "单位电压下的电能消耗量",
+                "zh_name": "单位电压下的电能消耗量",
+                "en_name": "Energy Consumption per Unit Voltage",
                 "symbol": "U"
             },
             {
-                "name": "单位电流下的电能消耗量",
+                "zh_name": "单位电流下的电能消耗量",
+                "en_name": "Energy Consumption per Unit Current",
                 "symbol": "I"
             },
             {
-                "name": "时间",
+                "zh_name": "时间",
+                "en_name": "Time",
                 "symbol": "t"
             }
         ]
@@ -342,19 +398,23 @@
         "formula": "Q=(I)^2×R×t",
         "symbol_map": [
             {
-                "name": "产生的热量",
+                "zh_name": "产生的热量",
+                "en_name": "Generated heat",
                 "symbol": "Q"
             },
             {
-                "name": "通过线圈的电流",
+                "zh_name": "通过线圈的电流",
+                "en_name": "Current through the coil",
                 "symbol": "I"
             },
             {
-                "name": "线圈电阻",
+                "zh_name": "线圈电阻",
+                "en_name": "Coil resistance",
                 "symbol": "R"
             },
             {
-                "name": "通电时间",
+                "zh_name": "通电时间",
+                "en_name": "Time of current passage",
                 "symbol": "t"
             }
         ]
@@ -364,15 +424,18 @@
         "formula": "W_机=W-Q",
         "symbol_map": [
             {
-                "name": "机械功",
+                "zh_name": "机械功",
+                "en_name": "Mechanical work",
                 "symbol": "W_机"
             },
             {
-                "name": "总电能",
+                "zh_name": "总电能",
+                "en_name": "Total electrical energy",
                 "symbol": "W"
             },
             {
-                "name": "非有效能量",
+                "zh_name": "非有效能量",
+                "en_name": "Ineffective energy",
                 "symbol": "Q"
             }
         ]
@@ -382,19 +445,23 @@
         "formula": "Q=I^2×R×t",
         "symbol_map": [
             {
-                "name": "热量",
+                "zh_name": "热量",
+                "en_name": "Heat",
                 "symbol": "Q"
             },
             {
-                "name": "电流",
+                "zh_name": "电流",
+                "en_name": "Electric Current",
                 "symbol": "I"
             },
             {
-                "name": "电阻",
+                "zh_name": "电阻",
+                "en_name": "Resistance",
                 "symbol": "R"
             },
             {
-                "name": "时间",
+                "zh_name": "时间",
+                "en_name": "Time",
                 "symbol": "t"
             }
         ]
@@ -404,19 +471,23 @@
         "formula": "m=Q/(q/ρ)",
         "symbol_map": [
             {
-                "name": "燃气质量",
+                "zh_name": "燃气质量",
+                "en_name": "Fuel mass",
                 "symbol": "m"
             },
             {
-                "name": "放出的热量",
+                "zh_name": "放出的热量",
+                "en_name": "Heat released",
                 "symbol": "Q"
             },
             {
-                "name": "燃气热值",
+                "zh_name": "燃气热值",
+                "en_name": "Fuel calorific value",
                 "symbol": "q"
             },
             {
-                "name": "燃气密度",
+                "zh_name": "燃气密度",
+                "en_name": "Fuel density",
                 "symbol": "ρ"
             }
         ]
@@ -426,15 +497,18 @@
         "formula": "m_瓶=m_总-m_水",
         "symbol_map": [
             {
-                "name": "人的质量",
+                "zh_name": "人的质量",
+                "en_name": "mass of person",
                 "symbol": "m_瓶"
             },
             {
-                "name": "整体总质量",
+                "zh_name": "整体总质量",
+                "en_name": "total mass",
                 "symbol": "m_总"
             },
             {
-                "name": "水的质量",
+                "zh_name": "水的质量",
+                "en_name": "mass of water",
                 "symbol": "m_水"
             }
         ]
@@ -444,19 +518,23 @@
         "formula": "Q_总=t_日照*每平方米面积每小时接收的太阳能*有效面积",
         "symbol_map": [
             {
-                "name": "太阳能总量",
+                "zh_name": "太阳能总量",
+                "en_name": "Total Solar Energy",
                 "symbol": "Q_总"
             },
             {
-                "name": "日照时间",
+                "zh_name": "日照时间",
+                "en_name": "Sunlight Duration",
                 "symbol": "t_日照"
             },
             {
-                "name": "每平方米面积每小时接收的太阳能",
+                "zh_name": "每平方米面积每小时接收的太阳能",
+                "en_name": "Solar Radiation per Hour per Square Meter",
                 "symbol": "每平方米面积每小时接收的太阳能"
             },
             {
-                "name": "有效面积",
+                "zh_name": "有效面积",
+                "en_name": "Effective Area",
                 "symbol": "有效面积"
             }
         ]
@@ -466,15 +544,18 @@
         "formula": "W_总=G*h",
         "symbol_map": [
             {
-                "name": "有用功",
+                "zh_name": "有用功",
+                "en_name": "Useful work",
                 "symbol": "W_总"
             },
             {
-                "name": "重力",
+                "zh_name": "重力",
+                "en_name": "Gravity",
                 "symbol": "G"
             },
             {
-                "name": "高度",
+                "zh_name": "高度",
+                "en_name": "Height",
                 "symbol": "h"
             }
         ]
@@ -484,15 +565,18 @@
         "formula": "每台发电机组平均年发电时间=W/P",
         "symbol_map": [
             {
-                "name": "每台发电机组平均年发电时间",
+                "zh_name": "每台发电机组平均年发电时间",
+                "en_name": "Average annual generating hours per unit",
                 "symbol": "每台发电机组平均年发电时间"
             },
             {
-                "name": "设计年发电量",
+                "zh_name": "设计年发电量",
+                "en_name": "Design annual power generation",
                 "symbol": "W"
             },
             {
-                "name": "总装机容量",
+                "zh_name": "总装机容量",
+                "en_name": "Total installed capacity",
                 "symbol": "P"
             }
         ]
@@ -502,15 +586,18 @@
         "formula": "U_实=U_额+ΔU",
         "symbol_map": [
             {
-                "name": "实际电压",
+                "zh_name": "实际电压",
+                "en_name": "Actual Voltage",
                 "symbol": "U_实"
             },
             {
-                "name": "额定电压",
+                "zh_name": "额定电压",
+                "en_name": "Rated Voltage",
                 "symbol": "U_额"
             },
             {
-                "name": "电压偏高值",
+                "zh_name": "电压偏高值",
+                "en_name": "Voltage Deviation (Positive)",
                 "symbol": "ΔU"
             }
         ]
@@ -520,19 +607,23 @@
         "formula": "t=E/(U×I)",
         "symbol_map": [
             {
-                "name": "充电时间",
+                "zh_name": "充电时间",
+                "en_name": "Charging Time",
                 "symbol": "t"
             },
             {
-                "name": "电池容量",
+                "zh_name": "电池容量",
+                "en_name": "Battery Capacity",
                 "symbol": "E"
             },
             {
-                "name": "输入电压",
+                "zh_name": "输入电压",
+                "en_name": "Input Voltage",
                 "symbol": "U"
             },
             {
-                "name": "输入电流",
+                "zh_name": "输入电流",
+                "en_name": "Input Current",
                 "symbol": "I"
             }
         ]
@@ -542,15 +633,18 @@
         "formula": "U=U_灯+U_滑",
         "symbol_map": [
             {
-                "name": "电源电压",
+                "zh_name": "电源电压",
+                "en_name": "Source voltage",
                 "symbol": "U"
             },
             {
-                "name": "灯泡两端电压",
+                "zh_name": "灯泡两端电压",
+                "en_name": "Voltage across the lamp",
                 "symbol": "U_灯"
             },
             {
-                "name": "外电路电阻两端电压",
+                "zh_name": "外电路电阻两端电压",
+                "en_name": "Voltage across the external circuit resistor",
                 "symbol": "U_滑"
             }
         ]
@@ -560,15 +654,18 @@
         "formula": "W=W_2-W_1",
         "symbol_map": [
             {
-                "name": "消耗的电能",
+                "zh_name": "消耗的电能",
+                "en_name": "Consumed Electrical Energy",
                 "symbol": "W"
             },
             {
-                "name": "对应消耗的电能部分",
+                "zh_name": "对应消耗的电能部分",
+                "en_name": "Corresponding Consumed Electrical Energy Portion",
                 "symbol": "W_2"
             },
             {
-                "name": "非消耗电能部分",
+                "zh_name": "非消耗电能部分",
+                "en_name": "Non-Consumed Electrical Energy Portion",
                 "symbol": "W_1"
             }
         ]
@@ -578,15 +675,18 @@
         "formula": "Q′=k×Q",
         "symbol_map": [
             {
-                "name": "熔化吸热量",
+                "zh_name": "熔化吸热量",
+                "en_name": "Latent Heat of Fusion",
                 "symbol": "Q′"
             },
             {
-                "name": "固体升温吸热量",
+                "zh_name": "固体升温吸热量",
+                "en_name": "Solid Heating Absorbed Heat",
                 "symbol": "Q"
             },
             {
-                "name": "比率",
+                "zh_name": "比率",
+                "en_name": "Ratio",
                 "symbol": "k"
             }
         ]
@@ -596,15 +696,18 @@
         "formula": "W=P×t_s",
         "symbol_map": [
             {
-                "name": "电水壶消耗的电能",
+                "zh_name": "电水壶消耗的电能",
+                "en_name": "Electric energy consumed by the electric kettle",
                 "symbol": "W"
             },
             {
-                "name": "电功率",
+                "zh_name": "电功率",
+                "en_name": "Electric power",
                 "symbol": "P"
             },
             {
-                "name": "时间",
+                "zh_name": "时间",
+                "en_name": "Time",
                 "symbol": "t_s"
             }
         ]
@@ -614,15 +717,18 @@
         "formula": "W=F×s×2",
         "symbol_map": [
             {
-                "name": "牵引力做的功",
+                "zh_name": "牵引力做的功",
+                "en_name": "Work done by traction force",
                 "symbol": "W"
             },
             {
-                "name": "拉力",
+                "zh_name": "拉力",
+                "en_name": "Tension force",
                 "symbol": "F"
             },
             {
-                "name": "位移",
+                "zh_name": "位移",
+                "en_name": "Displacement",
                 "symbol": "s"
             }
         ]
@@ -632,15 +738,18 @@
         "formula": "S=N_wheel*S_单轮",
         "symbol_map": [
             {
-                "name": "总面积",
+                "zh_name": "总面积",
+                "en_name": "Total area",
                 "symbol": "S"
             },
             {
-                "name": "数量",
+                "zh_name": "数量",
+                "en_name": "Quantity",
                 "symbol": "N_wheel"
             },
             {
-                "name": "单个面积",
+                "zh_name": "单个面积",
+                "en_name": "Individual area",
                 "symbol": "S_单轮"
             }
         ]
@@ -650,11 +759,13 @@
         "formula": "I = I_L",
         "symbol_map": [
             {
-                "name": "额定电流",
+                "zh_name": "额定电流",
+                "en_name": "Rated Current",
                 "symbol": "I_L"
             },
             {
-                "name": "实际电流",
+                "zh_name": "实际电流",
+                "en_name": "Actual Current",
                 "symbol": "I"
             }
         ]
@@ -664,15 +775,18 @@
         "formula": "W_动=K_初-K_末",
         "symbol_map": [
             {
-                "name": "减少的动能",
+                "zh_name": "减少的动能",
+                "en_name": "Decreased kinetic energy",
                 "symbol": "W_动"
             },
             {
-                "name": "初始动能",
+                "zh_name": "初始动能",
+                "en_name": "Initial kinetic energy",
                 "symbol": "K_初"
             },
             {
-                "name": "最终动能",
+                "zh_name": "最终动能",
+                "en_name": "Final kinetic energy",
                 "symbol": "K_末"
             }
         ]
@@ -682,15 +796,18 @@
         "formula": "m_总=m_车+m_蒜薹",
         "symbol_map": [
             {
-                "name": "总质量",
+                "zh_name": "总质量",
+                "en_name": "Total mass",
                 "symbol": "m_总"
             },
             {
-                "name": "空车质量",
+                "zh_name": "空车质量",
+                "en_name": "Empty vehicle mass",
                 "symbol": "m_车"
             },
             {
-                "name": "货物质量",
+                "zh_name": "货物质量",
+                "en_name": "Cargo mass",
                 "symbol": "m_蒜薹"
             }
         ]
@@ -700,19 +817,23 @@
         "formula": "W_有=P×t×η",
         "symbol_map": [
             {
-                "name": "有效能量",
+                "zh_name": "有效能量",
+                "en_name": "Effective Energy",
                 "symbol": "W_有"
             },
             {
-                "name": "发动机功率",
+                "zh_name": "发动机功率",
+                "en_name": "Engine Power",
                 "symbol": "P"
             },
             {
-                "name": "行驶时间",
+                "zh_name": "行驶时间",
+                "en_name": "Driving Time",
                 "symbol": "t"
             },
             {
-                "name": "发动机效率",
+                "zh_name": "发动机效率",
+                "en_name": "Engine Efficiency",
                 "symbol": "η"
             }
         ]
@@ -722,19 +843,23 @@
         "formula": "p=ρ*g*h",
         "symbol_map": [
             {
-                "name": "水的压强",
+                "zh_name": "水的压强",
+                "en_name": "Water pressure",
                 "symbol": "p"
             },
             {
-                "name": "水的密度",
+                "zh_name": "水的密度",
+                "en_name": "Water density",
                 "symbol": "ρ"
             },
             {
-                "name": "重力加速度",
+                "zh_name": "重力加速度",
+                "en_name": "Gravity acceleration",
                 "symbol": "g"
             },
             {
-                "name": "水深",
+                "zh_name": "水深",
+                "en_name": "Depth of water",
                 "symbol": "h"
             }
         ]
@@ -744,19 +869,23 @@
         "formula": "W_有用=f*v*t",
         "symbol_map": [
             {
-                "name": "功",
+                "zh_name": "功",
+                "en_name": "Work",
                 "symbol": "W_有用"
             },
             {
-                "name": "力",
+                "zh_name": "力",
+                "en_name": "Force",
                 "symbol": "f"
             },
             {
-                "name": "速度",
+                "zh_name": "速度",
+                "en_name": "Velocity",
                 "symbol": "v"
             },
             {
-                "name": "时间",
+                "zh_name": "时间",
+                "en_name": "Time",
                 "symbol": "t"
             }
         ]
@@ -766,15 +895,18 @@
         "formula": "V_{气}=m_{后}-m_{前}",
         "symbol_map": [
             {
-                "name": "消耗天然气体积",
+                "zh_name": "消耗天然气体积",
+                "en_name": "Volume of consumed natural gas",
                 "symbol": "V_{气}"
             },
             {
-                "name": "后示数",
+                "zh_name": "后示数",
+                "en_name": "Subsequent reading",
                 "symbol": "m_{后}"
             },
             {
-                "name": "前示数",
+                "zh_name": "前示数",
+                "en_name": "Prior reading",
                 "symbol": "m_{前}"
             }
         ]
@@ -784,19 +916,23 @@
         "formula": "η=(W_有+W_电)/Q_放*100%",
         "symbol_map": [
             {
-                "name": "内燃机（货车发动机）的效率",
+                "zh_name": "内燃机（货车发动机）的效率",
+                "en_name": "Efficiency of internal combustion engine (truck engine)",
                 "symbol": "η"
             },
             {
-                "name": "有用功",
+                "zh_name": "有用功",
+                "en_name": "Useful work",
                 "symbol": "W_有"
             },
             {
-                "name": "蓄电池增加的电能",
+                "zh_name": "蓄电池增加的电能",
+                "en_name": "Electrical energy increased by battery",
                 "symbol": "W_电"
             },
             {
-                "name": "内燃机消耗的总能量",
+                "zh_name": "内燃机消耗的总能量",
+                "en_name": "Total energy consumed by internal combustion engine",
                 "symbol": "Q_放"
             }
         ]
@@ -806,15 +942,18 @@
         "formula": "s_2=s-s_1",
         "symbol_map": [
             {
-                "name": "行驶路程",
+                "zh_name": "行驶路程",
+                "en_name": "Travelled Distance",
                 "symbol": "s_2"
             },
             {
-                "name": "起点到乙标志牌距离",
+                "zh_name": "起点到乙标志牌距离",
+                "en_name": "Distance from Start to Point B Signboard",
                 "symbol": "s"
             },
             {
-                "name": "起点到丙标志牌距离",
+                "zh_name": "起点到丙标志牌距离",
+                "en_name": "Distance from Start to Point C Signboard",
                 "symbol": "s_1"
             }
         ]
@@ -824,19 +963,23 @@
         "formula": "V_排=F_浮/(ρ_水×g)",
         "symbol_map": [
             {
-                "name": "浮体体积",
+                "zh_name": "浮体体积",
+                "en_name": "Buoyant volume",
                 "symbol": "V_排"
             },
             {
-                "name": "浮力",
+                "zh_name": "浮力",
+                "en_name": "Buoyancy",
                 "symbol": "F_浮"
             },
             {
-                "name": "水的密度",
+                "zh_name": "水的密度",
+                "en_name": "Density of water",
                 "symbol": "ρ_水"
             },
             {
-                "name": "重力加速度",
+                "zh_name": "重力加速度",
+                "en_name": "Gravity acceleration",
                 "symbol": "g"
             }
         ]
@@ -846,19 +989,23 @@
         "formula": "m'=m_水×Δt_水/Δt_开水",
         "symbol_map": [
             {
-                "name": "开水的质量",
+                "zh_name": "开水的质量",
+                "en_name": "Boiling water mass",
                 "symbol": "m'"
             },
             {
-                "name": "水的质量",
+                "zh_name": "水的质量",
+                "en_name": "Water mass",
                 "symbol": "m_水"
             },
             {
-                "name": "水的温度变化",
+                "zh_name": "水的温度变化",
+                "en_name": "Water temperature change",
                 "symbol": "Δt_水"
             },
             {
-                "name": "开水的温度变化",
+                "zh_name": "开水的温度变化",
+                "en_name": "Boiling water temperature change",
                 "symbol": "Δt_开水"
             }
         ]
@@ -868,15 +1015,18 @@
         "formula": "W_有用=W_电+W_2",
         "symbol_map": [
             {
-                "name": "有用能量",
+                "zh_name": "有用能量",
+                "en_name": "Useful energy",
                 "symbol": "W_有用"
             },
             {
-                "name": "蓄电池增加的电能",
+                "zh_name": "蓄电池增加的电能",
+                "en_name": "Electric energy increased in the battery",
                 "symbol": "W_电"
             },
             {
-                "name": "克服阻力做的功",
+                "zh_name": "克服阻力做的功",
+                "en_name": "Work done against resistance",
                 "symbol": "W_2"
             }
         ]
@@ -886,19 +1036,23 @@
         "formula": "η=G/(n×F)",
         "symbol_map": [
             {
-                "name": "机械效率",
+                "zh_name": "机械效率",
+                "en_name": "Mechanical efficiency",
                 "symbol": "η"
             },
             {
-                "name": "重物重力",
+                "zh_name": "重物重力",
+                "en_name": "Weight of load",
                 "symbol": "G"
             },
             {
-                "name": "有效股数",
+                "zh_name": "有效股数",
+                "en_name": "Effective wraps/turns",
                 "symbol": "n"
             },
             {
-                "name": "汽车拉绳的力",
+                "zh_name": "汽车拉绳的力",
+                "en_name": "Force exerted by car's pulling rope",
                 "symbol": "F"
             }
         ]
@@ -908,15 +1062,18 @@
         "formula": "v_车=n*v_物",
         "symbol_map": [
             {
-                "name": "绳端移动速度",
+                "zh_name": "绳端移动速度",
+                "en_name": "Rope end speed",
                 "symbol": "v_车"
             },
             {
-                "name": "滑轮组速比",
+                "zh_name": "滑轮组速比",
+                "en_name": "Pulley system speed ratio",
                 "symbol": "n"
             },
             {
-                "name": "货物上升速度",
+                "zh_name": "货物上升速度",
+                "en_name": "Cargo lifting speed",
                 "symbol": "v_物"
             }
         ]
@@ -926,15 +1083,18 @@
         "formula": "s=s_桥+s_车",
         "symbol_map": [
             {
-                "name": "列车行驶总路程",
+                "zh_name": "列车行驶总路程",
+                "en_name": "Total distance traveled by the train",
                 "symbol": "s"
             },
             {
-                "name": "高架桥长",
+                "zh_name": "高架桥长",
+                "en_name": "Length of the overpass",
                 "symbol": "s_桥"
             },
             {
-                "name": "列车长",
+                "zh_name": "列车长",
+                "en_name": "Length of the train",
                 "symbol": "s_车"
             }
         ]
@@ -944,15 +1104,18 @@
         "formula": "F_牵=μ×G",
         "symbol_map": [
             {
-                "name": "牵引力",
+                "zh_name": "牵引力",
+                "en_name": "Tractive force",
                 "symbol": "F_牵"
             },
             {
-                "name": "车重",
+                "zh_name": "车重",
+                "en_name": "Vehicle weight",
                 "symbol": "G"
             },
             {
-                "name": "阻力系数",
+                "zh_name": "阻力系数",
+                "en_name": "Resistance coefficient",
                 "symbol": "μ"
             }
         ]
@@ -962,11 +1125,13 @@
         "formula": "Q_{柴油}=Q_氢",
         "symbol_map": [
             {
-                "name": "柴油放出的热量",
+                "zh_name": "柴油放出的热量",
+                "en_name": "Heat released by diesel",
                 "symbol": "Q_{柴油}"
             },
             {
-                "name": "消耗的氢能",
+                "zh_name": "消耗的氢能",
+                "en_name": "Consumed hydrogen energy",
                 "symbol": "Q_氢"
             }
         ]
@@ -976,11 +1141,13 @@
         "formula": "无人机输出功率=P_入或P_出",
         "symbol_map": [
             {
-                "name": "无人机输出功率",
+                "zh_name": "无人机输出功率",
+                "en_name": "Drone output power",
                 "symbol": "无人机输出功率"
             },
             {
-                "name": "无人机上升过程中的功率",
+                "zh_name": "无人机上升过程中的功率",
+                "en_name": "Power during drone ascent",
                 "symbol": "P_入或P_出"
             }
         ]
@@ -990,15 +1157,18 @@
         "formula": "I=无人机输出功率/U",
         "symbol_map": [
             {
-                "name": "电池的工作电流",
+                "zh_name": "电池的工作电流",
+                "en_name": "Battery's working current",
                 "symbol": "I"
             },
             {
-                "name": "无人机输出功率",
+                "zh_name": "无人机输出功率",
+                "en_name": "Drone output power",
                 "symbol": "无人机输出功率"
             },
             {
-                "name": "正常工作电压",
+                "zh_name": "正常工作电压",
+                "en_name": "Normal operating voltage",
                 "symbol": "U"
             }
         ]
@@ -1008,11 +1178,13 @@
         "formula": "V_排=V_A",
         "symbol_map": [
             {
-                "name": "排开水的体积",
+                "zh_name": "排开水的体积",
+                "en_name": "Displaced volume of water",
                 "symbol": "V_排"
             },
             {
-                "name": "浮体A的体积",
+                "zh_name": "浮体A的体积",
+                "en_name": "Volume of body A",
                 "symbol": "V_A"
             }
         ]
@@ -1022,11 +1194,13 @@
         "formula": "F_C=F_浮",
         "symbol_map": [
             {
-                "name": "阀门C受到的压力",
+                "zh_name": "阀门C受到的压力",
+                "en_name": "Pressure on Valve C",
                 "symbol": "F_C"
             },
             {
-                "name": "浮体受到的浮力",
+                "zh_name": "浮体受到的浮力",
+                "en_name": "Buoyancy force on the float",
                 "symbol": "F_浮"
             }
         ]
@@ -1036,23 +1210,28 @@
         "formula": "水的最大高度=F_浮/(ρ_水×g×S)",
         "symbol_map": [
             {
-                "name": "水的最大高度",
+                "zh_name": "水的最大高度",
+                "en_name": "Maximum water height",
                 "symbol": "水的最大高度"
             },
             {
-                "name": "浮体受到的最大浮力",
+                "zh_name": "浮体受到的最大浮力",
+                "en_name": "Maximum buoyant force on the floating body",
                 "symbol": "F_浮"
             },
             {
-                "name": "水的密度",
+                "zh_name": "水的密度",
+                "en_name": "Density of water",
                 "symbol": "ρ_水"
             },
             {
-                "name": "重力加速度",
+                "zh_name": "重力加速度",
+                "en_name": "Gravity acceleration",
                 "symbol": "g"
             },
             {
-                "name": "阀门的横截面积",
+                "zh_name": "阀门的横截面积",
+                "en_name": "Cross-sectional area of the valve",
                 "symbol": "S"
             }
         ]
@@ -1062,15 +1241,18 @@
         "formula": "s′=s_甲-s_丙",
         "symbol_map": [
             {
-                "name": "总路程",
+                "zh_name": "总路程",
+                "en_name": "Total distance",
                 "symbol": "s′"
             },
             {
-                "name": "甲地址的路程",
+                "zh_name": "甲地址的路程",
+                "en_name": "Distance from Address A",
                 "symbol": "s_甲"
             },
             {
-                "name": "丙地址的路程",
+                "zh_name": "丙地址的路程",
+                "en_name": "Distance from Address C",
                 "symbol": "s_丙"
             }
         ]
@@ -1080,15 +1262,18 @@
         "formula": "t′=t_甲乙+t_乙丙",
         "symbol_map": [
             {
-                "name": "总时间",
+                "zh_name": "总时间",
+                "en_name": "Total time",
                 "symbol": "t′"
             },
             {
-                "name": "第一阶段时间",
+                "zh_name": "第一阶段时间",
+                "en_name": "Time of the first stage",
                 "symbol": "t_甲乙"
             },
             {
-                "name": "第二阶段时间",
+                "zh_name": "第二阶段时间",
+                "en_name": "Time of the second stage",
                 "symbol": "t_乙丙"
             }
         ]
@@ -1098,19 +1283,23 @@
         "formula": "W_有=m*g*h",
         "symbol_map": [
             {
-                "name": "有用功（重力做的功）",
+                "zh_name": "有用功（重力做的功）",
+                "en_name": "Useful work (work done by gravity)",
                 "symbol": "W_有"
             },
             {
-                "name": "质量",
+                "zh_name": "质量",
+                "en_name": "Mass",
                 "symbol": "m"
             },
             {
-                "name": "重力加速度",
+                "zh_name": "重力加速度",
+                "en_name": "Gravitational acceleration",
                 "symbol": "g"
             },
             {
-                "name": "高度",
+                "zh_name": "高度",
+                "en_name": "Height",
                 "symbol": "h"
             }
         ]
@@ -1120,19 +1309,23 @@
         "formula": "F=P×t/s",
         "symbol_map": [
             {
-                "name": "牵引力",
+                "zh_name": "牵引力",
+                "en_name": "Traction",
                 "symbol": "F"
             },
             {
-                "name": "功率",
+                "zh_name": "功率",
+                "en_name": "Power",
                 "symbol": "P"
             },
             {
-                "name": "时间",
+                "zh_name": "时间",
+                "en_name": "Time",
                 "symbol": "t"
             },
             {
-                "name": "路程",
+                "zh_name": "路程",
+                "en_name": "Distance",
                 "symbol": "s"
             }
         ]
@@ -1142,23 +1335,28 @@
         "formula": "Q_吸=η×E×S×t",
         "symbol_map": [
             {
-                "name": "水吸收的太阳能",
+                "zh_name": "水吸收的太阳能",
+                "en_name": "Water absorbed solar energy",
                 "symbol": "Q_吸"
             },
             {
-                "name": "水吸收太阳能的效率",
+                "zh_name": "水吸收太阳能的效率",
+                "en_name": "Efficiency of water absorbing solar energy",
                 "symbol": "η"
             },
             {
-                "name": "每小时每平方米辐射的热量",
+                "zh_name": "每小时每平方米辐射的热量",
+                "en_name": "Heat radiation per square meter per hour",
                 "symbol": "E"
             },
             {
-                "name": "太阳能板的面积",
+                "zh_name": "太阳能板的面积",
+                "en_name": "Area of the solar panel",
                 "symbol": "S"
             },
             {
-                "name": "时间",
+                "zh_name": "时间",
+                "en_name": "Time",
                 "symbol": "t"
             }
         ]
@@ -1168,15 +1366,18 @@
         "formula": "n=V_总/V",
         "symbol_map": [
             {
-                "name": "能满足淋浴人数",
+                "zh_name": "能满足淋浴人数",
+                "en_name": "Number of people that can be satisfied for showering",
                 "symbol": "n"
             },
             {
-                "name": "总容量",
+                "zh_name": "总容量",
+                "en_name": "Total capacity",
                 "symbol": "V_总"
             },
             {
-                "name": "单人淋浴用水量",
+                "zh_name": "单人淋浴用水量",
+                "en_name": "Water consumption per person for showering",
                 "symbol": "V"
             }
         ]
@@ -1186,15 +1387,18 @@
         "formula": "s=(W_机/F)/(1000m/km)",
         "symbol_map": [
             {
-                "name": "行驶路程",
+                "zh_name": "行驶路程",
+                "en_name": "Driving distance",
                 "symbol": "s"
             },
             {
-                "name": "有效电能",
+                "zh_name": "有效电能",
+                "en_name": "Effective electrical energy",
                 "symbol": "W_机"
             },
             {
-                "name": "牵引力",
+                "zh_name": "牵引力",
+                "en_name": "Tractive force",
                 "symbol": "F"
             }
         ]
@@ -1204,11 +1408,13 @@
         "formula": "W_动=E×80%",
         "symbol_map": [
             {
-                "name": "动能(J)",
+                "zh_name": "动能(J)",
+                "en_name": "Kinetic energy (J)",
                 "symbol": "W_动"
             },
             {
-                "name": "电池能量",
+                "zh_name": "电池能量",
+                "en_name": "Battery energy",
                 "symbol": "E"
             }
         ]
@@ -1218,15 +1424,18 @@
         "formula": "速度=W_动/F",
         "symbol_map": [
             {
-                "name": "速度(m/行驶路程)",
+                "zh_name": "速度(m/行驶路程)",
+                "en_name": "Speed (m/travel distance)",
                 "symbol": "速度"
             },
             {
-                "name": "动能(J)",
+                "zh_name": "动能(J)",
+                "en_name": "Kinetic energy (J)",
                 "symbol": "W_动"
             },
             {
-                "name": "牵引力(N)",
+                "zh_name": "牵引力(N)",
+                "en_name": "Traction force (N)",
                 "symbol": "F"
             }
         ]
@@ -1236,19 +1445,23 @@
         "formula": "f=μ*m_车*g",
         "symbol_map": [
             {
-                "name": "阻力",
+                "zh_name": "阻力",
+                "en_name": "Resistance",
                 "symbol": "f"
             },
             {
-                "name": "质量",
+                "zh_name": "质量",
+                "en_name": "Mass",
                 "symbol": "m_车"
             },
             {
-                "name": "重力加速度",
+                "zh_name": "重力加速度",
+                "en_name": "Gravitational acceleration",
                 "symbol": "g"
             },
             {
-                "name": "阻力系数",
+                "zh_name": "阻力系数",
+                "en_name": "Drag coefficient",
                 "symbol": "μ"
             }
         ]
@@ -1258,15 +1471,18 @@
         "formula": "U_R = U - U_灯",
         "symbol_map": [
             {
-                "name": "U_{实际}",
+                "zh_name": "U_{实际}",
+                "en_name": "Actual Voltage",
                 "symbol": "U_R"
             },
             {
-                "name": "电源电压",
+                "zh_name": "电源电压",
+                "en_name": "Supply Voltage",
                 "symbol": "U"
             },
             {
-                "name": "U_{灯泡额定}",
+                "zh_name": "U_{灯泡额定}",
+                "en_name": "Rated Voltage of the Bulb",
                 "symbol": "U_灯"
             }
         ]
@@ -1276,15 +1492,18 @@
         "formula": "F_牵=f_阻+F_拉",
         "symbol_map": [
             {
-                "name": "牵引力",
+                "zh_name": "牵引力",
+                "en_name": "Traction Force",
                 "symbol": "F_牵"
             },
             {
-                "name": "阻力",
+                "zh_name": "阻力",
+                "en_name": "Resistance",
                 "symbol": "f_阻"
             },
             {
-                "name": "绳子上的拉力",
+                "zh_name": "绳子上的拉力",
+                "en_name": "Tension in the Rope",
                 "symbol": "F_拉"
             }
         ]
@@ -1294,15 +1513,18 @@
         "formula": "s=n×h",
         "symbol_map": [
             {
-                "name": "汽车行驶距离",
+                "zh_name": "汽车行驶距离",
+                "en_name": "Car travel distance",
                 "symbol": "s"
             },
             {
-                "name": "绳子股数",
+                "zh_name": "绳子股数",
+                "en_name": "Number of rope strands",
                 "symbol": "n"
             },
             {
-                "name": "物体上升高度",
+                "zh_name": "物体上升高度",
+                "en_name": "Height the object is lifted",
                 "symbol": "h"
             }
         ]
@@ -1312,15 +1534,18 @@
         "formula": "Q_冰=水吸收的热量/k",
         "symbol_map": [
             {
-                "name": "冰吸收的热量",
+                "zh_name": "冰吸收的热量",
+                "en_name": "Heat absorbed by ice",
                 "symbol": "Q_冰"
             },
             {
-                "name": "水吸收的热量",
+                "zh_name": "水吸收的热量",
+                "en_name": "Heat absorbed by water",
                 "symbol": "水吸收的热量"
             },
             {
-                "name": "比率",
+                "zh_name": "比率",
+                "en_name": "Ratio",
                 "symbol": "k"
             }
         ]
@@ -1330,15 +1555,18 @@
         "formula": "U_{实际}=sqrt(P_{实际}*R_电热管)",
         "symbol_map": [
             {
-                "name": "实际电压",
+                "zh_name": "实际电压",
+                "en_name": "Actual Voltage",
                 "symbol": "U_{实际}"
             },
             {
-                "name": "实际功率",
+                "zh_name": "实际功率",
+                "en_name": "Actual Power",
                 "symbol": "P_{实际}"
             },
             {
-                "name": "灯泡电阻",
+                "zh_name": "灯泡电阻",
+                "en_name": "Bulb Resistance",
                 "symbol": "R_电热管"
             }
         ]
@@ -1348,15 +1576,18 @@
         "formula": "Q_放=q_{酒精}×m_{酒精}",
         "symbol_map": [
             {
-                "name": "水吸收的热量",
+                "zh_name": "水吸收的热量",
+                "en_name": "Heat absorbed by water",
                 "symbol": "Q_放"
             },
             {
-                "name": "秸秆热值",
+                "zh_name": "秸秆热值",
+                "en_name": "Straw calorific value",
                 "symbol": "q_{酒精}"
             },
             {
-                "name": "酒精的质量",
+                "zh_name": "酒精的质量",
+                "en_name": "Mass of alcohol",
                 "symbol": "m_{酒精}"
             }
         ]
@@ -1366,11 +1597,13 @@
         "formula": "Q_放=2*W",
         "symbol_map": [
             {
-                "name": "水吸收的热量",
+                "zh_name": "水吸收的热量",
+                "en_name": "Heat absorbed by water",
                 "symbol": "Q_放"
             },
             {
-                "name": "有用功",
+                "zh_name": "有用功",
+                "en_name": "Useful work",
                 "symbol": "W"
             }
         ]
@@ -1380,15 +1613,18 @@
         "formula": "t_末=t_初+Δt",
         "symbol_map": [
             {
-                "name": "水的末温",
+                "zh_name": "水的末温",
+                "en_name": "Final temperature of water",
                 "symbol": "t_末"
             },
             {
-                "name": "水的初始温度",
+                "zh_name": "水的初始温度",
+                "en_name": "Initial temperature of water",
                 "symbol": "t_初"
             },
             {
-                "name": "水温升高量",
+                "zh_name": "水温升高量",
+                "en_name": "Amount of water temperature increase",
                 "symbol": "Δt"
             }
         ]
@@ -1398,11 +1634,13 @@
         "formula": "Q_放=E",
         "symbol_map": [
             {
-                "name": "燃料完全燃烧释放的热量",
+                "zh_name": "燃料完全燃烧释放的热量",
+                "en_name": "Heat released by complete combustion of fuel",
                 "symbol": "Q_放"
             },
             {
-                "name": "人运动消耗的能量",
+                "zh_name": "人运动消耗的能量",
+                "en_name": "Energy consumed by human exercise",
                 "symbol": "E"
             }
         ]
@@ -1412,15 +1650,18 @@
         "formula": "费用=单价*使用量",
         "symbol_map": [
             {
-                "name": "费用",
+                "zh_name": "费用",
+                "en_name": "Cost",
                 "symbol": "费用"
             },
             {
-                "name": "天然气价格",
+                "zh_name": "天然气价格",
+                "en_name": "Natural Gas Price",
                 "symbol": "单价"
             },
             {
-                "name": "使用天然气的体积",
+                "zh_name": "使用天然气的体积",
+                "en_name": "Volume of Natural Gas Used",
                 "symbol": "使用量"
             }
         ]
@@ -1430,11 +1671,13 @@
         "formula": "W_牵=W",
         "symbol_map": [
             {
-                "name": "牵引力做的功",
+                "zh_name": "牵引力做的功",
+                "en_name": "Work done by traction force",
                 "symbol": "W_牵"
             },
             {
-                "name": "转化为机械能的能量",
+                "zh_name": "转化为机械能的能量",
+                "en_name": "Energy converted into mechanical energy",
                 "symbol": "W"
             }
         ]
@@ -1444,11 +1687,13 @@
         "formula": "ΔE=Q_{吸1}",
         "symbol_map": [
             {
-                "name": "水内能增加量",
+                "zh_name": "水内能增加量",
+                "en_name": "Increase in water internal energy",
                 "symbol": "ΔE"
             },
             {
-                "name": "冰吸收的热量",
+                "zh_name": "冰吸收的热量",
+                "en_name": "Heat absorbed by ice",
                 "symbol": "Q_{吸1}"
             }
         ]
@@ -1458,15 +1703,18 @@
         "formula": "m_水=每分钟出水量×t",
         "symbol_map": [
             {
-                "name": "洗澡10分钟所用水的质量",
+                "zh_name": "洗澡10分钟所用水的质量",
+                "en_name": "Water mass used for a 10-minute bath",
                 "symbol": "m_水"
             },
             {
-                "name": "每分钟出水量",
+                "zh_name": "每分钟出水量",
+                "en_name": "Water flow rate per minute",
                 "symbol": "每分钟出水量"
             },
             {
-                "name": "时间",
+                "zh_name": "时间",
+                "en_name": "Time",
                 "symbol": "t"
             }
         ]
@@ -1476,15 +1724,18 @@
         "formula": "q_{可燃冰}=q×k",
         "symbol_map": [
             {
-                "name": "可燃冰热值",
+                "zh_name": "可燃冰热值",
+                "en_name": "Methane Hydrate Heat Value",
                 "symbol": "q_{可燃冰}"
             },
             {
-                "name": "其他热值",
+                "zh_name": "其他热值",
+                "en_name": "Other Heat Value",
                 "symbol": "q"
             },
             {
-                "name": "比率",
+                "zh_name": "比率",
+                "en_name": "Ratio",
                 "symbol": "k"
             }
         ]
@@ -1494,15 +1745,18 @@
         "formula": "c_2=c_1×Δt_1/Δt_2",
         "symbol_map": [
             {
-                "name": "固态下的比热容",
+                "zh_name": "固态下的比热容",
+                "en_name": "Specific heat capacity in solid state",
                 "symbol": "c_1"
             },
             {
-                "name": "固态加热时的温度变化量",
+                "zh_name": "固态加热时的温度变化量",
+                "en_name": "Temperature change during heating in solid state",
                 "symbol": "Δt_1"
             },
             {
-                "name": "液态加热时的温度变化量",
+                "zh_name": "液态加热时的温度变化量",
+                "en_name": "Temperature change during heating in liquid state",
                 "symbol": "Δt_2"
             }
         ]
@@ -1512,15 +1766,18 @@
         "formula": "λ=Q′/m",
         "symbol_map": [
             {
-                "name": "熔化热",
+                "zh_name": "熔化热",
+                "en_name": "Latent Heat of Fusion",
                 "symbol": "λ"
             },
             {
-                "name": "吸收的热量",
+                "zh_name": "吸收的热量",
+                "en_name": "Absorbed Heat",
                 "symbol": "Q′"
             },
             {
-                "name": "物质质量",
+                "zh_name": "物质质量",
+                "en_name": "Mass of Substance",
                 "symbol": "m"
             }
         ]
@@ -1530,15 +1787,18 @@
         "formula": "油费=油价×消耗汽油的体积",
         "symbol_map": [
             {
-                "name": "油费",
+                "zh_name": "油费",
+                "en_name": "Fuel cost",
                 "symbol": "油费"
             },
             {
-                "name": "油价",
+                "zh_name": "油价",
+                "en_name": "Oil price",
                 "symbol": "油价"
             },
             {
-                "name": "消耗汽油的体积",
+                "zh_name": "消耗汽油的体积",
+                "en_name": "Volume of gasoline consumed",
                 "symbol": "消耗汽油的体积"
             }
         ]
@@ -1548,15 +1808,18 @@
         "formula": "W_{总}=W_机+W′",
         "symbol_map": [
             {
-                "name": "总功",
+                "zh_name": "总功",
+                "en_name": "Total work",
                 "symbol": "W_{总}"
             },
             {
-                "name": "汽车行驶过程中做的机械功",
+                "zh_name": "汽车行驶过程中做的机械功",
+                "en_name": "Mechanical work done during vehicle operation",
                 "symbol": "W_机"
             },
             {
-                "name": "蓄电池增加的电能",
+                "zh_name": "蓄电池增加的电能",
+                "en_name": "Electrical energy increased in the battery",
                 "symbol": "W′"
             }
         ]
@@ -1566,11 +1829,13 @@
         "formula": "t_末=min(t_理论,100℃)",
         "symbol_map": [
             {
-                "name": "实际水的末温",
+                "zh_name": "实际水的末温",
+                "en_name": "Actual final water temperature",
                 "symbol": "t_末"
             },
             {
-                "name": "理论上的水的末温",
+                "zh_name": "理论上的水的末温",
+                "en_name": "Theoretical final water temperature",
                 "symbol": "t_理论"
             }
         ]
@@ -1580,11 +1845,13 @@
         "formula": "m'=m/2",
         "symbol_map": [
             {
-                "name": "飞机装载的燃油质量",
+                "zh_name": "飞机装载的燃油质量",
+                "en_name": "Mass of fuel loaded on the aircraft",
                 "symbol": "m'"
             },
             {
-                "name": "最大载油量",
+                "zh_name": "最大载油量",
+                "en_name": "Maximum fuel capacity",
                 "symbol": "m"
             }
         ]
@@ -1594,19 +1861,23 @@
         "formula": "Q=Q_吸/(t×s)",
         "symbol_map": [
             {
-                "name": "平均每分钟0.1m²水面吸收的热量",
+                "zh_name": "平均每分钟0.1m²水面吸收的热量",
+                "en_name": "Heat absorbed per minute by 0.1 m² water surface on average",
                 "symbol": "Q"
             },
             {
-                "name": "水在20分钟内吸收的总热量",
+                "zh_name": "水在20分钟内吸收的总热量",
+                "en_name": "Total heat absorbed by the water in 20 minutes",
                 "symbol": "Q_吸"
             },
             {
-                "name": "时间",
+                "zh_name": "时间",
+                "en_name": "Time",
                 "symbol": "t"
             },
             {
-                "name": "表面积",
+                "zh_name": "表面积",
+                "en_name": "Surface area",
                 "symbol": "s"
             }
         ]
@@ -1616,15 +1887,18 @@
         "formula": "C_汽油=m_汽油×单价汽油",
         "symbol_map": [
             {
-                "name": "汽油成本",
+                "zh_name": "汽油成本",
+                "en_name": "Gasoline Cost",
                 "symbol": "C_汽油"
             },
             {
-                "name": "汽油质量",
+                "zh_name": "汽油质量",
+                "en_name": "Gasoline Quantity",
                 "symbol": "m_汽油"
             },
             {
-                "name": "汽油单价",
+                "zh_name": "汽油单价",
+                "en_name": "Unit Price of Gasoline",
                 "symbol": "单价汽油"
             }
         ]
@@ -1634,15 +1908,18 @@
         "formula": "ΔC=C_汽油-C_天然气",
         "symbol_map": [
             {
-                "name": "节约的燃料成本",
+                "zh_name": "节约的燃料成本",
+                "en_name": "Saved fuel cost",
                 "symbol": "ΔC"
             },
             {
-                "name": "汽油成本",
+                "zh_name": "汽油成本",
+                "en_name": "Gasoline cost",
                 "symbol": "C_汽油"
             },
             {
-                "name": "天然气成本",
+                "zh_name": "天然气成本",
+                "en_name": "Natural gas cost",
                 "symbol": "C_天然气"
             }
         ]
@@ -1652,11 +1929,13 @@
         "formula": "f=1/2×G",
         "symbol_map": [
             {
-                "name": "阻力",
+                "zh_name": "阻力",
+                "en_name": "Resistance",
                 "symbol": "f"
             },
             {
-                "name": "总重力",
+                "zh_name": "总重力",
+                "en_name": "Total gravity",
                 "symbol": "G"
             }
         ]
@@ -1666,11 +1945,13 @@
         "formula": "P_电=P_{机械}",
         "symbol_map": [
             {
-                "name": "电动机的电功率",
+                "zh_name": "电动机的电功率",
+                "en_name": "Electric power of the motor",
                 "symbol": "P_电"
             },
             {
-                "name": "机械功率(刚好能匀速完成续航里程)",
+                "zh_name": "机械功率(刚好能匀速完成续航里程)",
+                "en_name": "Mechanical power (just enough for constant speed to complete the range)",
                 "symbol": "P_{机械}"
             }
         ]
@@ -1680,19 +1961,23 @@
         "formula": "W_总=P_1×t+P_2×t",
         "symbol_map": [
             {
-                "name": "总电能",
+                "zh_name": "总电能",
+                "en_name": "Total electrical energy",
                 "symbol": "W_总"
             },
             {
-                "name": "热水器功率",
+                "zh_name": "热水器功率",
+                "en_name": "Water heater power",
                 "symbol": "P_1"
             },
             {
-                "name": "时间",
+                "zh_name": "时间",
+                "en_name": "Time",
                 "symbol": "t"
             },
             {
-                "name": "电饭锅功率",
+                "zh_name": "电饭锅功率",
+                "en_name": "Rice cooker power",
                 "symbol": "P_2"
             }
         ]
@@ -1702,11 +1987,13 @@
         "formula": "R_串=R+R",
         "symbol_map": [
             {
-                "name": "单个电阻值",
+                "zh_name": "单个电阻值",
+                "en_name": "Single Resistance Value",
                 "symbol": "R_串"
             },
             {
-                "name": "总电阻",
+                "zh_name": "总电阻",
+                "en_name": "Total Resistance",
                 "symbol": "R"
             }
         ]
@@ -1716,15 +2003,18 @@
         "formula": "P_{保温}=U×I_保温",
         "symbol_map": [
             {
-                "name": "保温挡功率",
+                "zh_name": "保温挡功率",
+                "en_name": "Heating保温 power",
                 "symbol": "P_{保温}"
             },
             {
-                "name": "电压",
+                "zh_name": "电压",
+                "en_name": "Voltage",
                 "symbol": "U"
             },
             {
-                "name": "保温挡电流",
+                "zh_name": "保温挡电流",
+                "en_name": "Heating保温 current",
                 "symbol": "I_保温"
             }
         ]
@@ -1734,15 +2024,18 @@
         "formula": "m_{二氧化硫}=m_煤×每千克无烟煤燃烧产生SO_2的质量",
         "symbol_map": [
             {
-                "name": "二氧化硫排放总量",
+                "zh_name": "二氧化硫排放总量",
+                "en_name": "Total SO_2 emission",
                 "symbol": "m_{二氧化硫}"
             },
             {
-                "name": "所需无烟煤的质量",
+                "zh_name": "所需无烟煤的质量",
+                "en_name": "Mass of anthracite required",
                 "symbol": "m_煤"
             },
             {
-                "name": "每千克无烟煤燃烧产生SO_2的质量",
+                "zh_name": "每千克无烟煤燃烧产生SO_2的质量",
+                "en_name": "Mass of SO_2 produced per kilogram of anthracite burned",
                 "symbol": "每千克无烟煤燃烧产生SO_2的质量"
             }
         ]
@@ -1752,15 +2045,18 @@
         "formula": "mΔt=m×Δt",
         "symbol_map": [
             {
-                "name": "质量与温度变化量的乘积",
+                "zh_name": "质量与温度变化量的乘积",
+                "en_name": "Product of mass and temperature change",
                 "symbol": "mΔt"
             },
             {
-                "name": "水的质量",
+                "zh_name": "水的质量",
+                "en_name": "Mass of water",
                 "symbol": "m"
             },
             {
-                "name": "温度升高量",
+                "zh_name": "温度升高量",
+                "en_name": "Amount of temperature increase",
                 "symbol": "Δt"
             }
         ]
@@ -1770,15 +2066,18 @@
         "formula": "Q_吸=c_水×mΔt",
         "symbol_map": [
             {
-                "name": "水吸收的热量",
+                "zh_name": "水吸收的热量",
+                "en_name": "Heat absorbed by water",
                 "symbol": "Q_吸"
             },
             {
-                "name": "水的比热容",
+                "zh_name": "水的比热容",
+                "en_name": "Specific heat capacity of water",
                 "symbol": "c_水"
             },
             {
-                "name": "质量与温度变化量的乘积",
+                "zh_name": "质量与温度变化量的乘积",
+                "en_name": "The product of mass and temperature change",
                 "symbol": "mΔt"
             }
         ]
@@ -1788,11 +2087,13 @@
         "formula": "R'_R=R/2",
         "symbol_map": [
             {
-                "name": "变阻器此时的阻值",
+                "zh_name": "变阻器此时的阻值",
+                "en_name": "The resistance of the rheostat at this time",
                 "symbol": "R'_R"
             },
             {
-                "name": "变阻器的最大阻值",
+                "zh_name": "变阻器的最大阻值",
+                "en_name": "The maximum resistance of the rheostat",
                 "symbol": "R"
             }
         ]
@@ -1802,15 +2103,18 @@
         "formula": "h=h_A+h_B",
         "symbol_map": [
             {
-                "name": "提升高度总和",
+                "zh_name": "提升高度总和",
+                "en_name": "Total lifting height",
                 "symbol": "h"
             },
             {
-                "name": "最大挖掘深度",
+                "zh_name": "最大挖掘深度",
+                "en_name": "Maximum digging depth",
                 "symbol": "h_A"
             },
             {
-                "name": "最大卸料高度",
+                "zh_name": "最大卸料高度",
+                "en_name": "Maximum unloading height",
                 "symbol": "h_B"
             }
         ]
@@ -1820,11 +2124,13 @@
         "formula": "V'=V（其中“容量”指代热水器容量）",
         "symbol_map": [
             {
-                "name": "水的体积",
+                "zh_name": "水的体积",
+                "en_name": "Volume of water",
                 "symbol": "V'"
             },
             {
-                "name": "容量",
+                "zh_name": "容量",
+                "en_name": "Capacity (referring to the capacity of the water heater)",
                 "symbol": "V"
             }
         ]
@@ -1834,19 +2140,23 @@
         "formula": "m_总=m_菜籽油+m_蔬菜+m_车",
         "symbol_map": [
             {
-                "name": "货车总质量",
+                "zh_name": "货车总质量",
+                "en_name": "Total mass of the truck",
                 "symbol": "m_总"
             },
             {
-                "name": "菜籽油质量",
+                "zh_name": "菜籽油质量",
+                "en_name": "Mass of rapeseed oil",
                 "symbol": "m_菜籽油"
             },
             {
-                "name": "蔬菜质量",
+                "zh_name": "蔬菜质量",
+                "en_name": "Mass of vegetables",
                 "symbol": "m_蔬菜"
             },
             {
-                "name": "货车车身自重",
+                "zh_name": "货车车身自重",
+                "en_name": "Curb weight of the truck",
                 "symbol": "m_车"
             }
         ]
@@ -1856,19 +2166,23 @@
         "formula": "m_总=m_车+m_油+m_蔬",
         "symbol_map": [
             {
-                "name": "货车与货物的总质量",
+                "zh_name": "货车与货物的总质量",
+                "en_name": "Total mass of truck and cargo",
                 "symbol": "m_总"
             },
             {
-                "name": "货车自身质量",
+                "zh_name": "货车自身质量",
+                "en_name": "Mass of the truck itself",
                 "symbol": "m_车"
             },
             {
-                "name": "菜籽油质量",
+                "zh_name": "菜籽油质量",
+                "en_name": "Mass of rapeseed oil",
                 "symbol": "m_油"
             },
             {
-                "name": "蔬菜质量",
+                "zh_name": "蔬菜质量",
+                "en_name": "Mass of vegetables",
                 "symbol": "m_蔬"
             }
         ]
@@ -1878,15 +2192,18 @@
         "formula": "S=n*每条轮胎与地面接触面积",
         "symbol_map": [
             {
-                "name": "受力面积（轮胎与地面接触总面积）",
+                "zh_name": "受力面积（轮胎与地面接触总面积）",
+                "en_name": "Contact Area (Total Tire-to-Ground Contact Surface Area)",
                 "symbol": "S"
             },
             {
-                "name": "每个轮胎与地面接触面积",
+                "zh_name": "每个轮胎与地面接触面积",
+                "en_name": "Contact Area per Tire with the Ground",
                 "symbol": "每条轮胎与地面接触面积"
             },
             {
-                "name": "轮胎数",
+                "zh_name": "轮胎数",
+                "en_name": "Number of Tires",
                 "symbol": "n"
             }
         ]
@@ -1896,15 +2213,18 @@
         "formula": "G_A=F_浮-F_B",
         "symbol_map": [
             {
-                "name": "浮筒A的重力",
+                "zh_name": "浮筒A的重力",
+                "en_name": "Buoy A's gravity",
                 "symbol": "G_A"
             },
             {
-                "name": "浮力",
+                "zh_name": "浮力",
+                "en_name": "Buoyancy",
                 "symbol": "F_浮"
             },
             {
-                "name": "盖片B受到的拉力",
+                "zh_name": "盖片B受到的拉力",
+                "en_name": "Tension force on flap B",
                 "symbol": "F_B"
             }
         ]
@@ -1914,19 +2234,23 @@
         "formula": "E=η×m×q",
         "symbol_map": [
             {
-                "name": "转化的机械能",
+                "zh_name": "转化的机械能",
+                "en_name": "Converted Mechanical Energy",
                 "symbol": "E"
             },
             {
-                "name": "转化效率",
+                "zh_name": "转化效率",
+                "en_name": "Conversion Efficiency",
                 "symbol": "η"
             },
             {
-                "name": "汽油质量",
+                "zh_name": "汽油质量",
+                "en_name": "Gasoline Mass",
                 "symbol": "m"
             },
             {
-                "name": "汽油热值",
+                "zh_name": "汽油热值",
+                "en_name": "Gasoline Calorific Value",
                 "symbol": "q"
             }
         ]
@@ -1936,19 +2260,23 @@
         "formula": "G_总=m_车×g+m_货×g",
         "symbol_map": [
             {
-                "name": "起重车与货物的总重力",
+                "zh_name": "起重车与货物的总重力",
+                "en_name": "Total weight force of the crane and cargo",
                 "symbol": "G_总"
             },
             {
-                "name": "起重车的质量",
+                "zh_name": "起重车的质量",
+                "en_name": "Mass of the crane",
                 "symbol": "m_车"
             },
             {
-                "name": "重力加速度",
+                "zh_name": "重力加速度",
+                "en_name": "Gravity acceleration",
                 "symbol": "g"
             },
             {
-                "name": "货物的质量",
+                "zh_name": "货物的质量",
+                "en_name": "Mass of the cargo",
                 "symbol": "m_货"
             }
         ]
@@ -1958,15 +2286,18 @@
         "formula": "s_隧道=s+s_车",
         "symbol_map": [
             {
-                "name": "隧道实际长度",
+                "zh_name": "隧道实际长度",
+                "en_name": "Actual length of tunnel",
                 "symbol": "s_隧道"
             },
             {
-                "name": "车身通过的路程",
+                "zh_name": "车身通过的路程",
+                "en_name": "Distance traveled by the vehicle body",
                 "symbol": "s"
             },
             {
-                "name": "汽车的长度",
+                "zh_name": "汽车的长度",
+                "en_name": "Length of the car",
                 "symbol": "s_车"
             }
         ]
@@ -1976,15 +2307,18 @@
         "formula": "S=长度×宽度",
         "symbol_map": [
             {
-                "name": "接触面积",
+                "zh_name": "接触面积",
+                "en_name": "Contact Area",
                 "symbol": "S"
             },
             {
-                "name": "外形尺寸-长度",
+                "zh_name": "外形尺寸-长度",
+                "en_name": "Outer Dimension - Length",
                 "symbol": "长度"
             },
             {
-                "name": "外形尺寸-宽度",
+                "zh_name": "外形尺寸-宽度",
+                "en_name": "Outer Dimension - Width",
                 "symbol": "宽度"
             }
         ]
@@ -1994,11 +2328,13 @@
         "formula": "Q_放=Q_电",
         "symbol_map": [
             {
-                "name": "煤炭燃烧放出的热量",
+                "zh_name": "煤炭燃烧放出的热量",
+                "en_name": "Heat released by coal combustion",
                 "symbol": "Q_放"
             },
             {
-                "name": "风光互补路灯发电量",
+                "zh_name": "风光互补路灯发电量",
+                "en_name": "Power generation of wind-solar complementary street lights",
                 "symbol": "Q_电"
             }
         ]
@@ -2008,15 +2344,18 @@
         "formula": "Q_吸=Q-W",
         "symbol_map": [
             {
-                "name": "吸收的热量",
+                "zh_name": "吸收的热量",
+                "en_name": "Absorbed heat",
                 "symbol": "Q_吸"
             },
             {
-                "name": "内能变化量",
+                "zh_name": "内能变化量",
+                "en_name": "Change in internal energy",
                 "symbol": "Q"
             },
             {
-                "name": "外界对系统做的功",
+                "zh_name": "外界对系统做的功",
+                "en_name": "Work done by the surroundings on the system",
                 "symbol": "W"
             }
         ]
@@ -2026,11 +2365,13 @@
         "formula": "汽油体积=V",
         "symbol_map": [
             {
-                "name": "汽油体积",
+                "zh_name": "汽油体积",
+                "en_name": "Volume of gasoline",
                 "symbol": "汽油体积"
             },
             {
-                "name": "油箱容积",
+                "zh_name": "油箱容积",
+                "en_name": "Capacity of fuel tank",
                 "symbol": "V"
             }
         ]
@@ -2040,19 +2381,23 @@
         "formula": "Q=s×F/η",
         "symbol_map": [
             {
-                "name": "燃料完全燃烧放出的热量",
+                "zh_name": "燃料完全燃烧放出的热量",
+                "en_name": "Heat released by complete combustion of fuel",
                 "symbol": "Q"
             },
             {
-                "name": "汽车行驶路程",
+                "zh_name": "汽车行驶路程",
+                "en_name": "Distance traveled by the car",
                 "symbol": "s"
             },
             {
-                "name": "牵引力",
+                "zh_name": "牵引力",
+                "en_name": "Tractive force",
                 "symbol": "F"
             },
             {
-                "name": "热机效率",
+                "zh_name": "热机效率",
+                "en_name": "Thermal efficiency of the engine",
                 "symbol": "η"
             }
         ]
@@ -2062,15 +2407,18 @@
         "formula": "η_2=η_1×k",
         "symbol_map": [
             {
-                "name": "装置效率",
+                "zh_name": "装置效率",
+                "en_name": "Device Efficiency",
                 "symbol": "η_2"
             },
             {
-                "name": "斜面效率",
+                "zh_name": "斜面效率",
+                "en_name": "Ramp Efficiency",
                 "symbol": "η_1"
             },
             {
-                "name": "比率",
+                "zh_name": "比率",
+                "en_name": "Ratio",
                 "symbol": "k"
             }
         ]
@@ -2080,19 +2428,23 @@
         "formula": "I=U/(R_滑+R_L)",
         "symbol_map": [
             {
-                "name": "电路电流",
+                "zh_name": "电路电流",
+                "en_name": "Circuit Current",
                 "symbol": "I"
             },
             {
-                "name": "电源电压",
+                "zh_name": "电源电压",
+                "en_name": "Power Supply Voltage",
                 "symbol": "U"
             },
             {
-                "name": "滑动变阻器电阻",
+                "zh_name": "滑动变阻器电阻",
+                "en_name": "Slider Resistor Resistance",
                 "symbol": "R_滑"
             },
             {
-                "name": "灯泡电阻",
+                "zh_name": "灯泡电阻",
+                "en_name": "Bulb Resistance",
                 "symbol": "R_L"
             }
         ]
@@ -2102,19 +2454,23 @@
         "formula": "m=W/(q×η)",
         "symbol_map": [
             {
-                "name": "汽油质量",
+                "zh_name": "汽油质量",
+                "en_name": "Gasoline Mass",
                 "symbol": "m"
             },
             {
-                "name": "功",
+                "zh_name": "功",
+                "en_name": "Work",
                 "symbol": "W"
             },
             {
-                "name": "热值",
+                "zh_name": "热值",
+                "en_name": "Heating Value",
                 "symbol": "q"
             },
             {
-                "name": "效率",
+                "zh_name": "效率",
+                "en_name": "Efficiency",
                 "symbol": "η"
             }
         ]
@@ -2124,19 +2480,23 @@
         "formula": "m=Q_吸/(q_{秸秆}×η)",
         "symbol_map": [
             {
-                "name": "木柴质量",
+                "zh_name": "木柴质量",
+                "en_name": "Wood fuel mass",
                 "symbol": "m"
             },
             {
-                "name": "水吸收的热量",
+                "zh_name": "水吸收的热量",
+                "en_name": "Heat absorbed by water",
                 "symbol": "Q_吸"
             },
             {
-                "name": "秸秆热值",
+                "zh_name": "秸秆热值",
+                "en_name": "Straw calorific value",
                 "symbol": "q_{秸秆}"
             },
             {
-                "name": "热效率",
+                "zh_name": "热效率",
+                "en_name": "Thermal efficiency",
                 "symbol": "η"
             }
         ]
@@ -2146,15 +2506,18 @@
         "formula": "V=水流速率×t",
         "symbol_map": [
             {
-                "name": "1小时内进入暖气片的水的体积",
+                "zh_name": "1小时内进入暖气片的水的体积",
+                "en_name": "Volume of water entering the radiator within 1 hour",
                 "symbol": "V"
             },
             {
-                "name": "每小时流量",
+                "zh_name": "每小时流量",
+                "en_name": "Flow rate per hour",
                 "symbol": "水流速率"
             },
             {
-                "name": "时间",
+                "zh_name": "时间",
+                "en_name": "Time",
                 "symbol": "t"
             }
         ]
@@ -2164,11 +2527,13 @@
         "formula": "阻力=f",
         "symbol_map": [
             {
-                "name": "阻力",
+                "zh_name": "阻力",
+                "en_name": "Resistance",
                 "symbol": "阻力"
             },
             {
-                "name": "车重的0.05倍",
+                "zh_name": "车重的0.05倍",
+                "en_name": "0.05 times the weight of the vehicle",
                 "symbol": "f"
             }
         ]
@@ -2178,15 +2543,18 @@
         "formula": "c_乙=k×c_水",
         "symbol_map": [
             {
-                "name": "液体的比热容",
+                "zh_name": "液体的比热容",
+                "en_name": "specific heat capacity of the liquid",
                 "symbol": "c_乙"
             },
             {
-                "name": "水的比热容",
+                "zh_name": "水的比热容",
+                "en_name": "specific heat capacity of water",
                 "symbol": "c_水"
             },
             {
-                "name": "比率",
+                "zh_name": "比率",
+                "en_name": "ratio",
                 "symbol": "k"
             }
         ]
@@ -2196,23 +2564,28 @@
         "formula": "S=(Q_吸/η)/(P_0×t)",
         "symbol_map": [
             {
-                "name": "集热器面积",
+                "zh_name": "集热器面积",
+                "en_name": "Collector Area",
                 "symbol": "S"
             },
             {
-                "name": "水升温所需的热量",
+                "zh_name": "水升温所需的热量",
+                "en_name": "Heat Required for Water to Rise in Temperature",
                 "symbol": "Q_吸"
             },
             {
-                "name": "效率",
+                "zh_name": "效率",
+                "en_name": "Efficiency",
                 "symbol": "η"
             },
             {
-                "name": "每平方米得到的太阳辐射功率",
+                "zh_name": "每平方米得到的太阳辐射功率",
+                "en_name": "Solar Radiation Power per Square Meter Received",
                 "symbol": "P_0"
             },
             {
-                "name": "时间",
+                "zh_name": "时间",
+                "en_name": "Time",
                 "symbol": "t"
             }
         ]
@@ -2222,15 +2595,18 @@
         "formula": "h=楼层数减一×每层楼高",
         "symbol_map": [
             {
-                "name": "人上升的高度",
+                "zh_name": "人上升的高度",
+                "en_name": "the height to which a person rises",
                 "symbol": "h"
             },
             {
-                "name": "楼层数-1",
+                "zh_name": "楼层数-1",
+                "en_name": "Number of floors - 1",
                 "symbol": "楼层数减一"
             },
             {
-                "name": "每层楼高",
+                "zh_name": "每层楼高",
+                "en_name": "height of each floor",
                 "symbol": "每层楼高"
             }
         ]
@@ -2240,19 +2616,23 @@
         "formula": "Q_吸=m×c×(100℃-t_0)",
         "symbol_map": [
             {
-                "name": "水吸收的热量",
+                "zh_name": "水吸收的热量",
+                "en_name": "Heat absorbed by water",
                 "symbol": "Q_吸"
             },
             {
-                "name": "水的质量",
+                "zh_name": "水的质量",
+                "en_name": "Mass of water",
                 "symbol": "m"
             },
             {
-                "name": "比热容",
+                "zh_name": "比热容",
+                "en_name": "Specific heat capacity",
                 "symbol": "c"
             },
             {
-                "name": "初温",
+                "zh_name": "初温",
+                "en_name": "Initial temperature",
                 "symbol": "t_0"
             }
         ]
@@ -2262,11 +2642,13 @@
         "formula": "m=水箱容量",
         "symbol_map": [
             {
-                "name": "水的质量",
+                "zh_name": "水的质量",
+                "en_name": "Mass of water",
                 "symbol": "m"
             },
             {
-                "name": "容积",
+                "zh_name": "容积",
+                "en_name": "Volume",
                 "symbol": "水箱容量"
             }
         ]
@@ -2276,15 +2658,18 @@
         "formula": "I=I_1+I_2",
         "symbol_map": [
             {
-                "name": "总电流",
+                "zh_name": "总电流",
+                "en_name": "Total current",
                 "symbol": "I"
             },
             {
-                "name": "通过R_1的电流",
+                "zh_name": "通过R_1的电流",
+                "en_name": "Current through R_1",
                 "symbol": "I_1"
             },
             {
-                "name": "通过R_2的电流",
+                "zh_name": "通过R_2的电流",
+                "en_name": "Current through R_2",
                 "symbol": "I_2"
             }
         ]
@@ -2294,15 +2679,18 @@
         "formula": "m=m_单瓶×瓶数",
         "symbol_map": [
             {
-                "name": "每月消耗液化气的质量",
+                "zh_name": "每月消耗液化气的质量",
+                "en_name": "Monthly consumption of liquefied gas",
                 "symbol": "m"
             },
             {
-                "name": "单瓶液化气质量",
+                "zh_name": "单瓶液化气质量",
+                "en_name": "Mass of a single liquefied gas bottle",
                 "symbol": "m_单瓶"
             },
             {
-                "name": "瓶数",
+                "zh_name": "瓶数",
+                "en_name": "Number of bottles",
                 "symbol": "瓶数"
             }
         ]
@@ -2312,11 +2700,13 @@
         "formula": "Q_放=q",
         "symbol_map": [
             {
-                "name": "1kg液化气完全燃烧放出的热量",
+                "zh_name": "1kg液化气完全燃烧放出的热量",
+                "en_name": "Heat released by complete combustion of 1kg liquefied gas",
                 "symbol": "Q_放"
             },
             {
-                "name": "液化气的热值",
+                "zh_name": "液化气的热值",
+                "en_name": "Calorific value of liquefied gas",
                 "symbol": "q"
             }
         ]
@@ -2326,23 +2716,28 @@
         "formula": "t=Q_吸/(c×m)+t_0",
         "symbol_map": [
             {
-                "name": "水的末温",
+                "zh_name": "水的末温",
+                "en_name": "Final temperature of water",
                 "symbol": "t"
             },
             {
-                "name": "水吸收的热量",
+                "zh_name": "水吸收的热量",
+                "en_name": "Heat absorbed by water",
                 "symbol": "Q_吸"
             },
             {
-                "name": "水的比热容",
+                "zh_name": "水的比热容",
+                "en_name": "Specific heat capacity of water",
                 "symbol": "c"
             },
             {
-                "name": "水的质量",
+                "zh_name": "水的质量",
+                "en_name": "Mass of water",
                 "symbol": "m"
             },
             {
-                "name": "初始温度",
+                "zh_name": "初始温度",
+                "en_name": "Initial temperature",
                 "symbol": "t_0"
             }
         ]
@@ -2352,15 +2747,18 @@
         "formula": "q'=燃气实际放出的热量/m_{燃气}",
         "symbol_map": [
             {
-                "name": "混合燃气的平均热值",
+                "zh_name": "混合燃气的平均热值",
+                "en_name": "Average calorific value of mixed gas",
                 "symbol": "q'"
             },
             {
-                "name": "燃气实际放出的热量",
+                "zh_name": "燃气实际放出的热量",
+                "en_name": "Actual heat released by the gas",
                 "symbol": "燃气实际放出的热量"
             },
             {
-                "name": "消耗燃气的质量",
+                "zh_name": "消耗燃气的质量",
+                "en_name": "Mass of consumed gas",
                 "symbol": "m_{燃气}"
             }
         ]
@@ -2370,11 +2768,13 @@
         "formula": "t_实际=max(t_2,100℃)",
         "symbol_map": [
             {
-                "name": "实际温度",
+                "zh_name": "实际温度",
+                "en_name": "actual temperature",
                 "symbol": "t_实际"
             },
             {
-                "name": "最终温度",
+                "zh_name": "最终温度",
+                "en_name": "final temperature",
                 "symbol": "t_2"
             }
         ]
@@ -2384,15 +2784,18 @@
         "formula": "m_油总=m_垃圾总量*每吨垃圾榨出的燃料油量",
         "symbol_map": [
             {
-                "name": "燃料油的质量",
+                "zh_name": "燃料油的质量",
+                "en_name": "Fuel oil mass",
                 "symbol": "m_油总"
             },
             {
-                "name": "垃圾总量",
+                "zh_name": "垃圾总量",
+                "en_name": "Total amount of garbage",
                 "symbol": "m_垃圾总量"
             },
             {
-                "name": "每吨垃圾榨出的燃料油量（或垃圾榨出燃料油的比例）",
+                "zh_name": "每吨垃圾榨出的燃料油量（或垃圾榨出燃料油的比例）",
+                "en_name": "Fuel oil yield per ton of garbage (or the ratio of fuel oil extracted from garbage)",
                 "symbol": "每吨垃圾榨出的燃料油量"
             }
         ]
@@ -2402,19 +2805,23 @@
         "formula": "m_总=m_垃圾/每吨垃圾榨出燃料油的质量×每吨垃圾能榨出的燃料油质量",
         "symbol_map": [
             {
-                "name": "总燃料油质量",
+                "zh_name": "总燃料油质量",
+                "en_name": "Total fuel oil mass",
                 "symbol": "m_总"
             },
             {
-                "name": "每天产生垃圾的质量",
+                "zh_name": "每天产生垃圾的质量",
+                "en_name": "Daily mass of generated garbage",
                 "symbol": "m_垃圾"
             },
             {
-                "name": "每吨垃圾榨出燃料油的质量",
+                "zh_name": "每吨垃圾榨出燃料油的质量",
+                "en_name": "Mass of fuel oil extracted per ton of garbage",
                 "symbol": "每吨垃圾榨出燃料油的质量"
             },
             {
-                "name": "每吨垃圾能榨出的燃料油质量",
+                "zh_name": "每吨垃圾能榨出的燃料油质量",
+                "en_name": "Mass of fuel oil that can be extracted per ton of garbage",
                 "symbol": "每吨垃圾能榨出的燃料油质量"
             }
         ]
@@ -2424,19 +2831,23 @@
         "formula": "Q_1=m_气×q×燃烧效率",
         "symbol_map": [
             {
-                "name": "燃气燃烧放出的热量",
+                "zh_name": "燃气燃烧放出的热量",
+                "en_name": "Heat released by gas combustion",
                 "symbol": "Q_1"
             },
             {
-                "name": "燃气质量",
+                "zh_name": "燃气质量",
+                "en_name": "Mass of gas",
                 "symbol": "m_气"
             },
             {
-                "name": "丁烷气体的热值",
+                "zh_name": "丁烷气体的热值",
+                "en_name": "Calorific value of butane gas",
                 "symbol": "q"
             },
             {
-                "name": "丁烷气体的燃烧效率",
+                "zh_name": "丁烷气体的燃烧效率",
+                "en_name": "Combustion efficiency of butane gas",
                 "symbol": "燃烧效率"
             }
         ]
@@ -2446,15 +2857,18 @@
         "formula": "R_{总}=R+R_L",
         "symbol_map": [
             {
-                "name": "总电阻",
+                "zh_name": "总电阻",
+                "en_name": "Total resistance",
                 "symbol": "R_{总}"
             },
             {
-                "name": "定值电阻（或电阻R_1）",
+                "zh_name": "定值电阻（或电阻R_1）",
+                "en_name": "Fixed resistor (or resistor R_1)",
                 "symbol": "R"
             },
             {
-                "name": "可变电阻（或电阻R_2）",
+                "zh_name": "可变电阻（或电阻R_2）",
+                "en_name": "Variable resistor (or resistor R_2)",
                 "symbol": "R_L"
             }
         ]
@@ -2464,15 +2878,18 @@
         "formula": "W=ρ_{电池}×m",
         "symbol_map": [
             {
-                "name": "锂电池储存的电能",
+                "zh_name": "锂电池储存的电能",
+                "en_name": "Energy stored in lithium battery",
                 "symbol": "W"
             },
             {
-                "name": "固态锂电池能量密度",
+                "zh_name": "固态锂电池能量密度",
+                "en_name": "Energy density of solid-state lithium battery",
                 "symbol": "ρ_{电池}"
             },
             {
-                "name": "质量",
+                "zh_name": "质量",
+                "en_name": "Mass",
                 "symbol": "m"
             }
         ]
@@ -2482,15 +2899,18 @@
         "formula": "P_1=太阳每秒辐射到每平方米的能量×有效面积",
         "symbol_map": [
             {
-                "name": "太阳能电池板接收到的太阳辐射功率",
+                "zh_name": "太阳能电池板接收到的太阳辐射功率",
+                "en_name": "Solar radiation power received by the solar panel",
                 "symbol": "P_1"
             },
             {
-                "name": "太阳每秒辐射到每平方米的能量",
+                "zh_name": "太阳每秒辐射到每平方米的能量",
+                "en_name": "Solar energy radiated per second per square meter",
                 "symbol": "太阳每秒辐射到每平方米的能量"
             },
             {
-                "name": "有效面积",
+                "zh_name": "有效面积",
+                "en_name": "Effective area",
                 "symbol": "有效面积"
             }
         ]
@@ -2500,19 +2920,23 @@
         "formula": "所有教室每天消耗的总电能=W_白炽灯×教室数量×灯泡数量",
         "symbol_map": [
             {
-                "name": "所有教室每天消耗的总电能(节能灯)(白炽灯)",
+                "zh_name": "所有教室每天消耗的总电能(节能灯)(白炽灯)",
+                "en_name": "Total daily electrical energy consumption of all classrooms (for both energy-saving lamps and incandescent lamps)",
                 "symbol": "所有教室每天消耗的总电能"
             },
             {
-                "name": "单个白炽灯每天消耗的电能",
+                "zh_name": "单个白炽灯每天消耗的电能",
+                "en_name": "Daily electrical energy consumption of a single incandescent lamp",
                 "symbol": "W_白炽灯"
             },
             {
-                "name": "教室数量",
+                "zh_name": "教室数量",
+                "en_name": "Number of classrooms",
                 "symbol": "教室数量"
             },
             {
-                "name": "每间教室灯泡数量",
+                "zh_name": "每间教室灯泡数量",
+                "en_name": "Number of light bulbs per classroom",
                 "symbol": "灯泡数量"
             }
         ]
@@ -2522,15 +2946,18 @@
         "formula": "W_月白炽灯=所有教室每天消耗的总电能×天数",
         "symbol_map": [
             {
-                "name": "每月使用白炽灯消耗的总电能",
+                "zh_name": "每月使用白炽灯消耗的总电能",
+                "en_name": "Total electricity consumed by incandescent lamps per month",
                 "symbol": "W_月白炽灯"
             },
             {
-                "name": "所有教室每天消耗的总电能(节能灯)(白炽灯)",
+                "zh_name": "所有教室每天消耗的总电能(节能灯)(白炽灯)",
+                "en_name": "Total daily electricity consumption for all classrooms (for energy-saving lamps and incandescent lamps)",
                 "symbol": "所有教室每天消耗的总电能"
             },
             {
-                "name": "天数",
+                "zh_name": "天数",
+                "en_name": "Number of days",
                 "symbol": "天数"
             }
         ]
@@ -2540,15 +2967,18 @@
         "formula": "P_热=I^2×R",
         "symbol_map": [
             {
-                "name": "功率",
+                "zh_name": "功率",
+                "en_name": "Power",
                 "symbol": "P_热"
             },
             {
-                "name": "电流",
+                "zh_name": "电流",
+                "en_name": "Current",
                 "symbol": "I"
             },
             {
-                "name": "电阻",
+                "zh_name": "电阻",
+                "en_name": "Resistance",
                 "symbol": "R"
             }
         ]
@@ -2558,15 +2988,18 @@
         "formula": "飞机最大航程=Q_1/f",
         "symbol_map": [
             {
-                "name": "飞机最大航程",
+                "zh_name": "飞机最大航程",
+                "en_name": "Maximum range of the aircraft",
                 "symbol": "飞机最大航程"
             },
             {
-                "name": "转化成的机械能",
+                "zh_name": "转化成的机械能",
+                "en_name": "Converted mechanical energy",
                 "symbol": "Q_1"
             },
             {
-                "name": "飞机在500m/s下的阻力",
+                "zh_name": "飞机在500m/s下的阻力",
+                "en_name": "Air resistance of the aircraft at 500 m/s",
                 "symbol": "f"
             }
         ]
@@ -2576,15 +3009,18 @@
         "formula": "h=n_楼层×每层楼高",
         "symbol_map": [
             {
-                "name": "上升的高度",
+                "zh_name": "上升的高度",
+                "en_name": "Height risen",
                 "symbol": "h"
             },
             {
-                "name": "楼层数",
+                "zh_name": "楼层数",
+                "en_name": "Number of floors",
                 "symbol": "n_楼层"
             },
             {
-                "name": "每层楼高",
+                "zh_name": "每层楼高",
+                "en_name": "Height per floor",
                 "symbol": "每层楼高"
             }
         ]
@@ -2594,11 +3030,13 @@
         "formula": "W_电=W",
         "symbol_map": [
             {
-                "name": "消耗的电能",
+                "zh_name": "消耗的电能",
+                "en_name": "Electrical energy consumed",
                 "symbol": "W_电"
             },
             {
-                "name": "消耗的机械能",
+                "zh_name": "消耗的机械能",
+                "en_name": "Mechanical energy consumed",
                 "symbol": "W"
             }
         ]
@@ -2608,15 +3046,18 @@
         "formula": "W_总=W_{加热}+W_{研磨}",
         "symbol_map": [
             {
-                "name": "一次制浆过程总消耗的电能",
+                "zh_name": "一次制浆过程总消耗的电能",
+                "en_name": "Total electrical energy consumed in a single pulping process",
                 "symbol": "W_总"
             },
             {
-                "name": "加热过程消耗的电能",
+                "zh_name": "加热过程消耗的电能",
+                "en_name": "Electrical energy consumed in the heating process",
                 "symbol": "W_{加热}"
             },
             {
-                "name": "研磨过程消耗的电能",
+                "zh_name": "研磨过程消耗的电能",
+                "en_name": "Electrical energy consumed in the grinding process",
                 "symbol": "W_{研磨}"
             }
         ]
@@ -2626,11 +3067,13 @@
         "formula": "农药体积=V",
         "symbol_map": [
             {
-                "name": "农药体积",
+                "zh_name": "农药体积",
+                "en_name": "Pesticide volume",
                 "symbol": "农药体积"
             },
             {
-                "name": "药箱容量",
+                "zh_name": "药箱容量",
+                "en_name": "Tank capacity",
                 "symbol": "V"
             }
         ]
@@ -2640,19 +3083,23 @@
         "formula": "W=η×U×C",
         "symbol_map": [
             {
-                "name": "输出的机械能",
+                "zh_name": "输出的机械能",
+                "en_name": "Output Mechanical Energy",
                 "symbol": "W"
             },
             {
-                "name": "额定工作电压",
+                "zh_name": "额定工作电压",
+                "en_name": "Rated Operating Voltage",
                 "symbol": "U"
             },
             {
-                "name": "电池容量",
+                "zh_name": "电池容量",
+                "en_name": "Battery Capacity",
                 "symbol": "C"
             },
             {
-                "name": "效率",
+                "zh_name": "效率",
+                "en_name": "Efficiency",
                 "symbol": "η"
             }
         ]
@@ -2662,19 +3109,23 @@
         "formula": "Δt_金=t_水初+Δt_水-t_金属初",
         "symbol_map": [
             {
-                "name": "金属块降低的温度",
+                "zh_name": "金属块降低的温度",
+                "en_name": "The decrease in temperature of the metal block",
                 "symbol": "Δt_金"
             },
             {
-                "name": "水的初温",
+                "zh_name": "水的初温",
+                "en_name": "The initial temperature of the water",
                 "symbol": "t_水初"
             },
             {
-                "name": "水温升高的温度",
+                "zh_name": "水温升高的温度",
+                "en_name": "The increase in temperature of the water",
                 "symbol": "Δt_水"
             },
             {
-                "name": "金属块原来的水温",
+                "zh_name": "金属块原来的水温",
+                "en_name": "The original temperature of the water in the metal block",
                 "symbol": "t_金属初"
             }
         ]
@@ -2684,15 +3135,18 @@
         "formula": "N=W_总/W_单次",
         "symbol_map": [
             {
-                "name": "冰箱启动次数",
+                "zh_name": "冰箱启动次数",
+                "en_name": "Number of refrigerator startups",
                 "symbol": "N"
             },
             {
-                "name": "一天总耗电量",
+                "zh_name": "一天总耗电量",
+                "en_name": "Total daily power consumption",
                 "symbol": "W_总"
             },
             {
-                "name": "每次启动耗电量",
+                "zh_name": "每次启动耗电量",
+                "en_name": "Power consumption per startup",
                 "symbol": "W_单次"
             }
         ]
@@ -2702,19 +3156,23 @@
         "formula": "U_串=I_串×(R_1+R_2)",
         "symbol_map": [
             {
-                "name": "总电压",
+                "zh_name": "总电压",
+                "en_name": "Total voltage",
                 "symbol": "U_串"
             },
             {
-                "name": "表头电流",
+                "zh_name": "表头电流",
+                "en_name": "Galvanometer current",
                 "symbol": "I_串"
             },
             {
-                "name": "表头电阻",
+                "zh_name": "表头电阻",
+                "en_name": "Galvanometer resistance",
                 "symbol": "R_1"
             },
             {
-                "name": "灯泡L_2的电阻",
+                "zh_name": "灯泡L_2的电阻",
+                "en_name": "Resistance of bulb L_2",
                 "symbol": "R_2"
             }
         ]
@@ -2724,15 +3182,18 @@
         "formula": "I=I′_1+I′_2",
         "symbol_map": [
             {
-                "name": "干路最大电流",
+                "zh_name": "干路最大电流",
+                "en_name": "Maximum current in main circuit",
                 "symbol": "I"
             },
             {
-                "name": "灯泡L_1的实际电流",
+                "zh_name": "灯泡L_1的实际电流",
+                "en_name": "Actual current of bulb L_1",
                 "symbol": "I′_1"
             },
             {
-                "name": "灯泡L_2的实际电流",
+                "zh_name": "灯泡L_2的实际电流",
+                "en_name": "Actual current of bulb L_2",
                 "symbol": "I′_2"
             }
         ]
@@ -2742,11 +3203,13 @@
         "formula": "生活垃圾完全燃烧放出的热量=m×q",
         "symbol_map": [
             {
-                "name": "生活垃圾完全燃烧放出的热量",
+                "zh_name": "生活垃圾完全燃烧放出的热量",
+                "en_name": "Heat released by complete combustion of domestic waste",
                 "symbol": "生活垃圾完全燃烧放出的热量"
             },
             {
-                "name": "生活垃圾的热值",
+                "zh_name": "生活垃圾的热值",
+                "en_name": "Calorific value of domestic waste",
                 "symbol": "q"
             }
         ]
@@ -2756,15 +3219,18 @@
         "formula": "q=E_电/(m×η_1)",
         "symbol_map": [
             {
-                "name": "生活垃圾的热值",
+                "zh_name": "生活垃圾的热值",
+                "en_name": "Calorific value of domestic waste",
                 "symbol": "q"
             },
             {
-                "name": "转化得到的电能",
+                "zh_name": "转化得到的电能",
+                "en_name": "The converted electrical energy",
                 "symbol": "E_电"
             },
             {
-                "name": "能量转化效率",
+                "zh_name": "能量转化效率",
+                "en_name": "energy conversion efficiency",
                 "symbol": "η_1"
             }
         ]
@@ -2774,15 +3240,18 @@
         "formula": "实际水温升高量=min(Δt',100°C-T_初)",
         "symbol_map": [
             {
-                "name": "实际水温升高量",
+                "zh_name": "实际水温升高量",
+                "en_name": "\nActual water temperature rise",
                 "symbol": "实际水温升高量"
             },
             {
-                "name": "水升高的理论温度",
+                "zh_name": "水升高的理论温度",
+                "en_name": "Theoretical temperature rise of water",
                 "symbol": "Δt'"
             },
             {
-                "name": "初始水温",
+                "zh_name": "初始水温",
+                "en_name": "initial water temperature",
                 "symbol": "T_初"
             }
         ]
@@ -2792,15 +3261,18 @@
         "formula": "V_水=热水产率×时间",
         "symbol_map": [
             {
-                "name": "产生的热水体积",
+                "zh_name": "产生的热水体积",
+                "en_name": "Volume of produced hot water",
                 "symbol": "V_水"
             },
             {
-                "name": "热水产率",
+                "zh_name": "热水产率",
+                "en_name": "Hot water production rate",
                 "symbol": "热水产率"
             },
             {
-                "name": "时间",
+                "zh_name": "时间",
+                "en_name": "Time",
                 "symbol": "时间"
             }
         ]
@@ -2810,15 +3282,18 @@
         "formula": "节省的费用=一年液化气费用-一年天然气费用",
         "symbol_map": [
             {
-                "name": "节省的费用",
+                "zh_name": "节省的费用",
+                "en_name": "Saved cost",
                 "symbol": "节省的费用"
             },
             {
-                "name": "一年液化气费用",
+                "zh_name": "一年液化气费用",
+                "en_name": "Annual liquefied gas cost",
                 "symbol": "一年液化气费用"
             },
             {
-                "name": "一年天然气费用",
+                "zh_name": "一年天然气费用",
+                "en_name": "Annual natural gas cost",
                 "symbol": "一年天然气费用"
             }
         ]
@@ -2828,19 +3303,23 @@
         "formula": "Q_吸=V×q×η",
         "symbol_map": [
             {
-                "name": "水吸收的热量",
+                "zh_name": "水吸收的热量",
+                "en_name": "Heat absorbed by water",
                 "symbol": "Q_吸"
             },
             {
-                "name": "天然气体积",
+                "zh_name": "天然气体积",
+                "en_name": "Volume of natural gas",
                 "symbol": "V"
             },
             {
-                "name": "天然气的热值",
+                "zh_name": "天然气的热值",
+                "en_name": "Calorific value of natural gas",
                 "symbol": "q"
             },
             {
-                "name": "水暖的热效率",
+                "zh_name": "水暖的热效率",
+                "en_name": "Thermal efficiency of water heating system",
                 "symbol": "η"
             }
         ]
@@ -2850,11 +3329,13 @@
         "formula": "N=n/2",
         "symbol_map": [
             {
-                "name": "每分钟内做功次数",
+                "zh_name": "每分钟内做功次数",
+                "en_name": "Number of work cycles per minute",
                 "symbol": "N"
             },
             {
-                "name": "飞轮转速",
+                "zh_name": "飞轮转速",
+                "en_name": "Flywheel speed",
                 "symbol": "n"
             }
         ]
@@ -2864,11 +3345,13 @@
         "formula": "汽油机的功率=W'",
         "symbol_map": [
             {
-                "name": "汽油机的功率",
+                "zh_name": "汽油机的功率",
+                "en_name": "The power of the gasoline engine",
                 "symbol": "汽油机的功率"
             },
             {
-                "name": "一分钟内燃气做的总功",
+                "zh_name": "一分钟内燃气做的总功",
+                "en_name": "The total work done by gas in one minute",
                 "symbol": "W'"
             }
         ]
@@ -2878,15 +3361,18 @@
         "formula": "Q′=P_额×t",
         "symbol_map": [
             {
-                "name": "每天水吸收的热量",
+                "zh_name": "每天水吸收的热量",
+                "en_name": "Daily heat absorbed by water",
                 "symbol": "Q′"
             },
             {
-                "name": "额定热负荷",
+                "zh_name": "额定热负荷",
+                "en_name": "Rated heat load",
                 "symbol": "P_额"
             },
             {
-                "name": "工作时间",
+                "zh_name": "工作时间",
+                "en_name": "Working time",
                 "symbol": "t"
             }
         ]
@@ -2896,15 +3382,18 @@
         "formula": "Q_{废气}=能量损失比例*Q_放",
         "symbol_map": [
             {
-                "name": "废气带走的热量",
+                "zh_name": "废气带走的热量",
+                "en_name": "Heat carried away by exhaust",
                 "symbol": "Q_{废气}"
             },
             {
-                "name": "废气带走热量的比例",
+                "zh_name": "废气带走热量的比例",
+                "en_name": "Proportion of heat carried away by exhaust",
                 "symbol": "能量损失比例"
             },
             {
-                "name": "汽油完全燃烧放出的热量",
+                "zh_name": "汽油完全燃烧放出的热量",
+                "en_name": "Heat released by complete combustion of gasoline",
                 "symbol": "Q_放"
             }
         ]
@@ -2914,15 +3403,18 @@
         "formula": "t=洗澡用水体积/V_额定",
         "symbol_map": [
             {
-                "name": "洗澡时间",
+                "zh_name": "洗澡时间",
+                "en_name": "Bathing time",
                 "symbol": "t"
             },
             {
-                "name": "洗澡用水体积",
+                "zh_name": "洗澡用水体积",
+                "en_name": "Volume of water used for bathing",
                 "symbol": "洗澡用水体积"
             },
             {
-                "name": "热水器额定流量",
+                "zh_name": "热水器额定流量",
+                "en_name": "Rated flow of the water heater",
                 "symbol": "V_额定"
             }
         ]
@@ -2932,15 +3424,18 @@
         "formula": "W_电=W_max×ε",
         "symbol_map": [
             {
-                "name": "转化的电能",
+                "zh_name": "转化的电能",
+                "en_name": "Converted electrical energy",
                 "symbol": "W_电"
             },
             {
-                "name": "最大电能",
+                "zh_name": "最大电能",
+                "en_name": "Maximum electrical energy",
                 "symbol": "W_max"
             },
             {
-                "name": "电能增加百分比",
+                "zh_name": "电能增加百分比",
+                "en_name": "Percentage increase in electrical energy",
                 "symbol": "ε"
             }
         ]
@@ -2950,15 +3445,18 @@
         "formula": "V=排气量×换算系数",
         "symbol_map": [
             {
-                "name": "燃气体积",
+                "zh_name": "燃气体积",
+                "en_name": "Gas volume",
                 "symbol": "V"
             },
             {
-                "name": "排气量",
+                "zh_name": "排气量",
+                "en_name": "Displacement",
                 "symbol": "排气量"
             },
             {
-                "name": "换算系数",
+                "zh_name": "换算系数",
+                "en_name": "Conversion factor",
                 "symbol": "换算系数"
             }
         ]
@@ -2968,15 +3466,18 @@
         "formula": "p=G_总/(4×S)",
         "symbol_map": [
             {
-                "name": "货车满载时对地面的压强",
+                "zh_name": "货车满载时对地面的压强",
+                "en_name": "Pressure on the ground when the truck is fully loaded",
                 "symbol": "p"
             },
             {
-                "name": "总重力",
+                "zh_name": "总重力",
+                "en_name": "Total weight force",
                 "symbol": "G_总"
             },
             {
-                "name": "接触面积",
+                "zh_name": "接触面积",
+                "en_name": "Contact area",
                 "symbol": "S"
             }
         ]
@@ -2986,15 +3487,18 @@
         "formula": "L=V/S",
         "symbol_map": [
             {
-                "name": "活塞位移",
+                "zh_name": "活塞位移",
+                "en_name": "Piston Displacement",
                 "symbol": "L"
             },
             {
-                "name": "气缸容积",
+                "zh_name": "气缸容积",
+                "en_name": "Cylinder Volume",
                 "symbol": "V"
             },
             {
-                "name": "活塞面积",
+                "zh_name": "活塞面积",
+                "en_name": "Piston Area",
                 "symbol": "S"
             }
         ]
@@ -3004,23 +3508,28 @@
         "formula": "Q=F×v×t/η",
         "symbol_map": [
             {
-                "name": "汽油完全燃烧释放的能量",
+                "zh_name": "汽油完全燃烧释放的能量",
+                "en_name": "Energy released by complete combustion of gasoline",
                 "symbol": "Q"
             },
             {
-                "name": "牵引力",
+                "zh_name": "牵引力",
+                "en_name": "Tractive force",
                 "symbol": "F"
             },
             {
-                "name": "速度",
+                "zh_name": "速度",
+                "en_name": "Speed",
                 "symbol": "v"
             },
             {
-                "name": "时间",
+                "zh_name": "时间",
+                "en_name": "Time",
                 "symbol": "t"
             },
             {
-                "name": "效率",
+                "zh_name": "效率",
+                "en_name": "Efficiency",
                 "symbol": "η"
             }
         ]
@@ -3030,15 +3539,18 @@
         "formula": "Δt=t_2-t_1",
         "symbol_map": [
             {
-                "name": "水温的变化",
+                "zh_name": "水温的变化",
+                "en_name": "Change in water temperature",
                 "symbol": "Δt"
             },
             {
-                "name": "末温",
+                "zh_name": "末温",
+                "en_name": "Final temperature",
                 "symbol": "t_2"
             },
             {
-                "name": "初温",
+                "zh_name": "初温",
+                "en_name": "Initial temperature",
                 "symbol": "t_1"
             }
         ]
@@ -3048,15 +3560,18 @@
         "formula": "Q=Q_1+Q_2",
         "symbol_map": [
             {
-                "name": "总热量",
+                "zh_name": "总热量",
+                "en_name": "Total heat",
                 "symbol": "Q"
             },
             {
-                "name": "冰升温吸热",
+                "zh_name": "冰升温吸热",
+                "en_name": "Heat absorbed by ice for warming up",
                 "symbol": "Q_1"
             },
             {
-                "name": "冰熔化吸热",
+                "zh_name": "冰熔化吸热",
+                "en_name": "Heat absorbed by ice for melting",
                 "symbol": "Q_2"
             }
         ]
@@ -3066,11 +3581,13 @@
         "formula": "m_油=m_水",
         "symbol_map": [
             {
-                "name": "食用油的质量",
+                "zh_name": "食用油的质量",
+                "en_name": "Mass of edible oil",
                 "symbol": "m_油"
             },
             {
-                "name": "水的质量",
+                "zh_name": "水的质量",
+                "en_name": "Mass of water",
                 "symbol": "m_水"
             }
         ]
@@ -3080,15 +3597,18 @@
         "formula": "μ=f/N",
         "symbol_map": [
             {
-                "name": "动摩擦因数",
+                "zh_name": "动摩擦因数",
+                "en_name": "Kinetic friction coefficient",
                 "symbol": "μ"
             },
             {
-                "name": "摩擦力",
+                "zh_name": "摩擦力",
+                "en_name": "Friction force",
                 "symbol": "f"
             },
             {
-                "name": "法向正压力",
+                "zh_name": "法向正压力",
+                "en_name": "Normal force",
                 "symbol": "N"
             }
         ]
@@ -3098,15 +3618,18 @@
         "formula": "总电阻R=R_1×R_2/(R_1+R_2)",
         "symbol_map": [
             {
-                "name": "总电阻R",
+                "zh_name": "总电阻R",
+                "en_name": "Total Resistance R",
                 "symbol": "总电阻R"
             },
             {
-                "name": "加热电阻R_1",
+                "zh_name": "加热电阻R_1",
+                "en_name": "Heating Resistance R_1",
                 "symbol": "R_1"
             },
             {
-                "name": "加热电阻R_2",
+                "zh_name": "加热电阻R_2",
+                "en_name": "Heating Resistance R_2",
                 "symbol": "R_2"
             }
         ]
@@ -3116,15 +3639,18 @@
         "formula": "E_2=E_1×能量转化率",
         "symbol_map": [
             {
-                "name": "公交车在A处的动能",
+                "zh_name": "公交车在A处的动能",
+                "en_name": "Kinetic energy of the bus at point A",
                 "symbol": "E_2"
             },
             {
-                "name": "阶段一电容释放的电能",
+                "zh_name": "阶段一电容释放的电能",
+                "en_name": "Electric energy released by the capacitor in stage one",
                 "symbol": "E_1"
             },
             {
-                "name": "能量转化率",
+                "zh_name": "能量转化率",
+                "en_name": "Energy conversion rate",
                 "symbol": "能量转化率"
             }
         ]
@@ -3134,15 +3660,18 @@
         "formula": "ΔW=W_2-W_1",
         "symbol_map": [
             {
-                "name": "节约的电能",
+                "zh_name": "节约的电能",
+                "en_name": "Saved electrical energy",
                 "symbol": "ΔW"
             },
             {
-                "name": "替代前的电能消耗",
+                "zh_name": "替代前的电能消耗",
+                "en_name": "Pre-alternative electrical energy consumption",
                 "symbol": "W_2"
             },
             {
-                "name": "替代后的电能消耗",
+                "zh_name": "替代后的电能消耗",
+                "en_name": "Post-alternative electrical energy consumption",
                 "symbol": "W_1"
             }
         ]
@@ -3152,15 +3681,18 @@
         "formula": "q=W_电/(m×η_1)",
         "symbol_map": [
             {
-                "name": "发电量",
+                "zh_name": "发电量",
+                "en_name": "Generated power",
                 "symbol": "W_电"
             },
             {
-                "name": "生活垃圾的质量",
+                "zh_name": "生活垃圾的质量",
+                "en_name": "Mass of municipal solid waste",
                 "symbol": "m"
             },
             {
-                "name": "发电效率",
+                "zh_name": "发电效率",
+                "en_name": "Power generation efficiency",
                 "symbol": "η_1"
             }
         ]
@@ -3170,19 +3702,23 @@
         "formula": "P_总=P_锅总+P_烙总+P_灯总",
         "symbol_map": [
             {
-                "name": "总功率",
+                "zh_name": "总功率",
+                "en_name": "Total Power",
                 "symbol": "P_总"
             },
             {
-                "name": "电饭锅总功率",
+                "zh_name": "电饭锅总功率",
+                "en_name": "Rice Cooker Total Power",
                 "symbol": "P_锅总"
             },
             {
-                "name": "电烙铁总功率",
+                "zh_name": "电烙铁总功率",
+                "en_name": "Electric Iron Total Power",
                 "symbol": "P_烙总"
             },
             {
-                "name": "节能灯总功率",
+                "zh_name": "节能灯总功率",
+                "en_name": "Energy-saving Lamp Total Power",
                 "symbol": "P_灯总"
             }
         ]
@@ -3192,11 +3728,13 @@
         "formula": "R′=1/4×R",
         "symbol_map": [
             {
-                "name": "新电阻",
+                "zh_name": "新电阻",
+                "en_name": "New Resistance",
                 "symbol": "R′"
             },
             {
-                "name": "原电阻",
+                "zh_name": "原电阻",
+                "en_name": "Original Resistance",
                 "symbol": "R"
             }
         ]
@@ -3206,15 +3744,18 @@
         "formula": "t_总=t_加速+t_匀速",
         "symbol_map": [
             {
-                "name": "总时间",
+                "zh_name": "总时间",
+                "en_name": "Total time",
                 "symbol": "t_总"
             },
             {
-                "name": "加速时间",
+                "zh_name": "加速时间",
+                "en_name": "Acceleration time",
                 "symbol": "t_加速"
             },
             {
-                "name": "匀速时间",
+                "zh_name": "匀速时间",
+                "en_name": "Constant speed time",
                 "symbol": "t_匀速"
             }
         ]
@@ -3224,15 +3765,18 @@
         "formula": "R_0=R_{总}-R_L",
         "symbol_map": [
             {
-                "name": "串联电阻",
+                "zh_name": "串联电阻",
+                "en_name": "Series Resistance",
                 "symbol": "R_0"
             },
             {
-                "name": "电路总电阻",
+                "zh_name": "电路总电阻",
+                "en_name": "Total Circuit Resistance",
                 "symbol": "R_{总}"
             },
             {
-                "name": "灯泡电阻",
+                "zh_name": "灯泡电阻",
+                "en_name": "Bulb Resistance",
                 "symbol": "R_L"
             }
         ]
@@ -3242,19 +3786,23 @@
         "formula": "Q=I_额^2×R×t",
         "symbol_map": [
             {
-                "name": "产生的热量",
+                "zh_name": "产生的热量",
+                "en_name": "Generated Heat",
                 "symbol": "Q"
             },
             {
-                "name": "额定电流",
+                "zh_name": "额定电流",
+                "en_name": "Rated Current",
                 "symbol": "I_额"
             },
             {
-                "name": "电阻",
+                "zh_name": "电阻",
+                "en_name": "Resistance",
                 "symbol": "R"
             },
             {
-                "name": "时间",
+                "zh_name": "时间",
+                "en_name": "Time",
                 "symbol": "t"
             }
         ]
@@ -3264,15 +3812,18 @@
         "formula": "t=C/I",
         "symbol_map": [
             {
-                "name": "时间",
+                "zh_name": "时间",
+                "en_name": "Time",
                 "symbol": "t"
             },
             {
-                "name": "最大容量",
+                "zh_name": "最大容量",
+                "en_name": "Maximum capacity",
                 "symbol": "C"
             },
             {
-                "name": "电流",
+                "zh_name": "电流",
+                "en_name": "Current",
                 "symbol": "I"
             }
         ]
@@ -3282,15 +3833,18 @@
         "formula": "P_实=η×P_{最大}",
         "symbol_map": [
             {
-                "name": "实际功率",
+                "zh_name": "实际功率",
+                "en_name": "Actual power",
                 "symbol": "P_实"
             },
             {
-                "name": "发动机最大功率",
+                "zh_name": "发动机最大功率",
+                "en_name": "Engine maximum power",
                 "symbol": "P_{最大}"
             },
             {
-                "name": "效率",
+                "zh_name": "效率",
+                "en_name": "Efficiency",
                 "symbol": "η"
             }
         ]
@@ -3300,15 +3854,18 @@
         "formula": "v_2=v_1-速度变化量",
         "symbol_map": [
             {
-                "name": "列车减速后的速度",
+                "zh_name": "列车减速后的速度",
+                "en_name": "Train's speed after deceleration",
                 "symbol": "v_2"
             },
             {
-                "name": "初始速度",
+                "zh_name": "初始速度",
+                "en_name": "Initial speed",
                 "symbol": "v_1"
             },
             {
-                "name": "速度变化量",
+                "zh_name": "速度变化量",
+                "en_name": "Change in speed",
                 "symbol": "速度变化量"
             }
         ]
@@ -3318,19 +3875,23 @@
         "formula": "η=(W_发电+Q_供热)/Q×100%",
         "symbol_map": [
             {
-                "name": "能量利用率",
+                "zh_name": "能量利用率",
+                "en_name": "Energy utilization rate",
                 "symbol": "η"
             },
             {
-                "name": "电能",
+                "zh_name": "电能",
+                "en_name": "Electric energy",
                 "symbol": "W_发电"
             },
             {
-                "name": "热能",
+                "zh_name": "热能",
+                "en_name": "Thermal energy",
                 "symbol": "Q_供热"
             },
             {
-                "name": "燃料完全燃烧放出的总能量",
+                "zh_name": "燃料完全燃烧放出的总能量",
+                "en_name": "Total energy released by complete combustion of fuel",
                 "symbol": "Q"
             }
         ]
@@ -3340,15 +3901,18 @@
         "formula": "R_总=R_L+R_{滑最大}",
         "symbol_map": [
             {
-                "name": "总电阻",
+                "zh_name": "总电阻",
+                "en_name": "Total Resistance",
                 "symbol": "R_总"
             },
             {
-                "name": "灯泡电阻",
+                "zh_name": "灯泡电阻",
+                "en_name": "Bulb Resistance",
                 "symbol": "R_L"
             },
             {
-                "name": "滑动变阻器最大阻值",
+                "zh_name": "滑动变阻器最大阻值",
+                "en_name": "Maximum Resistance of the Slider Resistor",
                 "symbol": "R_{滑最大}"
             }
         ]
@@ -3358,15 +3922,18 @@
         "formula": "S_总=S_车轮+S_支架",
         "symbol_map": [
             {
-                "name": "有效接触面积",
+                "zh_name": "有效接触面积",
+                "en_name": "Effective Contact Area",
                 "symbol": "S_总"
             },
             {
-                "name": "车轮与地面的总接触面积",
+                "zh_name": "车轮与地面的总接触面积",
+                "en_name": "Total Contact Area of Wheel and Ground",
                 "symbol": "S_车轮"
             },
             {
-                "name": "支架总面积",
+                "zh_name": "支架总面积",
+                "en_name": "Total Area of Supports",
                 "symbol": "S_支架"
             }
         ]
@@ -3376,11 +3943,13 @@
         "formula": "U_2=U",
         "symbol_map": [
             {
-                "name": "元件两端电压",
+                "zh_name": "元件两端电压",
+                "en_name": "Voltage across the component",
                 "symbol": "U_2"
             },
             {
-                "name": "电源电压",
+                "zh_name": "电源电压",
+                "en_name": "Supply voltage",
                 "symbol": "U"
             }
         ]
@@ -3390,15 +3959,18 @@
         "formula": "P_总=P_1+P_2",
         "symbol_map": [
             {
-                "name": "总功率",
+                "zh_name": "总功率",
+                "en_name": "Total power",
                 "symbol": "P_总"
             },
             {
-                "name": "绞吸功率",
+                "zh_name": "绞吸功率",
+                "en_name": "Suction power",
                 "symbol": "P_1"
             },
             {
-                "name": "电阻R_2的功率",
+                "zh_name": "电阻R_2的功率",
+                "en_name": "Power of resistance R_2",
                 "symbol": "P_2"
             }
         ]
@@ -3408,15 +3980,18 @@
         "formula": "t_每天=T_天-t_开机",
         "symbol_map": [
             {
-                "name": "每天待机时间",
+                "zh_name": "每天待机时间",
+                "en_name": "Daily standby time",
                 "symbol": "t_每天"
             },
             {
-                "name": "一天总小时数",
+                "zh_name": "一天总小时数",
+                "en_name": "Total hours in a day",
                 "symbol": "T_天"
             },
             {
-                "name": "每天开机小时数",
+                "zh_name": "每天开机小时数",
+                "en_name": "Daily operating hours",
                 "symbol": "t_开机"
             }
         ]
@@ -3426,15 +4001,18 @@
         "formula": "t_全年=t_每天×天数",
         "symbol_map": [
             {
-                "name": "一年待机总时间",
+                "zh_name": "一年待机总时间",
+                "en_name": "Total standby time for one year",
                 "symbol": "t_全年"
             },
             {
-                "name": "每天待机时间",
+                "zh_name": "每天待机时间",
+                "en_name": "Daily standby time",
                 "symbol": "t_每天"
             },
             {
-                "name": "一年天数",
+                "zh_name": "一年天数",
+                "en_name": "Number of days in a year",
                 "symbol": "天数"
             }
         ]
@@ -3444,19 +4022,23 @@
         "formula": "Q=I′^2×R×t",
         "symbol_map": [
             {
-                "name": "线圈产生的热量",
+                "zh_name": "线圈产生的热量",
+                "en_name": "Heat generated by the coil",
                 "symbol": "Q"
             },
             {
-                "name": "转动时的电流",
+                "zh_name": "转动时的电流",
+                "en_name": "Current when rotating",
                 "symbol": "I′"
             },
             {
-                "name": "线圈电阻",
+                "zh_name": "线圈电阻",
+                "en_name": "Coil resistance",
                 "symbol": "R"
             },
             {
-                "name": "时间",
+                "zh_name": "时间",
+                "en_name": "Time",
                 "symbol": "t"
             }
         ]
@@ -3466,15 +4048,18 @@
         "formula": "V=s*每公里油耗",
         "symbol_map": [
             {
-                "name": "消耗的汽油总量",
+                "zh_name": "消耗的汽油总量",
+                "en_name": "Total consumed gasoline",
                 "symbol": "V"
             },
             {
-                "name": "行驶距离",
+                "zh_name": "行驶距离",
+                "en_name": "Travelled distance",
                 "symbol": "s"
             },
             {
-                "name": "单位路程油耗",
+                "zh_name": "单位路程油耗",
+                "en_name": "Fuel consumption per unit distance",
                 "symbol": "每公里油耗"
             }
         ]
@@ -3484,11 +4069,13 @@
         "formula": "I_2=I_2_max",
         "symbol_map": [
             {
-                "name": "电阻R_2的电流",
+                "zh_name": "电阻R_2的电流",
+                "en_name": "Current of resistor R_2",
                 "symbol": "I_2"
             },
             {
-                "name": "电阻R_2允许的最大电流",
+                "zh_name": "电阻R_2允许的最大电流",
+                "en_name": "Maximum allowable current of resistor R_2",
                 "symbol": "I_2_max"
             }
         ]
@@ -3498,19 +4085,23 @@
         "formula": "W_1=I^2×R_1×t",
         "symbol_map": [
             {
-                "name": "电流通过R_1所做的功",
+                "zh_name": "电流通过R_1所做的功",
+                "en_name": "Work done by current through R_1",
                 "symbol": "W_1"
             },
             {
-                "name": "电流",
+                "zh_name": "电流",
+                "en_name": "Current",
                 "symbol": "I"
             },
             {
-                "name": "电阻R_1",
+                "zh_name": "电阻R_1",
+                "en_name": "Resistance R_1",
                 "symbol": "R_1"
             },
             {
-                "name": "时间",
+                "zh_name": "时间",
+                "en_name": "Time",
                 "symbol": "t"
             }
         ]
@@ -3520,19 +4111,23 @@
         "formula": "c_液=c_水×Δt_水/Δt_液",
         "symbol_map": [
             {
-                "name": "液体的比热容",
+                "zh_name": "液体的比热容",
+                "en_name": "Specific heat capacity of the liquid",
                 "symbol": "c_液"
             },
             {
-                "name": "水的比热容",
+                "zh_name": "水的比热容",
+                "en_name": "Specific heat capacity of water",
                 "symbol": "c_水"
             },
             {
-                "name": "水升高的温度",
+                "zh_name": "水升高的温度",
+                "en_name": "Temperature rise of water",
                 "symbol": "Δt_水"
             },
             {
-                "name": "某种液体升高的温度",
+                "zh_name": "某种液体升高的温度",
+                "en_name": "Temperature rise of a certain liquid",
                 "symbol": "Δt_液"
             }
         ]
@@ -3542,15 +4137,18 @@
         "formula": "Q_{总}=Q_单×S",
         "symbol_map": [
             {
-                "name": "总面积上每天接收的太阳能",
+                "zh_name": "总面积上每天接收的太阳能",
+                "en_name": "Total solar energy received per day on total area",
                 "symbol": "Q_{总}"
             },
             {
-                "name": "单平方米面积上每天接收的太阳能",
+                "zh_name": "单平方米面积上每天接收的太阳能",
+                "en_name": "Solar energy received per day per square meter",
                 "symbol": "Q_单"
             },
             {
-                "name": "接收太阳能的面积",
+                "zh_name": "接收太阳能的面积",
+                "en_name": "Area receiving solar energy",
                 "symbol": "S"
             }
         ]
@@ -3560,15 +4158,18 @@
         "formula": "V=出水流量×时间",
         "symbol_map": [
             {
-                "name": "每小时流出水的体积",
+                "zh_name": "每小时流出水的体积",
+                "en_name": "Volume of water discharged per hour",
                 "symbol": "V"
             },
             {
-                "name": "出水流量",
+                "zh_name": "出水流量",
+                "en_name": "Discharge flow rate",
                 "symbol": "出水流量"
             },
             {
-                "name": "时间",
+                "zh_name": "时间",
+                "en_name": "Time",
                 "symbol": "时间"
             }
         ]
@@ -3578,19 +4179,23 @@
         "formula": "η=(W+W')/Q",
         "symbol_map": [
             {
-                "name": "内燃机的效率",
+                "zh_name": "内燃机的效率",
+                "en_name": "Efficiency of internal combustion engine",
                 "symbol": "η"
             },
             {
-                "name": "牵引力做的功",
+                "zh_name": "牵引力做的功",
+                "en_name": "Work done by traction force",
                 "symbol": "W"
             },
             {
-                "name": "蓄电池增加的电能",
+                "zh_name": "蓄电池增加的电能",
+                "en_name": "Increase in electrical energy of the battery",
                 "symbol": "W'"
             },
             {
-                "name": "燃油完全燃烧放出的热量",
+                "zh_name": "燃油完全燃烧放出的热量",
+                "en_name": "Heat released from complete combustion of fuel",
                 "symbol": "Q"
             }
         ]
@@ -3600,11 +4205,13 @@
         "formula": "m_水=m",
         "symbol_map": [
             {
-                "name": "水的质量",
+                "zh_name": "水的质量",
+                "en_name": "Mass of water",
                 "symbol": "m_水"
             },
             {
-                "name": "冰的质量",
+                "zh_name": "冰的质量",
+                "en_name": "Mass of ice",
                 "symbol": "m"
             }
         ]
@@ -3614,19 +4221,23 @@
         "formula": "W=P×s/v",
         "symbol_map": [
             {
-                "name": "发动机做的功",
+                "zh_name": "发动机做的功",
+                "en_name": "Work done by the engine",
                 "symbol": "W"
             },
             {
-                "name": "功率",
+                "zh_name": "功率",
+                "en_name": "Power",
                 "symbol": "P"
             },
             {
-                "name": "路程",
+                "zh_name": "路程",
+                "en_name": "Distance",
                 "symbol": "s"
             },
             {
-                "name": "速度",
+                "zh_name": "速度",
+                "en_name": "Speed",
                 "symbol": "v"
             }
         ]
@@ -3636,23 +4247,28 @@
         "formula": "η=P_输出×t/(q×m)",
         "symbol_map": [
             {
-                "name": "热机效率",
+                "zh_name": "热机效率",
+                "en_name": "Thermal efficiency",
                 "symbol": "η"
             },
             {
-                "name": "输出功率",
+                "zh_name": "输出功率",
+                "en_name": "Output power",
                 "symbol": "P_输出"
             },
             {
-                "name": "时间",
+                "zh_name": "时间",
+                "en_name": "Time",
                 "symbol": "t"
             },
             {
-                "name": "燃料热值",
+                "zh_name": "燃料热值",
+                "en_name": "Fuel heat value",
                 "symbol": "q"
             },
             {
-                "name": "消耗燃料质量",
+                "zh_name": "消耗燃料质量",
+                "en_name": "Mass of consumed fuel",
                 "symbol": "m"
             }
         ]
@@ -3662,15 +4278,18 @@
         "formula": "I_2 = I总-I_1",
         "symbol_map": [
             {
-                "name": "通过R_x的电流",
+                "zh_name": "通过R_x的电流",
+                "en_name": "Current through R_x",
                 "symbol": "I_2"
             },
             {
-                "name": "总电流",
+                "zh_name": "总电流",
+                "en_name": "Total current",
                 "symbol": "I总"
             },
             {
-                "name": "开关S断开时电流",
+                "zh_name": "开关S断开时电流",
+                "en_name": "Current when switch S is open",
                 "symbol": "I_1"
             }
         ]
@@ -3680,15 +4299,18 @@
         "formula": "m'_煤气=m_{煤气原}-Δm_{煤气}",
         "symbol_map": [
             {
-                "name": "改进后煤气的质量",
+                "zh_name": "改进后煤气的质量",
+                "en_name": "Mass of improved coke gas",
                 "symbol": "m'_煤气"
             },
             {
-                "name": "原来煤气的质量",
+                "zh_name": "原来煤气的质量",
+                "en_name": "Original mass of coke gas",
                 "symbol": "m_{煤气原}"
             },
             {
-                "name": "节省的煤气质量",
+                "zh_name": "节省的煤气质量",
+                "en_name": "Saved mass of coke gas",
                 "symbol": "Δm_{煤气}"
             }
         ]
@@ -3698,19 +4320,23 @@
         "formula": "m′=η_1×m/η_2",
         "symbol_map": [
             {
-                "name": "新的汽油消耗量",
+                "zh_name": "新的汽油消耗量",
+                "en_name": "New gasoline consumption",
                 "symbol": "m′"
             },
             {
-                "name": "原消耗汽油质量",
+                "zh_name": "原消耗汽油质量",
+                "en_name": "Original gasoline mass consumption",
                 "symbol": "m"
             },
             {
-                "name": "原效率",
+                "zh_name": "原效率",
+                "en_name": "Original efficiency",
                 "symbol": "η_1"
             },
             {
-                "name": "新效率",
+                "zh_name": "新效率",
+                "en_name": "New efficiency",
                 "symbol": "η_2"
             }
         ]
@@ -3720,19 +4346,23 @@
         "formula": "Q_放=k×V×q_{天然气}",
         "symbol_map": [
             {
-                "name": "比率",
+                "zh_name": "比率",
+                "en_name": "Ratio",
                 "symbol": "k"
             },
             {
-                "name": "可燃冰完全燃烧放出的热量",
+                "zh_name": "可燃冰完全燃烧放出的热量",
+                "en_name": "Heat released by complete combustion of combustible ice",
                 "symbol": "Q_放"
             },
             {
-                "name": "可燃冰体积",
+                "zh_name": "可燃冰体积",
+                "en_name": "Volume of combustible ice",
                 "symbol": "V"
             },
             {
-                "name": "天然气的热值",
+                "zh_name": "天然气的热值",
+                "en_name": "Calorific value of natural gas",
                 "symbol": "q_{天然气}"
             }
         ]
@@ -3742,15 +4372,18 @@
         "formula": "m_水=m_水原始/C",
         "symbol_map": [
             {
-                "name": "水的质量",
+                "zh_name": "水的质量",
+                "en_name": "Mass of water",
                 "symbol": "m_水"
             },
             {
-                "name": "原始水的质量",
+                "zh_name": "原始水的质量",
+                "en_name": "Initial mass of water",
                 "symbol": "m_水原始"
             },
             {
-                "name": "g转kg的换算系数",
+                "zh_name": "g转kg的换算系数",
+                "en_name": "Conversion factor from grams to kilograms",
                 "symbol": "C"
             }
         ]
@@ -3760,15 +4393,18 @@
         "formula": "F_{总浮}=G_总-F",
         "symbol_map": [
             {
-                "name": "总的浮力",
+                "zh_name": "总的浮力",
+                "en_name": "Total buoyancy",
                 "symbol": "F_{总浮}"
             },
             {
-                "name": "A、B总重力",
+                "zh_name": "A、B总重力",
+                "en_name": "Total gravity of A and B",
                 "symbol": "G_总"
             },
             {
-                "name": "拉力",
+                "zh_name": "拉力",
+                "en_name": "Tension",
                 "symbol": "F"
             }
         ]
@@ -3778,15 +4414,18 @@
         "formula": "F_A_浮=F_{总浮}-F_B_浮",
         "symbol_map": [
             {
-                "name": "A受到的浮力",
+                "zh_name": "A受到的浮力",
+                "en_name": "Buoyancy on object A",
                 "symbol": "F_A_浮"
             },
             {
-                "name": "总的浮力",
+                "zh_name": "总的浮力",
+                "en_name": "Total buoyancy",
                 "symbol": "F_{总浮}"
             },
             {
-                "name": "物体B受到的浮力",
+                "zh_name": "物体B受到的浮力",
+                "en_name": "Buoyancy on object B",
                 "symbol": "F_B_浮"
             }
         ]
@@ -3796,11 +4435,13 @@
         "formula": "λ=c/f",
         "symbol_map": [
             {
-                "name": "波长",
+                "zh_name": "波长",
+                "en_name": "wavelength",
                 "symbol": "λ"
             },
             {
-                "name": "频率",
+                "zh_name": "频率",
+                "en_name": "frequency",
                 "symbol": "f"
             }
         ]
@@ -3810,15 +4451,18 @@
         "formula": "W=k×s",
         "symbol_map": [
             {
-                "name": "消耗电能",
+                "zh_name": "消耗电能",
+                "en_name": "Electrical Energy Consumed",
                 "symbol": "W"
             },
             {
-                "name": "行驶距离",
+                "zh_name": "行驶距离",
+                "en_name": "Distance Travelled",
                 "symbol": "s"
             },
             {
-                "name": "消耗电能和路程的比",
+                "zh_name": "消耗电能和路程的比",
+                "en_name": "Ratio of Electrical Energy Consumed to Distance Travelled",
                 "symbol": "k"
             }
         ]
@@ -3828,19 +4472,23 @@
         "formula": "W=W_加热+W_清喷+W_排",
         "symbol_map": [
             {
-                "name": "总消耗的电能",
+                "zh_name": "总消耗的电能",
+                "en_name": "Total electrical energy consumed",
                 "symbol": "W"
             },
             {
-                "name": "洗碗机加热消耗的电能",
+                "zh_name": "洗碗机加热消耗的电能",
+                "en_name": "Electrical energy consumed by dishwasher heating",
                 "symbol": "W_加热"
             },
             {
-                "name": "洗碗机清洗喷淋消耗的电能",
+                "zh_name": "洗碗机清洗喷淋消耗的电能",
+                "en_name": "Electrical energy consumed by dishwasher washing spray",
                 "symbol": "W_清喷"
             },
             {
-                "name": "洗碗机排水消耗的电能",
+                "zh_name": "洗碗机排水消耗的电能",
+                "en_name": "Electrical energy consumed by dishwasher draining",
                 "symbol": "W_排"
             }
         ]
@@ -3850,15 +4498,18 @@
         "formula": "E_k=m×(1/2)×v^2",
         "symbol_map": [
             {
-                "name": "物体动能",
+                "zh_name": "物体动能",
+                "en_name": "Kinetic energy of object",
                 "symbol": "E_k"
             },
             {
-                "name": "质量",
+                "zh_name": "质量",
+                "en_name": "Mass",
                 "symbol": "m"
             },
             {
-                "name": "速度",
+                "zh_name": "速度",
+                "en_name": "Velocity",
                 "symbol": "v"
             }
         ]
@@ -3868,11 +4519,13 @@
         "formula": "△E_k=E_k",
         "symbol_map": [
             {
-                "name": "动能减少量",
+                "zh_name": "动能减少量",
+                "en_name": "Kinetic energy decrease",
                 "symbol": "△E_k"
             },
             {
-                "name": "物体动能",
+                "zh_name": "物体动能",
+                "en_name": "Object's kinetic energy",
                 "symbol": "E_k"
             }
         ]
@@ -3882,15 +4535,18 @@
         "formula": "P=P_1×P_2/(P_1+P_2)",
         "symbol_map": [
             {
-                "name": "整个电路消耗的功率",
+                "zh_name": "整个电路消耗的功率",
+                "en_name": "Total power consumed by the circuit",
                 "symbol": "P"
             },
             {
-                "name": "电加热器1消耗的功率",
+                "zh_name": "电加热器1消耗的功率",
+                "en_name": "Power consumed by Heater 1",
                 "symbol": "P_1"
             },
             {
-                "name": "电加热器2消耗的功率",
+                "zh_name": "电加热器2消耗的功率",
+                "en_name": "Power consumed by Heater 2",
                 "symbol": "P_2"
             }
         ]
@@ -3900,15 +4556,18 @@
         "formula": "U_D=U_单节*干电池数量",
         "symbol_map": [
             {
-                "name": "工作电压",
+                "zh_name": "工作电压",
+                "en_name": "Operating Voltage",
                 "symbol": "U_D"
             },
             {
-                "name": "单节电池电压",
+                "zh_name": "单节电池电压",
+                "en_name": "Single Cell Voltage",
                 "symbol": "U_单节"
             },
             {
-                "name": "电池数量",
+                "zh_name": "电池数量",
+                "en_name": "Number of Batteries",
                 "symbol": "干电池数量"
             }
         ]
@@ -3918,19 +4577,23 @@
         "formula": "s_总=s_1+s_2+s_3",
         "symbol_map": [
             {
-                "name": "全程总路程",
+                "zh_name": "全程总路程",
+                "en_name": "Total journey distance",
                 "symbol": "s_总"
             },
             {
-                "name": "加速阶段路程",
+                "zh_name": "加速阶段路程",
+                "en_name": "Distance during acceleration phase",
                 "symbol": "s_1"
             },
             {
-                "name": "匀速阶段路程",
+                "zh_name": "匀速阶段路程",
+                "en_name": "Distance during constant speed phase",
                 "symbol": "s_2"
             },
             {
-                "name": "减速阶段路程",
+                "zh_name": "减速阶段路程",
+                "en_name": "Distance during deceleration phase",
                 "symbol": "s_3"
             }
         ]
@@ -3940,19 +4603,23 @@
         "formula": "t_总=t_1+t_2+t_3",
         "symbol_map": [
             {
-                "name": "全程总时间",
+                "zh_name": "全程总时间",
+                "en_name": "Total travel time",
                 "symbol": "t_总"
             },
             {
-                "name": "加速阶段时间",
+                "zh_name": "加速阶段时间",
+                "en_name": "Acceleration phase time",
                 "symbol": "t_1"
             },
             {
-                "name": "匀速阶段时间",
+                "zh_name": "匀速阶段时间",
+                "en_name": "Constant speed phase time",
                 "symbol": "t_2"
             },
             {
-                "name": "减速阶段时间",
+                "zh_name": "减速阶段时间",
+                "en_name": "Deceleration phase time",
                 "symbol": "t_3"
             }
         ]
@@ -3962,19 +4629,23 @@
         "formula": "Q_1=(U^2)/R_1×t",
         "symbol_map": [
             {
-                "name": "电阻丝产生的热量",
+                "zh_name": "电阻丝产生的热量",
+                "en_name": "Heat generated by resistance wire",
                 "symbol": "Q_1"
             },
             {
-                "name": "电源电压",
+                "zh_name": "电源电压",
+                "en_name": "Power supply voltage",
                 "symbol": "U"
             },
             {
-                "name": "电阻",
+                "zh_name": "电阻",
+                "en_name": "Resistance",
                 "symbol": "R_1"
             },
             {
-                "name": "时间",
+                "zh_name": "时间",
+                "en_name": "Time",
                 "symbol": "t"
             }
         ]
@@ -3984,19 +4655,23 @@
         "formula": "η=(W+W_电)/Q",
         "symbol_map": [
             {
-                "name": "内燃机的效率",
+                "zh_name": "内燃机的效率",
+                "en_name": "Internal combustion engine efficiency",
                 "symbol": "η"
             },
             {
-                "name": "总能量输出",
+                "zh_name": "总能量输出",
+                "en_name": "Total energy output",
                 "symbol": "W"
             },
             {
-                "name": "蓄电池增加的电能",
+                "zh_name": "蓄电池增加的电能",
+                "en_name": "Additional electrical energy from the battery",
                 "symbol": "W_电"
             },
             {
-                "name": "消耗的燃料总能量",
+                "zh_name": "消耗的燃料总能量",
+                "en_name": "Total energy of consumed fuel",
                 "symbol": "Q"
             }
         ]
@@ -4006,11 +4681,13 @@
         "formula": "天然气释放的热量=W",
         "symbol_map": [
             {
-                "name": "天然气释放的热量",
+                "zh_name": "天然气释放的热量",
+                "en_name": "Heat released by natural gas",
                 "symbol": "天然气释放的热量"
             },
             {
-                "name": "消耗的电能",
+                "zh_name": "消耗的电能",
+                "en_name": "Consumed electrical energy",
                 "symbol": "W"
             }
         ]
@@ -4020,15 +4697,18 @@
         "formula": "V=S×s",
         "symbol_map": [
             {
-                "name": "风的体积",
+                "zh_name": "风的体积",
+                "en_name": "Wind volume",
                 "symbol": "V"
             },
             {
-                "name": "轮叶转动形成的面积",
+                "zh_name": "轮叶转动形成的面积",
+                "en_name": "Area swept by the rotor blades",
                 "symbol": "S"
             },
             {
-                "name": "风通过距离",
+                "zh_name": "风通过距离",
+                "en_name": "Distance wind travels",
                 "symbol": "s"
             }
         ]
@@ -4038,15 +4718,18 @@
         "formula": "F_升=G+f",
         "symbol_map": [
             {
-                "name": "升力",
+                "zh_name": "升力",
+                "en_name": "Lift",
                 "symbol": "F_升"
             },
             {
-                "name": "无人机重力",
+                "zh_name": "无人机重力",
+                "en_name": "Drone gravity",
                 "symbol": "G"
             },
             {
-                "name": "阻力",
+                "zh_name": "阻力",
+                "en_name": "Drag",
                 "symbol": "f"
             }
         ]
@@ -4056,15 +4739,18 @@
         "formula": "W_有用=F_升×h",
         "symbol_map": [
             {
-                "name": "有用功",
+                "zh_name": "有用功",
+                "en_name": "Useful Work",
                 "symbol": "W_有用"
             },
             {
-                "name": "升力",
+                "zh_name": "升力",
+                "en_name": "Lift",
                 "symbol": "F_升"
             },
             {
-                "name": "上升高度",
+                "zh_name": "上升高度",
+                "en_name": "Rise Height",
                 "symbol": "h"
             }
         ]
@@ -4074,19 +4760,23 @@
         "formula": "V=h×l×s",
         "symbol_map": [
             {
-                "name": "水的体积",
+                "zh_name": "水的体积",
+                "en_name": "Volume of water",
                 "symbol": "V"
             },
             {
-                "name": "水深",
+                "zh_name": "水深",
+                "en_name": "Water depth",
                 "symbol": "h"
             },
             {
-                "name": "水面宽",
+                "zh_name": "水面宽",
+                "en_name": "Width of water surface",
                 "symbol": "l"
             },
             {
-                "name": "水在1h内通过的距离",
+                "zh_name": "水在1h内通过的距离",
+                "en_name": "Distance water travels in 1 hour",
                 "symbol": "s"
             }
         ]
@@ -4096,11 +4786,13 @@
         "formula": "P_2=P_2单×2",
         "symbol_map": [
             {
-                "name": "总功率",
+                "zh_name": "总功率",
+                "en_name": "Total Power",
                 "symbol": "P_2"
             },
             {
-                "name": "额定功率",
+                "zh_name": "额定功率",
+                "en_name": "Rated Power",
                 "symbol": "P_2单"
             }
         ]
@@ -4110,27 +4802,33 @@
         "formula": "P_{总}=P_1+P_2+P_3+P_4+P_5",
         "symbol_map": [
             {
-                "name": "总功率",
+                "zh_name": "总功率",
+                "en_name": "Total Power",
                 "symbol": "P_{总}"
             },
             {
-                "name": "日光灯1功率",
+                "zh_name": "日光灯1功率",
+                "en_name": "Fluorescent Lamp 1 Power",
                 "symbol": "P_1"
             },
             {
-                "name": "两盏日光灯功率",
+                "zh_name": "两盏日光灯功率",
+                "en_name": "Power of Two Fluorescent Lamps",
                 "symbol": "P_2"
             },
             {
-                "name": "电视机功率",
+                "zh_name": "电视机功率",
+                "en_name": "Television Power",
                 "symbol": "P_3"
             },
             {
-                "name": "电冰箱功率",
+                "zh_name": "电冰箱功率",
+                "en_name": "Refrigerator Power",
                 "symbol": "P_4"
             },
             {
-                "name": "洗衣机功率",
+                "zh_name": "洗衣机功率",
+                "en_name": "Washing Machine Power",
                 "symbol": "P_5"
             }
         ]
@@ -4140,15 +4838,18 @@
         "formula": "W_总=E_满-E_剩",
         "symbol_map": [
             {
-                "name": "消耗的电能",
+                "zh_name": "消耗的电能",
+                "en_name": "Consumed electrical energy",
                 "symbol": "W_总"
             },
             {
-                "name": "电池充满时的容量",
+                "zh_name": "电池充满时的容量",
+                "en_name": "Battery capacity at full charge",
                 "symbol": "E_满"
             },
             {
-                "name": "行驶20km后电池剩余容量",
+                "zh_name": "行驶20km后电池剩余容量",
+                "en_name": "Battery remaining capacity after traveling 20km",
                 "symbol": "E_剩"
             }
         ]
@@ -4158,15 +4859,18 @@
         "formula": "l=R_单/R_每米",
         "symbol_map": [
             {
-                "name": "单根输电线的长度",
+                "zh_name": "单根输电线的长度",
+                "en_name": "Length of a single transmission line",
                 "symbol": "l"
             },
             {
-                "name": "单根输电线的电阻",
+                "zh_name": "单根输电线的电阻",
+                "en_name": "Resistance of a single transmission line",
                 "symbol": "R_单"
             },
             {
-                "name": "每米电阻",
+                "zh_name": "每米电阻",
+                "en_name": "Resistance per meter",
                 "symbol": "R_每米"
             }
         ]
@@ -4176,11 +4880,13 @@
         "formula": "l_短路=l/2",
         "symbol_map": [
             {
-                "name": "短路处离甲地的距离",
+                "zh_name": "短路处离甲地的距离",
+                "en_name": "Distance from the fault location to Location A",
                 "symbol": "l_短路"
             },
             {
-                "name": "单根输电线的长度",
+                "zh_name": "单根输电线的长度",
+                "en_name": "Length of a single transmission line",
                 "symbol": "l"
             }
         ]
@@ -4190,15 +4896,18 @@
         "formula": "q=E/m_木柴",
         "symbol_map": [
             {
-                "name": "干木柴的热值",
+                "zh_name": "干木柴的热值",
+                "en_name": "calorific value of dry wood",
                 "symbol": "q"
             },
             {
-                "name": "身体消耗的能量",
+                "zh_name": "身体消耗的能量",
+                "en_name": "energy consumed by the body",
                 "symbol": "E"
             },
             {
-                "name": "干木柴的质量",
+                "zh_name": "干木柴的质量",
+                "en_name": "mass of dry wood",
                 "symbol": "m_木柴"
             }
         ]
@@ -4208,19 +4917,23 @@
         "formula": "W=p*S*s",
         "symbol_map": [
             {
-                "name": "做功量",
+                "zh_name": "做功量",
+                "en_name": "Work done",
                 "symbol": "W"
             },
             {
-                "name": "平均压强",
+                "zh_name": "平均压强",
+                "en_name": "Average pressure",
                 "symbol": "p"
             },
             {
-                "name": "活塞面积",
+                "zh_name": "活塞面积",
+                "en_name": "Piston area",
                 "symbol": "S"
             },
             {
-                "name": "活塞行程",
+                "zh_name": "活塞行程",
+                "en_name": "Piston stroke",
                 "symbol": "s"
             }
         ]
@@ -4230,19 +4943,23 @@
         "formula": "做功次数=转速×时间×每两圈做功一次",
         "symbol_map": [
             {
-                "name": "做功次数",
+                "zh_name": "做功次数",
+                "en_name": "Work Cycles",
                 "symbol": "做功次数"
             },
             {
-                "name": "飞轮转速",
+                "zh_name": "飞轮转速",
+                "en_name": "Flywheel Speed",
                 "symbol": "转速"
             },
             {
-                "name": "时间",
+                "zh_name": "时间",
+                "en_name": "Time",
                 "symbol": "时间"
             },
             {
-                "name": "每两圈做功一次",
+                "zh_name": "每两圈做功一次",
+                "en_name": "Work Done Per Two Revolutions",
                 "symbol": "每两圈做功一次"
             }
         ]
@@ -4252,15 +4969,18 @@
         "formula": "总成本费=水费+燃气费",
         "symbol_map": [
             {
-                "name": "总成本费",
+                "zh_name": "总成本费",
+                "en_name": "Total cost fee",
                 "symbol": "总成本费"
             },
             {
-                "name": "水费",
+                "zh_name": "水费",
+                "en_name": "Water fee",
                 "symbol": "水费"
             },
             {
-                "name": "燃气费",
+                "zh_name": "燃气费",
+                "en_name": "Gas fee",
                 "symbol": "燃气费"
             }
         ]
@@ -4270,15 +4990,18 @@
         "formula": "S=长×宽",
         "symbol_map": [
             {
-                "name": "受力面积",
+                "zh_name": "受力面积",
+                "en_name": "Force-bearing Area",
                 "symbol": "S"
             },
             {
-                "name": "长(cm)",
+                "zh_name": "长(cm)",
+                "en_name": "Length (cm)",
                 "symbol": "长"
             },
             {
-                "name": "宽(cm)",
+                "zh_name": "宽(cm)",
+                "en_name": "Width (cm)",
                 "symbol": "宽"
             }
         ]
@@ -4288,15 +5011,18 @@
         "formula": "q_{可燃冰}=k×q_{天然气}",
         "symbol_map": [
             {
-                "name": "可燃冰的热值",
+                "zh_name": "可燃冰的热值",
+                "en_name": "Heat value of methane hydrate",
                 "symbol": "q_{可燃冰}"
             },
             {
-                "name": "可燃冰与天然气热值比",
+                "zh_name": "可燃冰与天然气热值比",
+                "en_name": "Ratio of heat value between methane hydrate and natural gas",
                 "symbol": "k"
             },
             {
-                "name": "天然气的热值",
+                "zh_name": "天然气的热值",
+                "en_name": "Heat value of natural gas",
                 "symbol": "q_{天然气}"
             }
         ]
@@ -4306,19 +5032,23 @@
         "formula": "U_总=U_额+I×R",
         "symbol_map": [
             {
-                "name": "电源两端电压",
+                "zh_name": "电源两端电压",
+                "en_name": "Voltage across the power source",
                 "symbol": "U_总"
             },
             {
-                "name": "小灯泡额定电压",
+                "zh_name": "小灯泡额定电压",
+                "en_name": "Rated voltage of the light bulb",
                 "symbol": "U_额"
             },
             {
-                "name": "电流",
+                "zh_name": "电流",
+                "en_name": "Current",
                 "symbol": "I"
             },
             {
-                "name": "电阻",
+                "zh_name": "电阻",
+                "en_name": "Resistance",
                 "symbol": "R"
             }
         ]
@@ -4328,27 +5058,33 @@
         "formula": "c_乙=c_甲×m_甲×△t_甲/(m_乙×△t_乙)",
         "symbol_map": [
             {
-                "name": "乙的比热容",
+                "zh_name": "乙的比热容",
+                "en_name": "Specific heat capacity of object B",
                 "symbol": "c_乙"
             },
             {
-                "name": "甲的比热容",
+                "zh_name": "甲的比热容",
+                "en_name": "Specific heat capacity of object A",
                 "symbol": "c_甲"
             },
             {
-                "name": "甲的质量",
+                "zh_name": "甲的质量",
+                "en_name": "Mass of object A",
                 "symbol": "m_甲"
             },
             {
-                "name": "乙的质量",
+                "zh_name": "乙的质量",
+                "en_name": "Mass of object B",
                 "symbol": "m_乙"
             },
             {
-                "name": "甲的温升",
+                "zh_name": "甲的温升",
+                "en_name": "Temperature rise of object A",
                 "symbol": "△t_甲"
             },
             {
-                "name": "乙的温升",
+                "zh_name": "乙的温升",
+                "en_name": "Temperature rise of object B",
                 "symbol": "△t_乙"
             }
         ]
@@ -4358,15 +5094,18 @@
         "formula": "m_排=W×-",
         "symbol_map": [
             {
-                "name": "污染物质量",
+                "zh_name": "污染物质量",
+                "en_name": "Pollutant mass",
                 "symbol": "m_排"
             },
             {
-                "name": "牵引力做的功",
+                "zh_name": "牵引力做的功",
+                "en_name": "Work done by traction force",
                 "symbol": "W"
             },
             {
-                "name": "每焦耳功对应的污染物排放量",
+                "zh_name": "每焦耳功对应的污染物排放量",
+                "en_name": "Pollutant emission per joule of work",
                 "symbol": "-"
             }
         ]
@@ -4376,15 +5115,18 @@
         "formula": "W_月=W_节×天数",
         "symbol_map": [
             {
-                "name": "一月可节约的电能",
+                "zh_name": "一月可节约的电能",
+                "en_name": "Monthly energy saved",
                 "symbol": "W_月"
             },
             {
-                "name": "每天节约的电能",
+                "zh_name": "每天节约的电能",
+                "en_name": "Daily energy saved",
                 "symbol": "W_节"
             },
             {
-                "name": "天数",
+                "zh_name": "天数",
+                "en_name": "Number of days",
                 "symbol": "天数"
             }
         ]
@@ -4394,15 +5136,18 @@
         "formula": "W=W_制冷+W_送风",
         "symbol_map": [
             {
-                "name": "总消耗电能",
+                "zh_name": "总消耗电能",
+                "en_name": "Total electrical energy consumed",
                 "symbol": "W"
             },
             {
-                "name": "压缩机消耗的电能",
+                "zh_name": "压缩机消耗的电能",
+                "en_name": "Electrical energy consumed by compressor",
                 "symbol": "W_制冷"
             },
             {
-                "name": "送风机消耗的电能",
+                "zh_name": "送风机消耗的电能",
+                "en_name": "Electrical energy consumed by blower",
                 "symbol": "W_送风"
             }
         ]
@@ -4412,15 +5157,18 @@
         "formula": "γ=c/λ",
         "symbol_map": [
             {
-                "name": "频率",
+                "zh_name": "频率",
+                "en_name": "Frequency",
                 "symbol": "γ"
             },
             {
-                "name": "波速",
+                "zh_name": "波速",
+                "en_name": "Wave velocity",
                 "symbol": "c"
             },
             {
-                "name": "波长",
+                "zh_name": "波长",
+                "en_name": "Wavelength",
                 "symbol": "λ"
             }
         ]
@@ -4430,11 +5178,13 @@
         "formula": "γ=c/λ",
         "symbol_map": [
             {
-                "name": "频率",
+                "zh_name": "频率",
+                "en_name": "Frequency",
                 "symbol": "γ"
             },
             {
-                "name": "波长",
+                "zh_name": "波长",
+                "en_name": "Wavelength",
                 "symbol": "λ"
             }
         ]
@@ -4444,15 +5194,18 @@
         "formula": "n=Q/e",
         "symbol_map": [
             {
-                "name": "电子数",
+                "zh_name": "电子数",
+                "en_name": "Number of electrons",
                 "symbol": "n"
             },
             {
-                "name": "总电荷量",
+                "zh_name": "总电荷量",
+                "en_name": "Total charge",
                 "symbol": "Q"
             },
             {
-                "name": "单个电子的电量",
+                "zh_name": "单个电子的电量",
+                "en_name": "Charge of a single electron",
                 "symbol": "e"
             }
         ]
@@ -4462,19 +5215,23 @@
         "formula": "S=P_1/(P_2×转换效率)",
         "symbol_map": [
             {
-                "name": "太阳能电池板面积",
+                "zh_name": "太阳能电池板面积",
+                "en_name": "Solar Panel Area",
                 "symbol": "S"
             },
             {
-                "name": "电动机功率",
+                "zh_name": "电动机功率",
+                "en_name": "Motor Power",
                 "symbol": "P_1"
             },
             {
-                "name": "太阳光辐射到电池板上的功率",
+                "zh_name": "太阳光辐射到电池板上的功率",
+                "en_name": "Solar Irradiance on the Panel",
                 "symbol": "P_2"
             },
             {
-                "name": "转换效率",
+                "zh_name": "转换效率",
+                "en_name": "Conversion Efficiency",
                 "symbol": "转换效率"
             }
         ]
@@ -4484,15 +5241,18 @@
         "formula": "LED灯与LED灯与白炽灯功率比值比值=P_额LED/P_额白炽",
         "symbol_map": [
             {
-                "name": "LED灯与LED灯与白炽灯功率比值比值",
+                "zh_name": "LED灯与LED灯与白炽灯功率比值比值",
+                "en_name": "Ratio of the Ratio of LED Lamp Power to the Ratio of LED Lamp to Incandescent Lamp Power",
                 "symbol": "LED灯与LED灯与白炽灯功率比值比值"
             },
             {
-                "name": "LED灯功率",
+                "zh_name": "LED灯功率",
+                "en_name": "LED Lamp Power",
                 "symbol": "P_额LED"
             },
             {
-                "name": "LED灯与白炽灯功率比值",
+                "zh_name": "LED灯与白炽灯功率比值",
+                "en_name": "Ratio of LED Lamp to Incandescent Lamp Power",
                 "symbol": "P_额白炽"
             }
         ]
@@ -4502,11 +5262,13 @@
         "formula": "s_总=s_单程×2",
         "symbol_map": [
             {
-                "name": "总路程",
+                "zh_name": "总路程",
+                "en_name": "Total distance",
                 "symbol": "s_总"
             },
             {
-                "name": "单程路程",
+                "zh_name": "单程路程",
+                "en_name": "One-way distance",
                 "symbol": "s_单程"
             }
         ]
@@ -4516,15 +5278,18 @@
         "formula": "总共吸收的热量=Q_吸1+Q_吸2",
         "symbol_map": [
             {
-                "name": "总共吸收的热量",
+                "zh_name": "总共吸收的热量",
+                "en_name": "Total heat absorbed",
                 "symbol": "总共吸收的热量"
             },
             {
-                "name": "冰从-1℃升温到0℃吸收的热量",
+                "zh_name": "冰从-1℃升温到0℃吸收的热量",
+                "en_name": "Heat absorbed by ice to warm up from -1°C to 0°C",
                 "symbol": "Q_吸1"
             },
             {
-                "name": "冰熔化成0℃的水吸收的热量",
+                "zh_name": "冰熔化成0℃的水吸收的热量",
+                "en_name": "Heat absorbed by ice to melt into 0°C water",
                 "symbol": "Q_吸2"
             }
         ]
@@ -4534,15 +5299,18 @@
         "formula": "G_配=总重力-F_拉",
         "symbol_map": [
             {
-                "name": "配重的重力",
+                "zh_name": "配重的重力",
+                "en_name": "Weight of counterbalance",
                 "symbol": "G_配"
             },
             {
-                "name": "总重力",
+                "zh_name": "总重力",
+                "en_name": "Total gravitational force",
                 "symbol": "总重力"
             },
             {
-                "name": "拉力",
+                "zh_name": "拉力",
+                "en_name": "Tension",
                 "symbol": "F_拉"
             }
         ]
@@ -4552,15 +5320,18 @@
         "formula": "P'=U'^2/R",
         "symbol_map": [
             {
-                "name": "功率",
+                "zh_name": "功率",
+                "en_name": "Power",
                 "symbol": "P'"
             },
             {
-                "name": "电压",
+                "zh_name": "电压",
+                "en_name": "Voltage",
                 "symbol": "U'"
             },
             {
-                "name": "电阻",
+                "zh_name": "电阻",
+                "en_name": "Resistance",
                 "symbol": "R"
             }
         ]
@@ -4570,15 +5341,18 @@
         "formula": "P_R=I_L^2×R",
         "symbol_map": [
             {
-                "name": "串联电阻消耗的电功率",
+                "zh_name": "串联电阻消耗的电功率",
+                "en_name": "Power dissipated by the series resistor",
                 "symbol": "P_R"
             },
             {
-                "name": "灯泡正常发光时的电流",
+                "zh_name": "灯泡正常发光时的电流",
+                "en_name": "Current when the bulb is operating normally",
                 "symbol": "I_L"
             },
             {
-                "name": "串联电阻",
+                "zh_name": "串联电阻",
+                "en_name": "Series resistance",
                 "symbol": "R"
             }
         ]
@@ -4588,15 +5362,18 @@
         "formula": "V_滴=V_总/滴数",
         "symbol_map": [
             {
-                "name": "一滴汽油的体积",
+                "zh_name": "一滴汽油的体积",
+                "en_name": "Volume of one drop of gasoline",
                 "symbol": "V_滴"
             },
             {
-                "name": "总体积",
+                "zh_name": "总体积",
+                "en_name": "Total volume",
                 "symbol": "V_总"
             },
             {
-                "name": "滴数",
+                "zh_name": "滴数",
+                "en_name": "Number of drops",
                 "symbol": "滴数"
             }
         ]
@@ -4606,15 +5383,18 @@
         "formula": "d=V_滴/S",
         "symbol_map": [
             {
-                "name": "汽油分子直径",
+                "zh_name": "汽油分子直径",
+                "en_name": "Diameter of gasoline molecule",
                 "symbol": "d"
             },
             {
-                "name": "石油体积",
+                "zh_name": "石油体积",
+                "en_name": "Volume of oil",
                 "symbol": "V_滴"
             },
             {
-                "name": "油膜面积",
+                "zh_name": "油膜面积",
+                "en_name": "Area of oil film",
                 "symbol": "S"
             }
         ]
@@ -4624,11 +5404,13 @@
         "formula": "λ=3×10^8m/s/f",
         "symbol_map": [
             {
-                "name": "波长(λ)",
+                "zh_name": "波长(λ)",
+                "en_name": "Wavelength (λ)",
                 "symbol": "λ"
             },
             {
-                "name": "频率",
+                "zh_name": "频率",
+                "en_name": "Frequency",
                 "symbol": "f"
             }
         ]
@@ -4638,15 +5420,18 @@
         "formula": "Δt′=min(t_理论,100°C)-t_初",
         "symbol_map": [
             {
-                "name": "水实际升高温度Δt^{′}",
+                "zh_name": "水实际升高温度Δt^{′}",
+                "en_name": "The actual temperature rise of water",
                 "symbol": "Δt′"
             },
             {
-                "name": "理论上的末温度",
+                "zh_name": "理论上的末温度",
+                "en_name": "Theoretical final temperature",
                 "symbol": "t_理论"
             },
             {
-                "name": "初始温度",
+                "zh_name": "初始温度",
+                "en_name": "initial temperature",
                 "symbol": "t_初"
             }
         ]
@@ -4656,15 +5441,18 @@
         "formula": "n=m/m_0",
         "symbol_map": [
             {
-                "name": "运送次数",
+                "zh_name": "运送次数",
+                "en_name": "Delivery times",
                 "symbol": "n"
             },
             {
-                "name": "混凝土总质量",
+                "zh_name": "混凝土总质量",
+                "en_name": "Total mass of concrete",
                 "symbol": "m"
             },
             {
-                "name": "每次运送的混凝土量",
+                "zh_name": "每次运送的混凝土量",
+                "en_name": "Mass of concrete per delivery",
                 "symbol": "m_0"
             }
         ]
@@ -4674,15 +5462,18 @@
         "formula": "W_总=Q+W_电",
         "symbol_map": [
             {
-                "name": "总能量",
+                "zh_name": "总能量",
+                "en_name": "Total energy",
                 "symbol": "W_总"
             },
             {
-                "name": "氢气完全燃烧放出的热量",
+                "zh_name": "氢气完全燃烧放出的热量",
+                "en_name": "Heat released by complete combustion of hydrogen",
                 "symbol": "Q"
             },
             {
-                "name": "电池电能",
+                "zh_name": "电池电能",
+                "en_name": "Battery electric energy",
                 "symbol": "W_电"
             }
         ]
@@ -4692,15 +5483,18 @@
         "formula": "Q_{总}=n×Q_{单支}",
         "symbol_map": [
             {
-                "name": "总太阳能量",
+                "zh_name": "总太阳能量",
+                "en_name": "Total solar energy",
                 "symbol": "Q_{总}"
             },
             {
-                "name": "集热管数量",
+                "zh_name": "集热管数量",
+                "en_name": "Number of heat collection tubes",
                 "symbol": "n"
             },
             {
-                "name": "单支集热管每小时接收的太阳能",
+                "zh_name": "单支集热管每小时接收的太阳能",
+                "en_name": "Solar energy received per hour by a single heat collection tube",
                 "symbol": "Q_{单支}"
             }
         ]
@@ -4710,19 +5504,23 @@
         "formula": "Δt_铜=Q_吸/(c_铜×m_铜)",
         "symbol_map": [
             {
-                "name": "温度变化",
+                "zh_name": "温度变化",
+                "en_name": "Temperature change",
                 "symbol": "Δt_铜"
             },
             {
-                "name": "热量变化",
+                "zh_name": "热量变化",
+                "en_name": "Heat change",
                 "symbol": "Q_吸"
             },
             {
-                "name": "比热容",
+                "zh_name": "比热容",
+                "en_name": "Specific heat capacity",
                 "symbol": "c_铜"
             },
             {
-                "name": "质量",
+                "zh_name": "质量",
+                "en_name": "Mass",
                 "symbol": "m_铜"
             }
         ]
@@ -4732,15 +5530,18 @@
         "formula": "G=F×N",
         "symbol_map": [
             {
-                "name": "轿车的总重力",
+                "zh_name": "轿车的总重力",
+                "en_name": "Total gravitational force of the car",
                 "symbol": "G"
             },
             {
-                "name": "单个车轮对地面的压力",
+                "zh_name": "单个车轮对地面的压力",
+                "en_name": "Pressure exerted by a single wheel on the ground",
                 "symbol": "F"
             },
             {
-                "name": "车轮个数",
+                "zh_name": "车轮个数",
+                "en_name": "Number of wheels",
                 "symbol": "N"
             }
         ]
@@ -4750,11 +5551,13 @@
         "formula": "ΔF=G_{总}",
         "symbol_map": [
             {
-                "name": "增加的压力",
+                "zh_name": "增加的压力",
+                "en_name": "Increased pressure",
                 "symbol": "ΔF"
             },
             {
-                "name": "乘客总重力",
+                "zh_name": "乘客总重力",
+                "en_name": "Total gravitational force of passengers",
                 "symbol": "G_{总}"
             }
         ]
@@ -4764,19 +5567,23 @@
         "formula": "m_油=(W/η)/q",
         "symbol_map": [
             {
-                "name": "消耗汽油的质量",
+                "zh_name": "消耗汽油的质量",
+                "en_name": "Mass of consumed gasoline",
                 "symbol": "m_油"
             },
             {
-                "name": "阻力做功",
+                "zh_name": "阻力做功",
+                "en_name": "Work done by resistance",
                 "symbol": "W"
             },
             {
-                "name": "汽油的热值",
+                "zh_name": "汽油的热值",
+                "en_name": "Heat value of gasoline",
                 "symbol": "q"
             },
             {
-                "name": "效率",
+                "zh_name": "效率",
+                "en_name": "Efficiency",
                 "symbol": "η"
             }
         ]
@@ -4786,15 +5593,18 @@
         "formula": "L=n×d",
         "symbol_map": [
             {
-                "name": "总长度",
+                "zh_name": "总长度",
+                "en_name": "Total length",
                 "symbol": "L"
             },
             {
-                "name": "水分子数量",
+                "zh_name": "水分子数量",
+                "en_name": "Number of water molecules",
                 "symbol": "n"
             },
             {
-                "name": "水分子直径",
+                "zh_name": "水分子直径",
+                "en_name": "Diameter of water molecule",
                 "symbol": "d"
             }
         ]
@@ -4804,11 +5614,13 @@
         "formula": "C=2×π×r",
         "symbol_map": [
             {
-                "name": "地球周长",
+                "zh_name": "地球周长",
+                "en_name": "Circumference of Earth",
                 "symbol": "C"
             },
             {
-                "name": "地球半径",
+                "zh_name": "地球半径",
+                "en_name": "Radius of Earth",
                 "symbol": "r"
             }
         ]
@@ -4818,15 +5630,18 @@
         "formula": "h=L/C",
         "symbol_map": [
             {
-                "name": "排列可绕地球的圈数",
+                "zh_name": "排列可绕地球的圈数",
+                "en_name": "Number of times the arrangement can circle around Earth",
                 "symbol": "h"
             },
             {
-                "name": "总长度",
+                "zh_name": "总长度",
+                "en_name": "Total length",
                 "symbol": "L"
             },
             {
-                "name": "地球周长",
+                "zh_name": "地球周长",
+                "en_name": "Circumference of Earth",
                 "symbol": "C"
             }
         ]
@@ -4836,15 +5651,18 @@
         "formula": "Q=m*q",
         "symbol_map": [
             {
-                "name": "热量",
+                "zh_name": "热量",
+                "en_name": "Heat",
                 "symbol": "Q"
             },
             {
-                "name": "质量",
+                "zh_name": "质量",
+                "en_name": "Mass",
                 "symbol": "m"
             },
             {
-                "name": "热值",
+                "zh_name": "热值",
+                "en_name": "Calorific Value",
                 "symbol": "q"
             }
         ]
@@ -4854,15 +5672,18 @@
         "formula": "P=F*v",
         "symbol_map": [
             {
-                "name": "功率",
+                "zh_name": "功率",
+                "en_name": "Power",
                 "symbol": "P"
             },
             {
-                "name": "力",
+                "zh_name": "力",
+                "en_name": "Force",
                 "symbol": "F"
             },
             {
-                "name": "速度",
+                "zh_name": "速度",
+                "en_name": "Velocity",
                 "symbol": "v"
             }
         ]
@@ -4872,15 +5693,18 @@
         "formula": "W=F*s",
         "symbol_map": [
             {
-                "name": "功",
+                "zh_name": "功",
+                "en_name": "Work",
                 "symbol": "W"
             },
             {
-                "name": "力",
+                "zh_name": "力",
+                "en_name": "Force",
                 "symbol": "F"
             },
             {
-                "name": "路程",
+                "zh_name": "路程",
+                "en_name": "Distance",
                 "symbol": "s"
             }
         ]
@@ -4890,15 +5714,18 @@
         "formula": "W=P*t",
         "symbol_map": [
             {
-                "name": "功",
+                "zh_name": "功",
+                "en_name": "Work",
                 "symbol": "W"
             },
             {
-                "name": "功率",
+                "zh_name": "功率",
+                "en_name": "Power",
                 "symbol": "P"
             },
             {
-                "name": "时间",
+                "zh_name": "时间",
+                "en_name": "Time",
                 "symbol": "t"
             }
         ]
@@ -4908,15 +5735,18 @@
         "formula": "F=p*S",
         "symbol_map": [
             {
-                "name": "力",
+                "zh_name": "力",
+                "en_name": "Force",
                 "symbol": "F"
             },
             {
-                "name": "压强",
+                "zh_name": "压强",
+                "en_name": "Pressure",
                 "symbol": "p"
             },
             {
-                "name": "面积",
+                "zh_name": "面积",
+                "en_name": "Area",
                 "symbol": "S"
             }
         ]
@@ -4926,15 +5756,18 @@
         "formula": "W_总=n*W",
         "symbol_map": [
             {
-                "name": "数量",
+                "zh_name": "数量",
+                "en_name": "quantity",
                 "symbol": "n"
             },
             {
-                "name": "总量",
+                "zh_name": "总量",
+                "en_name": "total amount",
                 "symbol": "W_总"
             },
             {
-                "name": "单量",
+                "zh_name": "单量",
+                "en_name": "unit amount",
                 "symbol": "W"
             }
         ]
@@ -4944,15 +5777,18 @@
         "formula": "W_0=p×V",
         "symbol_map": [
             {
-                "name": "燃气对活塞做的功",
+                "zh_name": "燃气对活塞做的功",
+                "en_name": "Work done by gas on piston",
                 "symbol": "W_0"
             },
             {
-                "name": "压强",
+                "zh_name": "压强",
+                "en_name": "Pressure",
                 "symbol": "p"
             },
             {
-                "name": "气缸容积",
+                "zh_name": "气缸容积",
+                "en_name": "Cylinder volume",
                 "symbol": "V"
             }
         ]
@@ -4962,15 +5798,18 @@
         "formula": "Q=I*t",
         "symbol_map": [
             {
-                "name": "电荷量",
+                "zh_name": "电荷量",
+                "en_name": "electric charge",
                 "symbol": "Q"
             },
             {
-                "name": "电流",
+                "zh_name": "电流",
+                "en_name": "current",
                 "symbol": "I"
             },
             {
-                "name": "时间",
+                "zh_name": "时间",
+                "en_name": "time",
                 "symbol": "t"
             }
         ]
@@ -4980,15 +5819,18 @@
         "formula": "W=U×Q",
         "symbol_map": [
             {
-                "name": "电能",
+                "zh_name": "电能",
+                "en_name": "Electrical Energy",
                 "symbol": "W"
             },
             {
-                "name": "电压",
+                "zh_name": "电压",
+                "en_name": "Voltage",
                 "symbol": "U"
             },
             {
-                "name": "电量",
+                "zh_name": "电量",
+                "en_name": "Electric Charge",
                 "symbol": "Q"
             }
         ]
@@ -4998,15 +5840,18 @@
         "formula": "Δm=m_初-m_末",
         "symbol_map": [
             {
-                "name": "质量变化",
+                "zh_name": "质量变化",
+                "en_name": "Mass change",
                 "symbol": "Δm"
             },
             {
-                "name": "初始质量",
+                "zh_name": "初始质量",
+                "en_name": "Initial mass",
                 "symbol": "m_初"
             },
             {
-                "name": "最后质量",
+                "zh_name": "最后质量",
+                "en_name": "Final mass",
                 "symbol": "m_末"
             }
         ]
