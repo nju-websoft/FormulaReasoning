@@ -3,9 +3,9 @@
 ## FormulaReasoning
 
 ### Released Dataset
-- `data/train.json`, 3958 questions
-- `data/HoF_test.json`, 410 questions
-- `data/HeF_test.json`, 383 questions
+- `data/train.json`, 4524 questions
+- `data/HoF_test.json`, 413 questions
+- `data/HeF_test.json`, 387 questions
 - `formulas.json`, formula database
 
 ## Requirements
@@ -19,7 +19,7 @@ Install numbat tool from [https://github.com/sharkdp/numbat].
 
 ## Baselines
 #### LLMs
-- `GLM-4` series: baselines/LLMs/GLM/ChatGLM4_api.py
+- `GLM` series: baselines/LLMs/GLM/ChatGLM4_api.py
 - `GPT` series: baselines/LLMs/GLM/ChatGPT_api.py
 - `Qwen` series: baselines/LLMs/GLM/Qwen_api.py
 - eval: `cd baselines/LLMs/ && python eval_results.py --hof_results {HoF_result_file} --hef_results {HeF_result_file}`
