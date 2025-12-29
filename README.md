@@ -3,16 +3,22 @@
 ## FormulaReasoning
 
 ### Released Dataset
-- `data/train.json`, 4524 questions
-- `data/HoF_test.json`, 413 questions
-- `data/HeF_test.json`, 387 questions
-- `formulas.json`, formula database
+
+#### FormulaReasoning
+- `data/FormulaReasoning/train.json`, 4524 questions
+- `data/FormulaReasoning/HoF_test.json`, 413 questions
+- `data/FormulaReasoning/HeF_test.json`, 387 questions
+
+#### FormulaReasoning+
+- `data/FormulaReasoning_plus/train.json`, 3608 questions
+- `data/FormulaReasoning_plus/HoF_test.json`, 406 questions
+- `data/FormulaReasoning_plus/HeF_test.json`, 378 questions
 
 ## Requirements
-- pytorch 2.0
+- pytorch
 - transformers
 - zhipuai
-- openai 0.28.0
+- openai
 - dashscope
   
 Install numbat tool from [https://github.com/sharkdp/numbat].
