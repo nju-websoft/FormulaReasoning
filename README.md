@@ -28,6 +28,8 @@ Install numbat tool from [https://github.com/sharkdp/numbat].
 - `GLM` series: baselines/LLMs/GLM/ChatGLM4_api.py
 - `GPT` series: baselines/LLMs/GLM/ChatGPT_api.py
 - `Qwen` series: baselines/LLMs/GLM/Qwen_api.py
+- `DeepSeek` series: baselines/LLMs/deepseek/deepseek_api.py
+- `openrouter-api` series: baselines/LLMs/openrouter/openrouter_api.py
 - eval: `cd baselines/LLMs/ && python eval_results.py --hof_results {HoF_result_file} --hef_results {HeF_result_file}`
 
 #### DPO
